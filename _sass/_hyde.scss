@@ -63,9 +63,10 @@
   font-family: "Trade Winds", serif;
   font-size: 3.25rem;
   text-decoration: none;
-  text-shadow: 0 0 16px rgba(0,0,0,0.7);
-    -webkit-text-shadow: 0 0 16px rgba(0,0,0,0.7);
-    -moz-text-shadow: 0 0 16px rgba(0,0,0,0.7);
+  text-shadow: 0 0 8px rgba(255,255,255,0.5);
+    -webkit-text-shadow: 0 0 8px rgba(255,255,255,0.5);
+    -moz-text-shadow: 0 0 8px rgba(255,255,255,0.5);
+  text-transform: none;
 }
 
 /* Sidebar nav */
