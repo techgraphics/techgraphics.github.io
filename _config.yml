@@ -1,6 +1,6 @@
 # Dependencies
-markdown:            redcarpet
-highlighter:         pygments
+markdown:         redcarpet
+highlighter:      pygments
 
 # Permalinks
 #
@@ -9,7 +9,7 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               Gareth Taylor
+title:               Gareth Taylor !!!
 tagline:             Digital Designer
 description:         Digital Designer
 url:                 http://techgraphics.github.io
