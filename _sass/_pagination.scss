@@ -6,8 +6,7 @@
 .pagination {
   overflow: hidden; // clearfix
   margin: 0 -1.5rem 1rem;
-/*  font-family: "PT Sans", Helvetica, Arial, sans-serif; */
-  color: #ccc;
+  color: rgba(221,170,0,0.3);
   text-align: center;
 }
 
@@ -15,7 +14,7 @@
 .pagination-item {
   display: block;
   padding: 1rem;
-  border: solid #eee;
+  border: solid #da0;
   border-width: 1px 0;
 
   &:first-child {
