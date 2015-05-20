@@ -14,7 +14,7 @@ tagline:             Digital Designer
 description:         Digital Designer
 url:                 http://techgraphics.github.io
 paginate:            1
-baseurl:             ""
+baseurl:             /
 
 # Assets
 #
