@@ -2,12 +2,12 @@
   display: block;
   width: 144px;
   height: 144px;
-  border-radius: 72px;
-    -webkit-border-radius: 72px;
-    -moz-border-radius: 72px;
-  background: url(http://techgraphics.github.io/public/images/avatar-medium.png) no-repeat;
+  border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+  background: url(http://techgraphics.github.io/public/images/avatar-medium.jpg) no-repeat;
   background-position: center;
-  background-size: 100%;
+  background-size: cover;
   box-shadow: 0 0 16px rgba(0,0,0,0.7);
     -webkit-box-shadow: 0 0 16px rgba(0,0,0,0.7);
     -moz-box-shadow: 0 0 16px rgba(0,0,0,0.7);
