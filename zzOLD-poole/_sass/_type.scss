@@ -4,27 +4,24 @@
 
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
-  font-weight: 800;
+  font-weight: bold;
   line-height: 1.25;
+  color: #313131;
   text-rendering: optimizeLegibility;
 }
 
 h1 {
   font-size: 2rem;
-  text-transform: uppercase;
-  color: #c90;}
 }
 
 h2 {
   margin-top: 1rem;
   font-size: 1.5rem;
-  color: #2b0;
 }
 
 h3 {
   margin-top: 1.5rem;
   font-size: 1.25rem;
-  color: #0b8;
 }
 
 h4, h5, h6 {
@@ -32,22 +29,9 @@ h4, h5, h6 {
   font-size: 1rem;
 }
 
-h4 {
-  color: #02b;
-}
-
-h5 {
-  color: #80b;
-}
-
-h6 {
-  color: #b02;
-}
-
-
 p {
   margin-top: 0;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 strong {
@@ -130,5 +114,4 @@ a[href^="#fnref:"] {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
-  text-transform: uppercase;
 }

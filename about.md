@@ -1,30 +1,15 @@
 ---
 layout: page
-title: About
+title: About me
 ---
+**I am a Digital Designer based in Adelaide, Australia.**  
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+## Over the past few years
+I have developed my digital media skills and capabilities around the integration of progressive technologies.  
 
-In the novel, *The Strange Case of Dr. Jekyll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+I also have substantial involvement in analysing and using ICT systems, spreadsheets and workflow tools to facilitate production.
 
-There are currently two themes built on Poole:
+## Currently
+I am engaged in developing **full stack** software architecture skills using the [Node.js development platform](https://nodejs.org) and [functional reactive programming techniques](http://en.wikipedia.org/wiki/Functional_reactive_programming) to build scalable [isomorphic applications](http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/).  
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
-
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+I am also writing [articles on digital design methods](https://medium.com/doing-digital).
