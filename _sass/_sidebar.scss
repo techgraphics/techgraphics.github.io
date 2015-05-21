@@ -34,17 +34,70 @@
  * out above content in mobile and later moves to the side with wider viewports.
  */
 
- $floor: 20%;
- $baseColor-100: hsla(44, 100%, 72%, 1.0);
- $baseColor-90: hsla(44, 100%, 72%, 0.9);
- $baseColor-lighten-some: hsla(46, 100%, 87%, 1.0);
- $baseColor-lighten-some-90: hsla(46, 100%, 87%, 0.9);
- $baseColor-darken-most: hsla(44, 100%, 30%, 1.0);
- $baseColor-darken-even-more: hsla(44, 100%, 45%, 1.0);
- $baseColor-darken-some-more: hsla(44, 100%, 50%, 1.0);
- $baseColor-darken-some: hsla(44, 100%, 60%, 1.0);
+$floor: 20%;
 
-.sidebar-gradient {
+$base-color-normal: #b78600;
+$base-color-normal-100: hsla(44, 100%, 72%, 1.0) ;
+$base-color-normal-10: hsla(44, 100%, 72%, 0.1) ;
+$base-color-brighter: #d89e00;
+$base-color-brighter-100: hsla(44, 100%, 85%, 1.0) ;
+$base-color-brighter-10: hsla(44, 100%, 85%, 0.1) ;
+$base-color-brightest: #ffbb00;
+$base-color-brightest-100: hsla(44, 100%, 100%, 1.0) ;
+$base-color-brightest-10: hsla(44, 100%, 100%, 0.1) ;
+
+
+$highlight-centre-top-colour-0: $base-color-brighter-100;
+$highlight-centre-top-colour-1: $base-color-brighter-10;
+$highlight-centre-top-value: 35%;
+$highlight-left-right-colour-0: $base-color-normal-100;
+$highlight-left-right-colour-1: $base-color-normal-10;
+$highlight-left-right-value: 15%;
+
+$linear-gradient-stop-colour-0: $base-color-normal;
+$linear-gradient-stop-value-0: 0%;
+$linear-gradient-stop-colour-1: $base-color-brightest;
+$linear-gradient-stop-value-1: $floor;
+$linear-gradient-stop-colour-2: $base-color-brighter;
+$linear-gradient-stop-value-2: $floor + 3%;
+$linear-gradient-stop-colour-3: $base-color-brightest;
+$linear-gradient-stop-value-3: 60%;
+$linear-gradient-stop-colour-4: $base-color-brighter;
+$linear-gradient-stop-value-4: 100%;
+
+.sidebar-gradient-0 {
+  background:
+    radial-gradient(circle at center top, $highlight-centre-top-colour-0, $highlight-centre-top-colour-1 $highlight-centre-top-value),
+    radial-gradient(circle at left $floor, $highlight-left-right-colour-0, $highlight-left-right-colour-1 1$highlight-left-right-value),
+    radial-gradient(circle at right $floor, $highlight-left-right-colour-0, $highlight-left-right-colour-1 $highlight-left-right-value),
+    -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop($linear-gradient-stop-value-0, $linear-gradient-stop-colour-0), color-stop($linear-gradient-stop-value-1, $linear-gradient-stop-colour-1), color-stop($linear-gradient-stop-value-2, $linear-gradient-stop-colour-2), color-stop($linear-gradient-stop-value-3, $linear-gradient-stop-colour-3), color-stop($linear-gradient-stop-value-4, $linear-gradient-stop-colour-4));
+  background:
+    -moz-radial-gradient(center top, circle, $highlight-centre-top-colour-0, $highlight-centre-top-colour-1 $highlight-centre-top-value),
+    -moz-radial-gradient(left $floor, circle, $highlight-left-right-colour-0, $highlight-left-right-colour-1 $highlight-left-right-value),
+    -moz-radial-gradient(right $floor, circle, $highlight-left-right-colour-0, $highlight-left-right-colour-1 $highlight-left-right-value),
+    -moz-linear-gradient($linear-gradient-stop-colour-0 $linear-gradient-stop-value-0, $linear-gradient-stop-colour-1 $linear-gradient-stop-value-1, $linear-gradient-stop-colour-2 $linear-gradient-stop-value-2, $linear-gradient-stop-colour-3 $linear-gradient-stop-value-3, $linear-gradient-stop-colour-4 $linear-gradient-stop-value-4);
+  background:
+    -webkit-radial-gradient(center top, circle, $highlight-centre-top-colour-0, $highlight-centre-top-colour-1 $highlight-centre-top-value),
+    -webkit-radial-gradient(left $floor, circle, $highlight-left-right-colour-0, $highlight-left-right-colour-1 $highlight-left-right-value),
+    -webkit-radial-gradient(right $floor, circle, $highlight-left-right-colour-0, $highlight-left-right-colour-1 $highlight-left-right-value),
+    -webkit-linear-gradient($linear-gradient-stop-colour-0 $linear-gradient-stop-value-0, $linear-gradient-stop-colour-1 $linear-gradient-stop-value-1, $linear-gradient-stop-colour-2 $linear-gradient-stop-value-2, $linear-gradient-stop-colour-3 $linear-gradient-stop-value-3, $linear-gradient-stop-colour-4 $linear-gradient-stop-value-4);
+  background:
+    radial-gradient(circle at center top, $highlight-centre-top-colour-0, $highlight-centre-top-colour-1 $highlight-centre-top-value),
+    radial-gradient(circle at left $floor, $highlight-left-right-colour-0, $highlight-left-right-colour-1 $highlight-left-right-value),
+    radial-gradient(circle at right $floor, $highlight-left-right-colour-0, $highlight-left-right-colour-1 $highlight-left-right-value),
+    linear-gradient($linear-gradient-stop-colour-0 $linear-gradient-stop-value-0, $linear-gradient-stop-colour-1 $linear-gradient-stop-value-1, $linear-gradient-stop-colour-2 $linear-gradient-stop-value-2, $linear-gradient-stop-colour-3 $linear-gradient-stop-value-3, $linear-gradient-stop-colour-4 $linear-gradient-stop-value-4);
+}
+
+$baseColor-100: hsla(44, 100%, 72%, 1.0);
+$baseColor-90: hsla(44, 100%, 72%, 0.9);
+$baseColor-lighten-some: hsla(46, 100%, 87%, 1.0);
+$baseColor-lighten-some-90: hsla(46, 100%, 87%, 0.9);
+$baseColor-darken-most: hsla(44, 100%, 30%, 1.0);
+$baseColor-darken-even-more: hsla(44, 100%, 45%, 1.0);
+$baseColor-darken-some-more: hsla(44, 100%, 50%, 1.0);
+$baseColor-darken-some: hsla(44, 100%, 60%, 1.0);
+
+.sidebar-gradient-1 {
   background-image:
     linear-gradient(
       $baseColor-darken-most 0%,
@@ -53,6 +106,24 @@
       $baseColor-darken-some-more $floor + 40%,
       $baseColor-darken-some 100%
     );
+}
+
+.sidebar-gradient-2 {
+  background:
+    radial-gradient(circle at center top, $highlight-centre-top-colour-0, $highlight-centre-top-colour-1 $highlight-centre-top-value),
+    -moz-radial-gradient(center top, circle, $highlight-centre-top-colour-0, $highlight-centre-top-colour-1 $highlight-centre-top-value),
+    -webkit-radial-gradient(center top, circle, $highlight-centre-top-colour-0, $highlight-centre-top-colour-1 $highlight-centre-top-value),
+    radial-gradient(circle at left $floor, $highlight-left-right-colour-0, $highlight-left-right-colour-1 1$highlight-left-right-value),
+    -moz-radial-gradient(left $floor, circle, $highlight-left-right-colour-0, $highlight-left-right-colour-1 $highlight-left-right-value),
+    -webkit-radial-gradient(left $floor, circle, $highlight-left-right-colour-0, $highlight-left-right-colour-1 $highlight-left-right-value),
+    radial-gradient(circle at right $floor, $highlight-left-right-colour-0, $highlight-left-right-colour-1 $highlight-left-right-value),
+    -moz-radial-gradient(right $floor, circle, $highlight-left-right-colour-0, $highlight-left-right-colour-1 $highlight-left-right-value),
+    -webkit-radial-gradient(right $floor, circle, $highlight-left-right-colour-0, $highlight-left-right-colour-1 $highlight-left-right-value),
+    linear-gradient($linear-gradient-stop-colour-0 $linear-gradient-stop-value-0, $linear-gradient-stop-colour-1 $linear-gradient-stop-value-1, $linear-gradient-stop-colour-2 $linear-gradient-stop-value-2, $linear-gradient-stop-colour-3 $linear-gradient-stop-value-3, $linear-gradient-stop-colour-4 $linear-gradient-stop-value-4),
+    -moz-linear-gradient($linear-gradient-stop-colour-0 $linear-gradient-stop-value-0, $linear-gradient-stop-colour-1 $linear-gradient-stop-value-1, $linear-gradient-stop-colour-2 $linear-gradient-stop-value-2, $linear-gradient-stop-colour-3 $linear-gradient-stop-value-3, $linear-gradient-stop-colour-4 $linear-gradient-stop-value-4),
+    -webkit-linear-gradient($linear-gradient-stop-colour-0 $linear-gradient-stop-value-0, $linear-gradient-stop-colour-1 $linear-gradient-stop-value-1, $linear-gradient-stop-colour-2 $linear-gradient-stop-value-2, $linear-gradient-stop-colour-3 $linear-gradient-stop-value-3, $linear-gradient-stop-colour-4 $linear-gradient-stop-value-4),
+    -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop($linear-gradient-stop-value-0, $linear-gradient-stop-colour-0), color-stop($linear-gradient-stop-value-1, $linear-gradient-stop-colour-1), color-stop($linear-gradient-stop-value-2, $linear-gradient-stop-colour-2), color-stop($linear-gradient-stop-value-3, $linear-gradient-stop-colour-3), color-stop($linear-gradient-stop-value-4, $linear-gradient-stop-colour-4)),
+  ;
 }
 
 .sidebar {
