@@ -36,6 +36,9 @@
 
 $floor: 20%;
 
+$base-color-darkest: #aa7d00;
+$base-color-darkest-70: hsla(44, 100%, 67%, 0.7) ;
+$base-color-darkest-10: hsla(44, 100%, 67%, 0.1) ;
 $base-color-darker: #c48f00;
 $base-color-darker-70: hsla(44, 100%, 77%, 0.7) ;
 $base-color-darker-10: hsla(44, 100%, 77%, 0.1) ;
@@ -54,7 +57,7 @@ $highlight-left-right-colour-0: $base-color-darker-70;
 $highlight-left-right-colour-1: $base-color-darker-10;
 $highlight-left-right-value: 28%;
 
-$linear-gradient-stop-colour-0: $base-color-darker;
+$linear-gradient-stop-colour-0: $base-color-darkest;
 $linear-gradient-stop-value-0: 0%;
 $linear-gradient-stop-colour-1: $base-color-brightest;
 $linear-gradient-stop-value-1: $floor;
