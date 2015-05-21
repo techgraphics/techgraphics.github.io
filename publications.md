@@ -17,6 +17,6 @@ title: Publications
 </div>
 <div class="background-buff-brightest rounded-border-6">
   <a class="embedly-card" data-card-description="0" href="https://www.behance.net/techgraphics">
-    Gareth Taylor on Behance
+    Portfolio on Behance
   </a>
 </div>
