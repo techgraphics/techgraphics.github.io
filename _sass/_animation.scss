@@ -1,6 +1,9 @@
 .site-title-animation-intro {
   animation: hold-the-front-page 3000ms linear both;
 }
+.site-description-animation-intro {
+    animation: hold-the-front-page 4500ms linear both;
+}
 
 .site-title-animation-glow {
   animation: txt-shadow-pump 800ms linear both;
@@ -50,7 +53,6 @@
   }
 
 }
-
 
 @keyframes hold-the-front-page {
   0.00% { transform: matrix3d(0.1, 0, 0, 0, 0, 0.1, 0, 0, 0, 0, 1, 0, 0, -1000, 1, 1); }
