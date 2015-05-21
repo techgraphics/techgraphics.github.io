@@ -17,3 +17,11 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+a .avatar-circular:hover,
+a .avatar-circular:focus {
+  background-size: 110%;
+  -ms-transform: rotate(5deg); /* IE 9 */
+  -webkit-transform: rotate(5deg); /* Chrome, Safari, Opera */
+  transform: rotate(5deg);
+}
