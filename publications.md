@@ -16,7 +16,11 @@ title: Publications
   </blockquote>
 </div>
 <div class="background-buff-brightest rounded-border-6">
-  <a class="embedly-card" data-card-description="0" href="https://www.behance.net/techgraphics">
-    Portfolio on Behance
-  </a>
+  <blockquote class="embedly-card">
+    <h4>
+      <a href="https://www.behance.net/techgraphics">
+        Portfolio on Behance
+      </a>
+    </h4>
+  </blockquote>
 </div>
