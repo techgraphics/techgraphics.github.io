@@ -2,7 +2,9 @@
   -webkit-animation: hold-the-front-page 3000ms; /* Safari 4+ */
   -moz-animation:    hold-the-front-page 3000ms; /* Fx 5+ */
   -o-animation:      hold-the-front-page 3000ms; /* Opera 12+ */
-  animation:         hold-the-front-page 3000ms linear both; /* IE 10+, Fx 29+ */
+  animation:         hold-the-front-page 3000ms linear both,
+                     txt-shadow-pump 2400ms infinite linear both; /* IE 10+, Fx 29+ */
+
 }
 
 #site-description-animation-intro {
@@ -12,31 +14,26 @@
   animation:         hold-the-front-page 4500ms linear both; /* IE 10+, Fx 29+ */
 }
 
-#site-title-animation-glow {
-  animation: txt-shadow-pump 800ms linear both;
-  animation-iteration-count: infinite;
-}
-
 @keyframes txt-shadow-pump {
   0% {
+    text-shadow: 0 0 4px rgba(255,255,255,0.7);
+      -webkit-text-shadow: 0 0 4px rgba(255,255,255,0.7);
+      -moz-text-shadow: 0 0 4px rgba(255,255,255,0.7);
+  }
+  14% {
+    text-shadow: 0 0 4px rgba(255,255,255,0.7);
+      -webkit-text-shadow: 0 0 4px rgba(255,255,255,0.7);
+      -moz-text-shadow: 0 0 4px rgba(255,255,255,0.7);
+  }
+  29% {
     text-shadow: 0 0 8px rgba(255,255,255,0.7);
       -webkit-text-shadow: 0 0 8px rgba(255,255,255,0.7);
       -moz-text-shadow: 0 0 8px rgba(255,255,255,0.7);
   }
-  14% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.7);
-      -webkit-text-shadow: 0 0 10px rgba(255,255,255,0.7);
-      -moz-text-shadow: 0 0 10px rgba(255,255,255,0.7);
-  }
-  29% {
+  43% {
     text-shadow: 0 0 12px rgba(255,255,255,0.7);
       -webkit-text-shadow: 0 0 12px rgba(255,255,255,0.7);
       -moz-text-shadow: 0 0 12px rgba(255,255,255,0.7);
-  }
-  43% {
-    text-shadow: 0 0 14px rgba(255,255,255,0.7);
-      -webkit-text-shadow: 0 0 14px rgba(255,255,255,0.7);
-      -moz-text-shadow: 0 0 14px rgba(255,255,255,0.7);
   }
   57% {
     text-shadow: 0 0 16px rgba(255,255,255,0.7);
@@ -44,19 +41,19 @@
       -moz-text-shadow: 0 0 16px rgba(255,255,255,0.7);
   }
   71% {
-    text-shadow: 0 0 14px rgba(255,255,255,0.7);
-      -webkit-text-shadow: 0 0 14px rgba(255,255,255,0.7);
-      -moz-text-shadow: 0 0 14px rgba(255,255,255,0.7);
-  }
-  86% {
     text-shadow: 0 0 12px rgba(255,255,255,0.7);
       -webkit-text-shadow: 0 0 12px rgba(255,255,255,0.7);
       -moz-text-shadow: 0 0 12px rgba(255,255,255,0.7);
   }
+  86% {
+    text-shadow: 0 0 8px rgba(255,255,255,0.7);
+      -webkit-text-shadow: 0 0 8px rgba(255,255,255,0.7);
+      -moz-text-shadow: 0 0 8px rgba(255,255,255,0.7);
+  }
   100% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.7);
-      -webkit-text-shadow: 0 0 10px rgba(255,255,255,0.7);
-      -moz-text-shadow: 0 0 10px rgba(255,255,255,0.7);
+    text-shadow: 0 0 4px rgba(255,255,255,0.7);
+      -webkit-text-shadow: 0 0 4px rgba(255,255,255,0.7);
+      -moz-text-shadow: 0 0 4px rgba(255,255,255,0.7);
   }
 
 }
