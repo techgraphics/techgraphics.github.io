@@ -1,11 +1,18 @@
-.site-title-animation-intro {
-  animation: hold-the-front-page 3000ms linear both;
-}
-.site-description-animation-intro {
-    animation: hold-the-front-page 4500ms linear both;
+#site-title-animation-intro {
+  -webkit-animation: hold-the-front-page 3000ms; /* Safari 4+ */
+  -moz-animation:    hold-the-front-page 3000ms; /* Fx 5+ */
+  -o-animation:      hold-the-front-page 3000ms; /* Opera 12+ */
+  animation:         hold-the-front-page 3000ms linear both; /* IE 10+, Fx 29+ */
 }
 
-.site-title-animation-glow {
+#site-description-animation-intro {
+  -webkit-animation: hold-the-front-page 4500ms; /* Safari 4+ */
+  -moz-animation:    hold-the-front-page 4500ms; /* Fx 5+ */
+  -o-animation:      hold-the-front-page 4500ms; /* Opera 12+ */
+  animation:         hold-the-front-page 4500ms linear both; /* IE 10+, Fx 29+ */
+}
+
+#site-title-animation-glow {
   animation: txt-shadow-pump 800ms linear both;
   animation-iteration-count: infinite;
 }
