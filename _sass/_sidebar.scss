@@ -1,0 +1,186 @@
+/*
+ * Modified from Hyde - A brazen two-column theme for Jekyll. http://hyde.getpoole.com
+ */
+
+/*
+ *  __                  __
+ * /\ \                /\ \
+ * \ \ \___   __  __   \_\ \     __
+ *  \ \  _ `\/\ \/\ \  /'_` \  /'__`\
+ *   \ \ \ \ \ \ \_\ \/\ \_\ \/\  __/
+ *    \ \_\ \_\/`____ \ \___,_\ \____\
+ *     \/_/\/_/`/___/> \/__,_ /\/____/
+ *                /\___/
+ *                \/__/
+ *
+ * Designed, built, and released under MIT license by @mdo. Learn more at
+ * https://github.com/poole/hyde.
+ */
+
+
+/*
+ * Contents
+ *
+ * Sidebar
+ * Container
+ * Reverse layout
+ */
+
+ $floor: 30%;
+ $baseColor: hsla(43, 100%, 72%, 1);
+
+/*
+ * Sidebar
+ *
+ * Flexible banner for housing site name, intro, and "footer" content. Starts
+ * out above content in mobile and later moves to the side with wider viewports.
+ */
+
+ $floor: 20%;
+ $baseColor-100: hsla(43, 100%, 72%, 1.0);
+ $baseColor-90: hsla(43, 100%, 72%, 0.9);
+ $baseColor-lighten-some: hsla(43, 100%, 76%, 1.0);
+ $baseColor-lighten-some-90: hsla(43, 100%, 76%, 0.9);
+ $baseColor-darken-most: hsla(43, 100%, 30%, 1.0);
+ $baseColor-darken-even-more: hsla(43, 100%, 45%, 1.0);
+ $baseColor-darken-some-more: hsla(43, 100%, 50%, 1.0);
+ $baseColor-darken-some: hsla(43, 100%, 60%, 1.0);
+
+.sidebar-gradient {
+  background-image:
+    linear-gradient(
+      $baseColor-darken-most 0%,
+      $baseColor-darken-some $floor,
+      $baseColor-darken-even-more $floor + 10%,
+      $baseColor-darken-some-more $floor + 40%,
+      $baseColor-darken-some 100%
+    );
+}
+
+.sidebar {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: rgba(255,255,255,0.85);
+  background-color: #da0;
+  box-shadow: 4px 0 16px #fff;
+    -webkit-box-shadow: 4px 0 16px #fff;
+    -moz-box-shadow: 4px 0 16px #fff;
+}
+@media (min-width: 48em) {
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 18rem;
+    text-align: left;
+  }
+}
+
+/* Sidebar links */
+.sidebar a {
+  color: #fffaed;
+}
+
+/* About section */
+.sidebar-about h1 {
+  color: #fff;
+  margin-top: 0;
+  font-family: "Trade Winds", serif;
+  font-size: 3.25rem;
+  font-weight: 400;
+  text-decoration: none;
+  text-shadow: 0 0 8px rgba(255,255,255,0.7);
+    -webkit-text-shadow: 0 0 8px rgba(255,255,255,0.7);
+    -moz-text-shadow: 0 0 8px rgba(255,255,255,0.7);
+  text-transform: none;
+}
+
+/* Sidebar nav */
+.sidebar-nav {
+  margin-bottom: 1rem;
+}
+.sidebar-nav-item {
+  display: block;
+  line-height: 1.75;
+}
+a.sidebar-nav-item:hover,
+a.sidebar-nav-item:focus {
+  text-decoration: underline;
+}
+.sidebar-nav-item.active {
+  font-weight: bold;
+}
+
+/* Copyright section */
+.sidebar-copyright {
+  font-size: 0.7rem;
+}
+
+
+/* Sticky sidebar
+ *
+ * Add the `sidebar-sticky` class to the sidebar's container to affix it the
+ * contents to the bottom of the sidebar in tablets and up.
+ */
+
+@media (min-width: 48em) {
+  .sidebar-sticky {
+    position: absolute;
+    right:  1rem;
+    bottom: 1rem;
+    left:   1rem;
+  }
+}
+
+
+/* Container
+ *
+ * Align the contents of the site above the proper threshold with some margin-fu
+ * with a 25%-wide `.sidebar`.
+ */
+
+.content {
+  padding-top:    4rem;
+  padding-bottom: 4rem;
+}
+
+@media (min-width: 48em) {
+  .content {
+    max-width: 38rem;
+    margin-left: 20rem;
+    margin-right: 2rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .content {
+    margin-left: 22rem;
+    margin-right: 4rem;
+  }
+}
+
+
+/*
+ * Reverse layout
+ *
+ * Flip the orientation of the page by placing the `.sidebar` on the right.
+ */
+
+@media (min-width: 48em) {
+  .layout-reverse .sidebar {
+    left: auto;
+    right: 0;
+  }
+  .layout-reverse .content {
+    margin-left: 2rem;
+    margin-right: 20rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .layout-reverse .content {
+    margin-left: 4rem;
+    margin-right: 22rem;
+  }
+}
