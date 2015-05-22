@@ -9,7 +9,7 @@ a:visited {
           text-decoration-color: $anchor-color-default-underline-unfocused;
 }
 a:hover, a:focus {
-
+  color: $anchor-color-default;
 }
 .sidebar a {
   color: $buff-color-normal;
