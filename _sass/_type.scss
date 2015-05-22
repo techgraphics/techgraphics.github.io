@@ -12,19 +12,19 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 2rem;
   text-transform: uppercase;
-  color: #c90;
+  color: $h1-color;
 }
 
 h2 {
   margin-top: 1rem;
   font-size: 1.5rem;
-  color: #2b0;
+  color: $h2-color;
 }
 
 h3 {
   margin-top: 1.5rem;
   font-size: 1.25rem;
-  color: #0b8;
+  color: $h3-color;
 }
 
 h4, h5, h6 {
@@ -33,15 +33,15 @@ h4, h5, h6 {
 }
 
 h4 {
-  color: #02b;
+  color: $h4-color;
 }
 
 h5 {
-  color: #80b;
+  color: $h5-color;
 }
 
 h6 {
-  color: #b02;
+  color: $h6-color;
 }
 
 
@@ -128,16 +128,16 @@ a[href^="#fnref:"] {
 // Extend paragraphs with `.lead` for larger introductory text.
 
 /* About section */
-.sidebar-about h1 {
-  color: #fff;
+.site-title {
+  color: $site-title-color;
   margin-top: 0;
   font-family: "Trade Winds", serif;
   font-size: 3.25rem;
   font-weight: 400;
   text-decoration: none;
-  text-shadow: 0 0 8px rgba(255,255,255,0.7);
-    -webkit-text-shadow: 0 0 8px rgba(255,255,255,0.7);
-    -moz-text-shadow: 0 0 8px rgba(255,255,255,0.7);
+  -webkit-text-shadow: 0 0 8px $site-title-color-shadow;
+     -moz-text-shadow: 0 0 8px $site-title-color-shadow;
+          text-shadow: 0 0 8px $site-title-color-shadow;
   text-transform: none;
 }
 .site-description {

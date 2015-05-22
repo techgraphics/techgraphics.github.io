@@ -1,6 +1,11 @@
+
+body {
+  background-color: $buff-color-normal;
+}
+
 /* Gold & Blue*/
 .theme-base-0goldblue .sidebar {
-  background-color: #dda200;
+  background-color: $base-color-normal;
 }
 .theme-base-0goldblue .content a,
 .theme-base-0goldblue .related-posts li a:hover {
@@ -9,11 +14,11 @@
 
 /* Gold */
 .theme-base-0gold .sidebar {
-  background-color: #dda200;
+  background-color: $base-color-normal;
 }
 .theme-base-0gold .content a,
 .theme-base-0gold .related-posts li a:hover {
-  color: #dda200;
+  color: $base-color-normal;
 }
 
 .rounded-border-6 {
@@ -21,8 +26,8 @@
 }
 
 .background-white {
-  background-color: #fff;
+  background-color: $white-color;
 }
 .background-buff-brightest {
-  background-color: #fffcf4;
+  background-color: $buff-color-brightest;
 }
