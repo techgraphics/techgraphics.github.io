@@ -26,6 +26,7 @@ a .avatar-circular:focus {
   background-size: cover;
   -webkit-box-shadow: 0px 6px 16px $avatar-shadow;
      -moz-box-shadow: 0px 6px 16px $avatar-shadow;
+       -o-box-shadow: 0px 6px 16px $avatar-shadow;
           box-shadow: 0px 6px 16px $avatar-shadow;
 }
 #avatar-small {
@@ -34,7 +35,9 @@ a .avatar-circular:focus {
   background: url(http://techgraphics.github.io/public/images/avatar-small.jpg) no-repeat;
   background-position: center;
   background-size: cover;
+  border-width: 1px;
   -webkit-box-shadow: none;
      -moz-box-shadow: none;
+       -o-box-shadow: none;
           box-shadow: none;
 }
