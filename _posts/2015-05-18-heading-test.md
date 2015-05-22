@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Website updates
+title: Heading test
 tags:
  - test
 ---
