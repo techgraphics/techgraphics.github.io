@@ -56,6 +56,33 @@ $linear-gradient-stop-colour-4: $base-color-darker;
 $linear-gradient-stop-value-4: 100%;
 
 .sidebar-gradients {
+
+  background:
+    -webkit-radial-gradient(
+      center top, 
+      circle, 
+      $highlight-centre-top-colour-0, 
+      $highlight-centre-top-colour-1 $highlight-centre-top-value
+    ),
+    -webkit-radial-gradient(
+      left $floor, 
+      circle, 
+      $highlight-left-right-colour-0, 
+      $highlight-left-right-colour-1 $highlight-left-right-value
+    ),
+    -webkit-radial-gradient(
+      right $floor, 
+      circle, $highlight-left-right-colour-0, 
+      $highlight-left-right-colour-1 $highlight-left-right-value
+    ),
+    -webkit-linear-gradient(
+      $linear-gradient-stop-colour-0 $linear-gradient-stop-value-0, 
+      $linear-gradient-stop-colour-1 $linear-gradient-stop-value-1, 
+      $linear-gradient-stop-colour-2 $linear-gradient-stop-value-2, 
+      $linear-gradient-stop-colour-3 $linear-gradient-stop-value-3, 
+      $linear-gradient-stop-colour-4 $linear-gradient-stop-value-4
+    );
+
   background:
     radial-gradient(
       circle at center top, $highlight-centre-top-colour-0, 
@@ -76,6 +103,7 @@ $linear-gradient-stop-value-4: 100%;
       $linear-gradient-stop-colour-3 $linear-gradient-stop-value-3, 
       $linear-gradient-stop-colour-4 $linear-gradient-stop-value-4
     );
+
 }
 
 .sidebar {
