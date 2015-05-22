@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
+gem 'autoprefixer-rails'
 gem 'github-pages'
 gem 'html-pipeline'
-gem 'autoprefixer-rails'
 gem 'jekyll-assets'
+gem 'jekyll-html-pipeline'
+gem 'jekyll-sitemap'

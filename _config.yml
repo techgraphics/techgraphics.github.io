@@ -32,3 +32,10 @@ author:
 version:             0.1.0
 github:
   repo:              https://github.com/techgraphics/techgraphics.github.io
+
+# Ruby Gems
+gems:
+  - autoprefixer-rails
+  - jekyll-assets
+  - jekyll-html-pipeline
+  - jekyll-sitemap
