@@ -9,11 +9,7 @@ a:visited {
           text-decoration-color: $anchor-color-default-underline-unfocused;
 }
 a:hover, a:focus {
-/*  background-color: $buff-color-brightest; */
-  -webkit-text-decoration-color: $anchor-color-default-underline-focused; /* Safari */
-     -moz-text-decoration-color: $anchor-color-default-underline-focused; /* Firefox */
-        o-text-decoration-color: $anchor-color-default-underline-focused; /* Opera */
-          text-decoration-color: $anchor-color-default-underline-focused;
+
 }
 .sidebar a {
   color: $buff-color-normal;
