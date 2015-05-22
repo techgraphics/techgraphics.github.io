@@ -3,19 +3,22 @@ a:link,
 a:visited {
   color: $anchor-color-default;
   text-decoration: underline;
-  -webkit-text-decoration-color: $anchor-color-default-underline-unfocused; /* Safari */
-     -moz-text-decoration-color: $anchor-color-default-underline-unfocused; /* Firefox */
-        o-text-decoration-color: $anchor-color-default-underline-unfocused; /* Opera */
+  -webkit-text-decoration-color: $anchor-color-default-underline-unfocused;
+     -moz-text-decoration-color: $anchor-color-default-underline-unfocused;
+        o-text-decoration-color: $anchor-color-default-underline-unfocused;
           text-decoration-color: $anchor-color-default-underline-unfocused;
 }
 a:hover, a:focus {
-  color: $anchor-color-default;
+  -webkit-text-decoration-color: $anchor-color-default-underline-focused;
+     -moz-text-decoration-color: $anchor-color-default-underline-focused;
+        o-text-decoration-color: $anchor-color-default-underline-focused;
+          text-decoration-color: $anchor-color-default-underline-focused;
 }
 .sidebar a {
   color: $buff-color-normal;
   text-decoration: none;
-  -webkit-text-decoration-color: $buff-color-normal; /* Safari */
-     -moz-text-decoration-color: $buff-color-normal; /* Firefox */
-        o-text-decoration-color: $buff-color-normal; /* Opera */
+  -webkit-text-decoration-color: $buff-color-normal;
+     -moz-text-decoration-color: $buff-color-normal;
+        o-text-decoration-color: $buff-color-normal;
           text-decoration-color: $buff-color-normal;
 }
