@@ -78,58 +78,15 @@ $linear-gradient-stop-value-4: 100%;
     linear-gradient($linear-gradient-stop-colour-0 $linear-gradient-stop-value-0, $linear-gradient-stop-colour-1 $linear-gradient-stop-value-1, $linear-gradient-stop-colour-2 $linear-gradient-stop-value-2, $linear-gradient-stop-colour-3 $linear-gradient-stop-value-3, $linear-gradient-stop-colour-4 $linear-gradient-stop-value-4);
 }
 
-
-/** DEPRECATED
- *
-  $baseColor-100: hsla(44, 100%, 72%, 1.0);
-  $baseColor-90: hsla(44, 100%, 72%, 0.9);
-  $baseColor-lighten-some: hsla(46, 100%, 87%, 1.0);
-  $baseColor-lighten-some-90: hsla(46, 100%, 87%, 0.9);
-  $baseColor-darken-most: hsla(44, 100%, 30%, 1.0);
-  $baseColor-darken-even-more: hsla(44, 100%, 45%, 1.0);
-  $baseColor-darken-some-more: hsla(44, 100%, 50%, 1.0);
-  $baseColor-darken-some: hsla(44, 100%, 60%, 1.0);
-
-  .sidebar-gradient-1 {
-    background-image:
-      linear-gradient(
-        $baseColor-darken-most 0%,
-        $baseColor-darken-some $floor,
-        $baseColor-darken-even-more $floor + 10%,
-        $baseColor-darken-some-more $floor + 40%,
-        $baseColor-darken-some 100%
-      );
-  }
-
-  .sidebar-gradient-2 {
-    background:
-      radial-gradient(circle at center top, $highlight-centre-top-colour-0, $highlight-centre-top-colour-1 $highlight-centre-top-value),
-      -moz-radial-gradient(center top, circle, $highlight-centre-top-colour-0, $highlight-centre-top-colour-1 $highlight-centre-top-value),
-      -webkit-radial-gradient(center top, circle, $highlight-centre-top-colour-0, $highlight-centre-top-colour-1 $highlight-centre-top-value),
-      radial-gradient(circle at left $floor, $highlight-left-right-colour-0, $highlight-left-right-colour-1 1$highlight-left-right-value),
-      -moz-radial-gradient(left $floor, circle, $highlight-left-right-colour-0, $highlight-left-right-colour-1 $highlight-left-right-value),
-      -webkit-radial-gradient(left $floor, circle, $highlight-left-right-colour-0, $highlight-left-right-colour-1 $highlight-left-right-value),
-      radial-gradient(circle at right $floor, $highlight-left-right-colour-0, $highlight-left-right-colour-1 $highlight-left-right-value),
-      -moz-radial-gradient(right $floor, circle, $highlight-left-right-colour-0, $highlight-left-right-colour-1 $highlight-left-right-value),
-      -webkit-radial-gradient(right $floor, circle, $highlight-left-right-colour-0, $highlight-left-right-colour-1 $highlight-left-right-value),
-      linear-gradient($linear-gradient-stop-colour-0 $linear-gradient-stop-value-0, $linear-gradient-stop-colour-1 $linear-gradient-stop-value-1, $linear-gradient-stop-colour-2 $linear-gradient-stop-value-2, $linear-gradient-stop-colour-3 $linear-gradient-stop-value-3, $linear-gradient-stop-colour-4 $linear-gradient-stop-value-4),
-      -moz-linear-gradient($linear-gradient-stop-colour-0 $linear-gradient-stop-value-0, $linear-gradient-stop-colour-1 $linear-gradient-stop-value-1, $linear-gradient-stop-colour-2 $linear-gradient-stop-value-2, $linear-gradient-stop-colour-3 $linear-gradient-stop-value-3, $linear-gradient-stop-colour-4 $linear-gradient-stop-value-4),
-      -webkit-linear-gradient($linear-gradient-stop-colour-0 $linear-gradient-stop-value-0, $linear-gradient-stop-colour-1 $linear-gradient-stop-value-1, $linear-gradient-stop-colour-2 $linear-gradient-stop-value-2, $linear-gradient-stop-colour-3 $linear-gradient-stop-value-3, $linear-gradient-stop-colour-4 $linear-gradient-stop-value-4),
-      -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop($linear-gradient-stop-value-0, $linear-gradient-stop-colour-0), color-stop($linear-gradient-stop-value-1, $linear-gradient-stop-colour-1), color-stop($linear-gradient-stop-value-2, $linear-gradient-stop-colour-2), color-stop($linear-gradient-stop-value-3, $linear-gradient-stop-colour-3), color-stop($linear-gradient-stop-value-4, $linear-gradient-stop-colour-4)),
-    ;
-  }
-
- *
- **/
-
 .sidebar {
   text-align: center;
   padding: 2rem 1rem;
   color: rgba(255,255,255,0.85);
-  background-color: #dda200;
-  box-shadow: 4px 0 16px #fff;
-    -webkit-box-shadow: 4px 0 16px #fff;
-    -moz-box-shadow: 4px 0 16px #fff;
+  background-color: $base-color-normal;
+    -webkit-box-shadow: 4px 0 16px $white-color;
+       -moz-box-shadow: 4px 0 16px $white-color;
+         -o-box-shadow: 4px 0 16px $white-color;
+            box-shadow: 4px 0 16px $white-color;
 }
 @media (min-width: 48em) {
   .sidebar {
@@ -140,11 +97,6 @@ $linear-gradient-stop-value-4: 100%;
     width: 18rem;
     text-align: left;
   }
-}
-
-/* Sidebar links */
-.sidebar a {
-  color: #fffaed;
 }
 
 /* Sidebar nav */
