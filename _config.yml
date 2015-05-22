@@ -35,7 +35,8 @@ github:
 
 # Ruby Gems
 gems:
-  - autoprefixer-rails
   - jekyll-assets
   - jekyll-html-pipeline
   - jekyll-sitemap
+  - autoprefixer-rails
+
