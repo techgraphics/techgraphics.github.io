@@ -127,8 +127,25 @@ a[href^="#fnref:"] {
 //
 // Extend paragraphs with `.lead` for larger introductory text.
 
-.lead {
+/* About section */
+.sidebar-about h1 {
+  color: #fff;
+  margin-top: 0;
+  font-family: "Trade Winds", serif;
+  font-size: 3.25rem;
+  font-weight: 400;
+  text-decoration: none;
+  text-shadow: 0 0 8px rgba(255,255,255,0.7);
+    -webkit-text-shadow: 0 0 8px rgba(255,255,255,0.7);
+    -moz-text-shadow: 0 0 8px rgba(255,255,255,0.7);
+  text-transform: none;
+}
+.site-description {
   font-size: 1.30rem;
   font-weight: 300;
   text-transform: uppercase;
+}
+
+.lead {
+  // Not used??
 }
