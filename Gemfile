@@ -5,3 +5,7 @@ gem 'jekyll-assets'
 gem 'jekyll-html-pipeline'
 gem 'jekyll-sitemap'
 gem 'autoprefixer-rails'
+
+group :jekyll_plugins do
+  gem "jekyll-assets-autoprefixer"
+end

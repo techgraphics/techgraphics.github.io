@@ -12,9 +12,9 @@
 
   <title>
     {% if page.title == "News" %}
-      {{ site.title }} &middot; {{ site.tagline }}
+      {{ site.data.main.title }} &middot; {{ site.data.main.tagline }}
     {% else %}
-      {{ page.title }} &middot; {{ site.title }}
+      {{ page.title }} &middot; {{ site.data.main.title }}
     {% endif %}
   </title>
 
@@ -28,7 +28,7 @@
   <link href="{{ site.baseurl }}public/images/favicon.ico" rel="shortcut icon">
 
   <!-- RSS -->
-  <link href="{{ site.baseurl }}atom.xml" title="{{ site.title }}" rel="alternate" type="application/atom+xml">
+  <link href="{{ site.baseurl }}atom.xml" title="{{ site.data.main.title }}" rel="alternate" type="application/atom+xml">
 
   <!-- LiveReload 
     <script>
