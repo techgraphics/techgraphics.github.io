@@ -1,0 +1,24 @@
+a:default,
+a:link,
+a:visited {
+  color: $anchor-color-default;
+  text-decoration: underline;
+  -webkit-text-decoration-color: $anchor-color-default-underline-unfocused; /* Safari */
+     -moz-text-decoration-color: $anchor-color-default-underline-unfocused; /* Firefox */
+        o-text-decoration-color: $anchor-color-default-underline-unfocused; /* Opera */
+          text-decoration-color: $anchor-color-default-underline-unfocused;
+}
+a:hover, a:focus {
+/*  background-color: $buff-color-brightest; */
+  -webkit-text-decoration-color: $anchor-color-default-underline-focused; /* Safari */
+     -moz-text-decoration-color: $anchor-color-default-underline-focused; /* Firefox */
+        o-text-decoration-color: $anchor-color-default-underline-focused; /* Opera */
+          text-decoration-color: $anchor-color-default-underline-focused;
+}
+a .no-underline {
+	background-color: none;
+  -webkit-text-decoration-color: none; /* Safari */
+     -moz-text-decoration-color: none; /* Firefox */
+        o-text-decoration-color: none; /* Opera */
+          text-decoration-color: none;
+}

@@ -2,6 +2,22 @@
 //
 // Headings, body text, lists, and other misc typographic elements.
 
+html {
+  font-family: "Raleway", Verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  @media (min-width: 38em) {
+    font-size: 18px;
+  }
+  @media (min-width: 48em) {
+    font-size: 19px;
+  }
+  @media (min-width: 58em) {
+    font-size: 20px;
+  }
+}
+
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
   font-weight: 800;
@@ -11,18 +27,18 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 2rem;
-  text-transform: uppercase;
+/*  text-transform: uppercase; */
   color: $h1-color;
 }
 
 h2 {
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   font-size: 1.5rem;
   color: $h2-color;
 }
 
 h3 {
-  margin-top: 1.5rem;
+  margin-top: 1.25rem;
   font-size: 1.25rem;
   color: $h3-color;
 }
@@ -43,7 +59,6 @@ h5 {
 h6 {
   color: $h6-color;
 }
-
 
 p {
   margin-top: 0;
@@ -137,6 +152,7 @@ a[href^="#fnref:"] {
   text-decoration: none;
   -webkit-text-shadow: 0 0 8px $site-title-color-shadow;
      -moz-text-shadow: 0 0 8px $site-title-color-shadow;
+       -o-text-shadow: 0 0 8px $site-title-color-shadow;
           text-shadow: 0 0 8px $site-title-color-shadow;
   text-transform: none;
 }

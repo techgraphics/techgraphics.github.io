@@ -1,4 +1,6 @@
 $white-color: #ffffff; /* Keep maximum whiteness */
+$black-color: #000000; /* Keep maximum blackness */
+
 $buff-color-brightest: #fffcf4;
 $buff-color-normal: #fff8ea;
 
@@ -19,6 +21,10 @@ $site-title-color-shadow: $white-color;
 $site-title-color: $white-color;
 
 $avatar-shadow: #775700; 
+
+$anchor-color-default: $black-color;
+$anchor-color-default-underline-unfocused: #c1d1ff; 
+$anchor-color-default-underline-focused: #0034c4; /* base-color-darker +hue180 */
 
 $h1-color: base-color-darker; 
 $h2-color: #34c400; /* base-color-darker +hue60 */

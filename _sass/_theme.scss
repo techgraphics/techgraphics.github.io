@@ -1,4 +1,3 @@
-
 body {
   background-color: $buff-color-normal;
 }
@@ -9,7 +8,7 @@ body {
 }
 .theme-base-0goldblue .content a,
 .theme-base-0goldblue .related-posts li a:hover {
-  color: #02e;
+  color: $anchor-color-default;
 }
 
 /* Gold */
