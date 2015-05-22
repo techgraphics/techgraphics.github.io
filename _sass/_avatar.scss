@@ -1,8 +1,6 @@
 .avatar-circular {
   display: block;
   border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
   border-color: rgba(255,250,237,0.85);
   border-style: solid;
   border-width: 2px;
@@ -10,34 +8,32 @@
   margin-right: auto;
 }
 
-a .avatar-circular:hover,
-a .avatar-circular:focus {
-  background-size: 110%;
-  -ms-transform: rotate(5deg); /* IE 9 */
-  -webkit-transform: rotate(5deg); /* Chrome, Safari, Opera */
-  transform: rotate(5deg);
-}
-
 #avatar-medium {
   width: 144px;
   height: 144px;
   background: url(http://techgraphics.github.io/public/images/avatar-medium.jpg) no-repeat;
   background-position: center;
-  background-size: cover;
-  -webkit-box-shadow: 0px 6px 16px $avatar-shadow;
-     -moz-box-shadow: 0px 6px 16px $avatar-shadow;
-       -o-box-shadow: 0px 6px 16px $avatar-shadow;
-          box-shadow: 0px 6px 16px $avatar-shadow;
+  background-size: 100%;
+  box-shadow: 0px 6px 16px $avatar-shadow;
 }
 #avatar-small {
   width: 48px;
   height: 48px;
   background: url(http://techgraphics.github.io/public/images/avatar-small.jpg) no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 100%;
   border-width: 1px;
-  -webkit-box-shadow: none;
-     -moz-box-shadow: none;
-       -o-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
+}
+
+a .avatar-circular:hover,
+a .avatar-circular:focus {
+  transform: rotate(5deg);
+}
+
+a #avatar-medium:hover,
+a #avatar-small:hover,
+a #avatar-medium:focus,
+a #avatar-small:focus {
+  background-size: 110%;
 }
