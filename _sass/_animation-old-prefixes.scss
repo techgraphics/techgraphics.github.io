@@ -1,25 +1,70 @@
 $site-title-timing: 3000ms;
 #site-title-animation-intro {
-  animation: 
-    hold-the-front-page $site-title-timing linear both,
-    txt-shadow-pump 2400ms infinite linear both; /* IE 10+, Fx 29+ */
+  -webkit-animation: hold-the-front-page $site-title-timing; /* Safari 4+ */
+     -moz-animation: hold-the-front-page $site-title-timing; /* Fx 5+ */
+       -o-animation: hold-the-front-page $site-title-timing; /* Opera 12+ */
+          animation: hold-the-front-page $site-title-timing linear both,
+  txt-shadow-pump 2400ms infinite linear both; /* IE 10+, Fx 29+ */
 }
 $site-description-timing: 4500ms;
 #site-description-animation-intro {
-  animation: 
-    hold-the-front-page $site-description-timing linear both; /* IE 10+, Fx 29+ */
+  -webkit-animation: hold-the-front-page $site-description-timing; /* Safari 4+ */
+     -moz-animation: hold-the-front-page $site-description-timing; /* Fx 5+ */
+       -o-animation: hold-the-front-page $site-description-timing; /* Opera 12+ */
+          animation: hold-the-front-page $site-description-timing linear both; /* IE 10+, Fx 29+ */
 }
 
 $txt-shadow-color: rgba(255,255,255,0.7); 
 @keyframes txt-shadow-pump {
-  0%  { text-shadow: 0 0 4px $txt-shadow-color; }
-  14% { text-shadow: 0 0 4px $txt-shadow-color; }
-  29% { text-shadow: 0 0 8px $txt-shadow-color; }
-  43% { text-shadow: 0 0 12px $txt-shadow-color; }
-  57% { text-shadow: 0 0 16px $txt-shadow-color; }
-  71% { text-shadow: 0 0 12px $txt-shadow-color; }
-  86% { text-shadow: 0 0 8px $txt-shadow-color; }
-  100% { text-shadow: 0 0 4px $txt-shadow-color; }
+  0% {
+    -webkit-text-shadow: 0 0 4px $txt-shadow-color;
+       -moz-text-shadow: 0 0 4px $txt-shadow-color;
+         -o-text-shadow: 0 0 4px $txt-shadow-color;
+            text-shadow: 0 0 4px $txt-shadow-color;
+  }
+  14% {
+    -webkit-text-shadow: 0 0 4px $txt-shadow-color;
+       -moz-text-shadow: 0 0 4px $txt-shadow-color;
+         -o-text-shadow: 0 0 4px $txt-shadow-color;
+            text-shadow: 0 0 4px $txt-shadow-color;
+  }
+  29% {
+    -webkit-text-shadow: 0 0 8px $txt-shadow-color;
+       -moz-text-shadow: 0 0 8px $txt-shadow-color;
+         -o-text-shadow: 0 0 8px $txt-shadow-color;
+            text-shadow: 0 0 8px $txt-shadow-color;
+  }
+  43% {
+    -webkit-text-shadow: 0 0 12px $txt-shadow-color;
+       -moz-text-shadow: 0 0 12px $txt-shadow-color;
+         -o-text-shadow: 0 0 12px $txt-shadow-color;
+            text-shadow: 0 0 12px $txt-shadow-color;
+  }
+  57% {
+    -webkit-text-shadow: 0 0 16px $txt-shadow-color;
+       -moz-text-shadow: 0 0 16px $txt-shadow-color;
+         -o-text-shadow: 0 0 16px $txt-shadow-color;
+            text-shadow: 0 0 16px $txt-shadow-color;
+  }
+  71% {
+    -webkit-text-shadow: 0 0 12px $txt-shadow-color;
+       -moz-text-shadow: 0 0 12px $txt-shadow-color;
+         -o-text-shadow: 0 0 12px $txt-shadow-color;
+            text-shadow: 0 0 12px $txt-shadow-color;
+  }
+  86% {
+    -webkit-text-shadow: 0 0 8px $txt-shadow-color;
+       -moz-text-shadow: 0 0 8px $txt-shadow-color;
+         -o-text-shadow: 0 0 8px $txt-shadow-color;
+            text-shadow: 0 0 8px $txt-shadow-color;
+  }
+  100% {
+    -webkit-text-shadow: 0 0 4px $txt-shadow-color;
+       -moz-text-shadow: 0 0 4px $txt-shadow-color;
+         -o-text-shadow: 0 0 4px $txt-shadow-color;
+            text-shadow: 0 0 4px $txt-shadow-color;
+  }
+
 }
 
 @keyframes hold-the-front-page {
