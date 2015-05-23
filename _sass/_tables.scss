@@ -8,6 +8,7 @@ table {
   font-size: 85%;
   border: 1px solid $table-border-color;
   border-collapse: collapse;
+  background-color: $table-background-color;
 }
 
 td,
@@ -20,7 +21,11 @@ th {
   text-align: left;
 }
 
+tbody tr:nth-child(even) td,
+tbody tr:nth-child(even) th {
+  background-color: $tbody-background-color-even;
+}
 tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
-  background-color: $tbody-background-color;
+  background-color: $tbody-background-color-odd;
 }
