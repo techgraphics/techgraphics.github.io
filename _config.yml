@@ -27,4 +27,4 @@ paginate:            1
 
 # Site specific settings
 url:                 http://techgraphics.github.io
-baseurl:             /
+baseurl:             ''
