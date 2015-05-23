@@ -1,0 +1,9 @@
+{% for glossary in site.glossary %}
+<h3>{{ glossary.title }}</h3>
+{{ glossary.description }}
+<h4>{% if glossary.categories %} Category: {{ glossary.categories }}{% endif %}</h4>
+<h5>More information:</h5>
+{% for an_url in glossary.more_info_urls %}
+<a href="{{ an_url.url }}">{{ an_url.sitename }}</a> 
+{% endfor %}
+{% endfor %}
