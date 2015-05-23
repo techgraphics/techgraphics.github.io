@@ -81,6 +81,29 @@ $linear-gradient-stop-value-4: 100%;
       $linear-gradient-stop-colour-2 $linear-gradient-stop-value-2, 
       $linear-gradient-stop-colour-3 $linear-gradient-stop-value-3, 
       $linear-gradient-stop-colour-4 $linear-gradient-stop-value-4
+    ),
+    -webkit-gradient(
+      linear, 50% 0%, 50% 100%, 
+      color-stop(
+        $linear-gradient-stop-value-0, 
+        $linear-gradient-stop-colour-0
+      ), 
+      color-stop(
+        $linear-gradient-stop-value-1, 
+        $linear-gradient-stop-colour-1
+      ), 
+      color-stop(
+        $linear-gradient-stop-value-2, 
+        $linear-gradient-stop-colour-2
+      ), 
+      color-stop(
+        $linear-gradient-stop-value-3, 
+        $linear-gradient-stop-colour-3
+      ), 
+      color-stop(
+        $linear-gradient-stop-value-4, 
+        $linear-gradient-stop-colour-4
+      )
     );
 
   background:
