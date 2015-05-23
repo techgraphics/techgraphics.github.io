@@ -35,7 +35,7 @@ $anchor-color-default: $black-color;
 $anchor-color-default-underline-unfocused: #aaaaaa; 
 $anchor-color-default-underline-focused: $base-color-normal;
 
-$h1-color: base-color-darker; 
+$h1-color: $base-color-darker; 
 $h2-color: #34c400; /* base-color-darker +hue60 */
 $h3-color: #00c48f; /* base-color-darker +hue120 */
 $h4-color: #0034c4; /* base-color-darker +hue180 */

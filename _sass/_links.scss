@@ -1,7 +1,7 @@
 a:default,
 a:link,
 a:visited {
-  color: $anchor-color-default;
+  color: inherit;
   text-decoration: underline;
   -webkit-text-decoration-color: $anchor-color-default-underline-unfocused;
      -moz-text-decoration-color: $anchor-color-default-underline-unfocused;
