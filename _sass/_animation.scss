@@ -1,10 +1,10 @@
-$site-title-timing: 2400ms;
+$site-title-timing: 3000ms;
 #site-title-animation-intro {
   animation: 
     hold-the-front-page $site-title-timing linear both,
     txt-shadow-pump 2400ms infinite linear both; /* IE 10+, Fx 29+ */
 }
-$site-description-timing: 1600ms;
+$site-description-timing: 4500ms;
 #site-description-animation-intro {
   animation: 
     hold-the-front-page $site-description-timing linear both; /* IE 10+, Fx 29+ */
