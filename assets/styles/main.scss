@@ -4,6 +4,10 @@
 ---
 @charset "UTF-8";
 
+/**
+ * Modified from Poole
+ */
+
 //
 //                        ___
 //                       /\_ \
@@ -25,9 +29,11 @@
 @import "layout";
 @import "avatar";
 @import "theme";
+@import "modifiers";
 @import "social";
 @import "posts";
 @import "pagination";
+@import "tables";
 @import "message";
 @import "animation";
 @import "syntax";

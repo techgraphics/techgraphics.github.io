@@ -12,14 +12,14 @@ $site-description-timing: 4500ms;
 
 $txt-shadow-color: rgba(255,255,255,0.7); 
 @keyframes txt-shadow-pump {
-  0%  { text-shadow: 0 0 4px $txt-shadow-color; }
-  14% { text-shadow: 0 0 4px $txt-shadow-color; }
-  29% { text-shadow: 0 0 8px $txt-shadow-color; }
-  43% { text-shadow: 0 0 12px $txt-shadow-color; }
-  57% { text-shadow: 0 0 16px $txt-shadow-color; }
-  71% { text-shadow: 0 0 12px $txt-shadow-color; }
-  86% { text-shadow: 0 0 8px $txt-shadow-color; }
-  100% { text-shadow: 0 0 4px $txt-shadow-color; }
+    0% { text-shadow: 0 0 4px  $txt-shadow-color; }
+   14% { text-shadow: 0 0 4px  $txt-shadow-color; }
+   29% { text-shadow: 0 0 8px  $txt-shadow-color; }
+   43% { text-shadow: 0 0 12px $txt-shadow-color; }
+   57% { text-shadow: 0 0 16px $txt-shadow-color; }
+   71% { text-shadow: 0 0 12px $txt-shadow-color; }
+   86% { text-shadow: 0 0 8px  $txt-shadow-color; }
+  100% { text-shadow: 0 0 4px  $txt-shadow-color; }
 }
 
 @keyframes hold-the-front-page {

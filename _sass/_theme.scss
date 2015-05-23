@@ -2,31 +2,6 @@ body {
   background-color: $buff-color-normal;
 }
 
-/* Gold & Blue*/
-.theme-base-0goldblue .sidebar {
+.theme-base .sidebar {
   background-color: $base-color-normal;
-}
-.theme-base-0goldblue .content a,
-.theme-base-0goldblue .related-posts li a:hover {
-  color: $anchor-color-default;
-}
-
-/* Gold */
-.theme-base-0gold .sidebar {
-  background-color: $base-color-normal;
-}
-.theme-base-0gold .content a,
-.theme-base-0gold .related-posts li a:hover {
-  color: $base-color-normal;
-}
-
-.rounded-border-6 {
-  border-radius: 6px;
-}
-
-.background-white {
-  background-color: $white-color;
-}
-.background-buff-brightest {
-  background-color: $buff-color-brightest;
 }

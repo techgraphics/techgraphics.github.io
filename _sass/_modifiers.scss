@@ -1,0 +1,26 @@
+// Modifiers
+//
+// Backgrounds, borders.
+
+.background-white {
+  background-color: $white-color;
+}
+.background-buff-brightest {
+  background-color: $buff-color-brightest;
+}
+
+.rounded-border-2 {
+  border-radius: 2px;
+}
+.rounded-border-4 {
+  border-radius: 4px;
+}
+.rounded-border-6 {
+  border-radius: 6px;
+}
+.rounded-border-8 {
+  border-radius: 8px;
+}
+.rounded-border-12 {
+  border-radius: 12px;
+}
