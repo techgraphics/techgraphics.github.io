@@ -7,7 +7,9 @@ $black-color: #000000; /* Keep maximum blackness */
 
 $buff-color-brightest: #fffcf4;
 $buff-color-brightest-complementary: #f4f7ff;
-$buff-color-normal: #fff8ea;
+$buff-color-normal: #fff9ea;
+$buff-color-darker: #fff6e0;
+$buff-color-darkest: #ffedbe;
 
 $base-color-normal: #dda200; /* hsl(44, 100%, 87%) */
 $base-color-normal-7: hsla(44, 100%, 87%, 0.7) ;
@@ -42,5 +44,5 @@ $h6-color: #c40034; /* base-color-darker +hue300 */
 
 $table-border-color: $base-color-normal;
 $table-background-color: $buff-color-brightest;
-$tbody-background-color-even: $buff-color-brightest;
-$tbody-background-color-odd: $buff-color-brightest-complementary;
+$tbody-background-color-odd: $buff-color-normal;
+$tbody-background-color-even: $buff-color-darker;
