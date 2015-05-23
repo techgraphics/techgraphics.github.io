@@ -7,9 +7,9 @@ tags:
  - fonts
 ---
 
-I have updated my website to use the [Jekyll blogging system](http://jekyllrb.com) by [Tom Preston-Werner](https://twitter.com/mojombo/).  
+I have updated my website to use the [Jekyll blogging system](http://jekyllrb.com) created by [Tom Preston-Werner](https://twitter.com/mojombo/).  
 
-* My website theme is based on [Hyde](http://hyde.getpoole.com) by [Mark Otto](https://twitter.com/mdo)  
+* My website theme is based on [Hyde](http://hyde.getpoole.com) created by [Mark Otto](https://twitter.com/mdo)  
 * My website body font is [Raleway Medium](https://www.google.com/fonts/specimen/Raleway)  
 * My website title font is [Trade Winds](https://www.google.com/fonts/specimen/Trade+Winds)  
 * **Jekyll** uses the [Liquid templating language](http://liquidmarkup.org) to process templates  
