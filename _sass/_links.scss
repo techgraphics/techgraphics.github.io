@@ -22,3 +22,7 @@ a:hover, a:focus {
         o-text-decoration-color: $buff-color-normal;
           text-decoration-color: $buff-color-normal;
 }
+
+a.no-underline {
+ text-decoration: none;
+}
