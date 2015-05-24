@@ -1,11 +1,12 @@
 ---
 title: Information Architecture
-description: Skill Item Description
+description: The art and science of organising and labelling websites, intranets, online communities and software to support usability and findability
 proficiency: Intermediate
 type: subcategory
-categories: 
+categories: Design
 tags:
-  - 
-  - 
-  - 
+  - design
+  - front-end
+  - ia
+  - web
 ---

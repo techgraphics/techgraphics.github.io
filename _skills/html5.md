@@ -1,7 +1,7 @@
 ---
 title: HTML5
 description: The standard markup language used to create web pages
-proficiency: Intermediate
+proficiency: Advanced
 type: subcategory
 categories: Web Development 
 tags:

@@ -23,9 +23,41 @@ th {
 
 tbody tr:nth-child(even) td,
 tbody tr:nth-child(even) th {
-  background-color: $tbody-background-color-even;
+  background-color: $tr-background-color-even;
 }
 tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
-  background-color: $tbody-background-color-odd;
+  background-color: $tr-background-color-odd;
 }
+
+
+th.header {
+  bgcolor: #555555;
+}
+
+td.data-footer {
+  bgcolor: #000000;
+}
+
+tr.data-category, 
+tr.data-subcategory, 
+tr.data-aspect { 
+  bgcolor: inherit;
+}
+
+tr.data-category  {
+  bgcolor: inherit;
+}
+
+tr.data-subcategory { 
+  bgcolor: inherit;
+}
+
+tr.data-aspect { 
+  bgcolor: inherit;
+}
+
+td.data-proficiency { 
+  bgcolor: #666;
+}
+

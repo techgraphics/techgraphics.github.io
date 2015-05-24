@@ -1,6 +1,6 @@
 ---
 title: Agile
-description: A group of software development methods in which requirements and solutions evolve through collaboration between self-organizing, cross-functional teams.
+description: A group of software development methods in which requirements and solutions evolve through collaboration between self-organising, cross-functional teams.
 more_info_urls: 
   - sitename: C2
     url: http://www.c2.com/cgi/wiki?AgileProcesses

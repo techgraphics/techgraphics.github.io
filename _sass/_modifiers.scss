@@ -1,6 +1,23 @@
 // Modifiers
 //
-// Backgrounds, borders.
+// Messages, backgrounds, borders, box shadows.
+
+
+// Messages
+//
+// Show alert messages to users. You may add it to single elements like a `<p>`,
+// or to a parent if there are multiple elements to show.
+
+.message {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  color: $message-color;
+  background-color: $buff-color-brightest;
+  box-shadow: 0 0 8px $buff-color-darkest
+}
+
+// Backgrounds
+//
 
 .background-white {
   background-color: $white-color;
@@ -8,6 +25,9 @@
 .background-buff-brightest {
   background-color: $buff-color-brightest;
 }
+
+// Borders
+//
 
 .rounded-border-2 {
   border-radius: 2px;
@@ -23,4 +43,11 @@
 }
 .rounded-border-12 {
   border-radius: 12px;
+}
+
+// Box shadow
+//
+
+.box-shadow {
+  box-shadow: 0 0 8px $buff-color-darkest
 }

@@ -3,8 +3,9 @@ title: DevOps
 description: A methodology to help achieve continuous delivery of software-driven innovation
 proficiency: Intermediate
 type: subcategory
-categories: 
+categories: Methodology
 tags:
-  - devops
   - back-end
+  - devops
+  - methodology
 ---
