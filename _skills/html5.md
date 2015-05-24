@@ -1,11 +1,11 @@
 ---
-title: Skill Item Title
-description: Skill Item Description
+title: HTML5
+description: The standard markup language used to create web pages
 proficiency: Intermediate
 type: subcategory
-categories: 
+categories: Web Development 
 tags:
-  - 
-  - 
-  - 
+  - design
+  - html
+  - web
 ---
