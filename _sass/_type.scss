@@ -6,7 +6,6 @@ html {
   font-family: "Raleway", Verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
   @media (min-width: 38em) {
     font-size: 18px;
   }
@@ -16,6 +15,7 @@ html {
   @media (min-width: 58em) {
     font-size: 20px;
   }
+  line-height: 1.5;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -32,20 +32,20 @@ h1 {
 }
 
 h2 {
-  margin-top: 1.5rem;
-  font-size: 1.5rem;
+  margin-top: 1.75rem;
+  font-size: 1.75rem;
   color: $h2-color;
 }
 
 h3 {
-  margin-top: 1.25rem;
-  font-size: 1.25rem;
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
   color: $h3-color;
 }
 
 h4, h5, h6 {
-  margin-top: 1rem;
-  font-size: 1rem;
+  margin-top: 1.25rem;
+  font-size: 1.25rem;
 }
 
 h4 {
@@ -168,4 +168,18 @@ a[href^="#fnref:"] {
 
 .strong {
   font-weight:bold;
+}
+
+.small-text {
+  font-size: 12px;
+  @media (min-width: 38em) {
+    font-size: 14px;
+  }
+  @media (min-width: 48em) {
+    font-size: 15px;
+  }
+  @media (min-width: 58em) {
+    font-size: 16px;
+  }
+
 }

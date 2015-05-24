@@ -1,45 +1,41 @@
+{% for global_skill in site.skills %}
 
-<table class="box-shadow">
-  <thead>
-    <tr class="row-header">
-      <th>Leave Blank</th>
-      <th>Description</th>
-      <th>Proficiency</th>
-      <th>Tags</th>
-    </tr>
-  </thead>
-  <tfoot>
-    <tr class="row-footer">
-      <td></td>
-      <td></td>
-      <td class="data-proficiency"></td>
-      <td></td>
-    </tr>
-  </tfoot>
-  <tbody>
-   <tr class="row-category strong">
-      <td>Category Title</td>
-      <td>Category Description</td>
-      <td>Leave Blank</td>
-      <td>Category Tags</td>
-    </tr>
-    <tr class="row-subcategory">
-      <td>Subcategory Title</td>
-      <td>Subcategory Description</td>
-      <td class="data-proficiency">Subcategory Proficiency</td>
-      <td>Subcategory Tags</td>
-    </tr>
-    <tr class="row-subcategory">
-      <td>Subcategory Title</td>
-      <td>Subcategory Description</td>
-      <td class="data-proficiency">Subcategory Proficiency</td>
-      <td>Subcategory Tags</td>
-    </tr>
-    <tr class="row-aspect">
-      <td>Aspect Title</td>
-      <td>Aspect Description</td>
-      <td bgcolor="blue" class="data-proficiency">Aspect Proficiency</td>
-      <td>Aspect Tags</td>
-    </tr>
-  </tbody>
+
+{% if global_skill.type == "category" %} {% assign category_array = global_skill | sort: category-level %} {% endif %}
+
+
+<!--<h4>Category array:</h4>{{ category_array }}-->
+{% for some_category in category_array %}
+
+Some_category: {{ some_category }}
+
+<!--
+<p><strong>some_category.title:</strong> {{ some_category.title }}</p>
+<p><strong>some_category.description:</strong> {{ some_category.description }}</p>
+<p><strong>some_category.category-level:</strong> {{ some_category.category-level }}</p>
+
+<hr>
+-->
+{% endfor %}
+{% endfor %}
+
+<h4 class="category-title">Category Title</h4>
+<div class="category-description">Category Description</div>
+<table class="box-shadow small-text">
+<thead></thead>
+<tfoot></tfoot>
+<tbody>
+  <tr class="row-subcategory">
+    <td>Subcategory Title</td>
+    <td>Subcategory Description blah blah blah blah rah rah rah rah</td>
+    <td class="data-proficiency">Subcategory Proficiency</td>
+    <td>Subcategory Tags</td>
+  </tr>
+  <tr class="row-aspect">
+    <td>Aspect Title</td>
+    <td>Aspect Description blah blah blah blah rah rah rah rah</td>
+    <td class="data-proficiency">Aspect Proficiency</td>
+    <td>Aspect Tags</td>
+  </tr>
+</tbody>
 </table>

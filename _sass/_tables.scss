@@ -21,43 +21,29 @@ th {
   text-align: left;
 }
 
-tbody tr:nth-child(even) td,
-tbody tr:nth-child(even) th {
-  background-color: $tr-background-color-even;
-}
-tbody tr:nth-child(odd) td,
-tbody tr:nth-child(odd) th {
+tr:nth-child(odd) {
   background-color: $tr-background-color-odd;
 }
-
-
-th.header {
-  bgcolor: #555555;
+tr:nth-child(even) {
+  background-color: $tr-background-color-even;
 }
 
-td.data-footer {
-  bgcolor: #000000;
+tr.row-header {
+  background-color: $white-color;
+  bgcolor: $white-color ;
 }
 
-tr.data-category, 
-tr.data-subcategory, 
-tr.data-aspect { 
-  bgcolor: inherit;
+tr.row-footer {
+  background-color: $white-color;
+  bgcolor: $white-color ;
 }
 
-tr.data-category  {
-  bgcolor: inherit;
-}
-
-tr.data-subcategory { 
-  bgcolor: inherit;
-}
-
-tr.data-aspect { 
-  bgcolor: inherit;
+tr.row-category  {
+  background-color: $white-color;
+  bgcolor: $white-color ;
 }
 
 td.data-proficiency { 
-  bgcolor: #666;
+  background-color: $td-proficiency-unknown;
 }
 
