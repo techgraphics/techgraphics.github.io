@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: skills
 title: Skills Matrix
 ---
 ## Skills
