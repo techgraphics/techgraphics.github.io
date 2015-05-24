@@ -1,6 +1,6 @@
 ---
 title: Critical Rendering Path
-description: The series of events that occur to render the things required for just the initial view of that webpage.
+description: The series of events that occur to render the things required for just the initial view of a webpage.
 more_info_urls: 
   - sitename: feedthebot
     url: https://www.feedthebot.com/pagespeed/critical-render-path.html

@@ -3,7 +3,7 @@
 {{ glossary.title }}
 </h3>
 <h4>
-{% if glossary.categories %} Category: {{ glossary.categories }}{% endif %}
+{% if glossary.categories %}Category: {{ glossary.categories }}{% endif %}
 </h4>
 <p>
 {{ glossary.description }}
@@ -12,9 +12,6 @@
 More information:
 </strong>{% for an_url in glossary.more_info_urls %}
 <a href="{{ an_url.url }}">
-{{ an_url.sitename }}
-</a> 
-{% unless forloop.last %}, {% endunless %}{% endfor %}
-
+{{ an_url.sitename }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}
 <hr>
 {% endfor %}

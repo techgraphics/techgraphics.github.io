@@ -8,11 +8,12 @@ $black-color: #000000; /* Keep maximum blackness */
 $buff-color-brightest: #fffcf4;
 $buff-color-brightest-complementary: #f4f7ff;
 $buff-color-normal: #fff9ea;
-$buff-color-darker: #fff6e0;
-$buff-color-darkest: #ffedbe;
+$buff-color-dark: #fff6e0;
+$buff-color-darker: #ffedbe;
+$buff-color-darkest: #ddcea5;
 
 $base-color-normal: #dda200; /* hsl(44, 100%, 87%) */
-$base-color-normal-7: hsla(44, 100%, 87%, 0.7) ;
+$base-color-normal-70: hsla(44, 100%, 87%, 0.7) ;
 $base-color-normal-10: hsla(44, 100%, 87%, 0.1) ;
 $base-color-bright: #ffbb00; /* hsl(44, 100%, 100%) */
 $base-color-bright-70: hsla(44, 100%, 100%, 0.7) ;
@@ -25,11 +26,12 @@ $base-color-darker-10: hsla(44, 100%, 77%, 0.1) ;
 $base-color-darkest: #aa7d00; /* hsl(44, 100%, 67%) */
 $base-color-darkest-70: hsla(44, 100%, 67%, 0.7) ;
 $base-color-darkest-10: hsla(44, 100%, 67%, 0.1) ;
+$base-color-shadow: #775700; /* hsl(44, 100%, 47%) */
 
 $site-title-color-shadow: $white-color;
 $site-title-color: $white-color;
 
-$avatar-shadow: #775700; 
+$avatar-border-color: rgba(255,250,237,0.85) ;
 
 $anchor-color-default-underline-unfocused: #aaaaaa; 
 $anchor-color-default-underline-focused: $base-color-normal;

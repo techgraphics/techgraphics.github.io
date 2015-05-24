@@ -1,8 +1,7 @@
 .avatar-circular {
   display: block;
-  -webkit-border-radius: 50%;
-          border-radius: 50%;
-  border-color: rgba(255,250,237,0.85);
+  border-radius: 50%;
+  border-color: $avatar-border-color;
   border-style: solid;
   border-width: 2px;
   margin-left: auto;
@@ -12,14 +11,16 @@
 #avatar-medium {
   width: 144px;
   height: 144px;
+  -webkit-border-radius: 72px;
   background: url(http://techgraphics.github.io/assets/images/avatar-medium.jpg) no-repeat;
   background-position: center;
   background-size: 100%;
-  box-shadow: 0px 6px 16px $avatar-shadow;
+  box-shadow: 0px 6px 16px $base-color-shadow;
 }
 #avatar-small {
   width: 48px;
   height: 48px;
+  -webkit-border-radius: 24px;
   background: url(http://techgraphics.github.io/assets/images/avatar-small.jpg) no-repeat;
   background-position: center;
   background-size: 100%;
