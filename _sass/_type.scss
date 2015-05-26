@@ -43,20 +43,21 @@ h3 {
   color: $h3-color;
 }
 
-h4, h5, h6 {
+h4 {
   margin-top: 1.25rem;
   font-size: 1.25rem;
-}
-
-h4 {
   color: $h4-color;
 }
 
 h5 {
+  margin-top: 1.0rem;
+  font-size: 1.0rem;
   color: $h5-color;
 }
 
 h6 {
+  margin-top: 0.85rem;
+  font-size: 0.85rem;
   color: $h6-color;
 }
 

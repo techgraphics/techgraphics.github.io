@@ -45,20 +45,42 @@ tr.row-category  {
 
 td.data-title { 
   font-weight: bold;
-  width: 25%;
 }
 
 td.data-description { 
-  width: 45%;
 }
 
-td.data-proficiency { 
+td.data-proficiency- { 
   background-color: $td-proficiency-unknown;
-  width: 15%;
+	color: white;
 }
+td.data-proficiency-0 { 
+  background-color: $td-proficiency-expert;
+	color: white;
+}
+td.data-proficiency-1 { 
+  background-color: $td-proficiency-advanced;
+	color: white;
+}
+td.data-proficiency-2 { 
+  background-color: $td-proficiency-intermediate;
+	color: white;
+}
+td.data-proficiency-3 { 
+  background-color: $td-proficiency-basic;
+	color: white;
+}
+td.data-proficiency-4 { 
+  background-color: $td-proficiency-beginner;
+	color: white;
+}
+td.data-proficiency-5 { 
+  background-color: $td-proficiency-unknown;
+	color: white;
+}
+
 
 td.data-tags { 
-  width: 15%;
 }
 
 caption.main, 
