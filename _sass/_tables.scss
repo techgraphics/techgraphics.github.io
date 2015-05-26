@@ -43,7 +43,25 @@ tr.row-category  {
   bgcolor: $white-color ;
 }
 
-td.data-proficiency { 
-  background-color: $td-proficiency-unknown;
+td.data-title { 
+  font-weight: bold;
+  width: 25%;
 }
 
+td.data-description { 
+  width: 45%;
+}
+
+td.data-proficiency { 
+  background-color: $td-proficiency-unknown;
+  width: 15%;
+}
+
+td.data-tags { 
+  width: 15%;
+}
+
+caption.main, 
+caption.other {
+  text-align: left;
+}

@@ -1,85 +1,58 @@
+{% assign categoryHash = site.skills | sort: 'categoryWeight'  %}
 
-<h4 class="category-title">Category Title</h4>
-<div class="category-description">Category Description</div>
+{% assign skillsHash = site.skills | sort: 'proficiency'  %}
+
+{% for c in  categoryHash %}
+{% if c.categoryLevel == 0 %}
+<h4>{{ c.title }}</h4>
+<div>{{ c.description }}</div>
+{% endif %}
+
 <table class="box-shadow small-text">
+<caption class="main">Main</caption>
 <thead></thead>
 <tfoot></tfoot>
 <tbody>
-  <tr class="row-subcategory">
-    <td class="strong">Subcategory Title</td>
-    <td>Subcategory Description blah blah blah blah rah rah rah rah</td>
-    <td class="data-proficiency">Subcategory Proficiency</td>
-    <td>Subcategory Tags</td>
-  </tr>
-  <tr class="row-aspect">
-    <td class="strong">Aspect Title</td>
-    <td>Aspect Description blah blah blah blah rah rah rah rah</td>
-    <td class="data-proficiency">Aspect Proficiency</td>
-    <td>Aspect Tags</td>
-  </tr>
-</tbody>
-</table>
+{% for someSkill in  skillsHash %}
+{% if someSkill.categoryLevel == 1 %}
+{% if someSkill.parentCategory == c.title %}
 
-<h4 class="category-title">Category Title</h4>
-<div class="category-description">Category Description</div>
-<table class="box-shadow small-text">
-<thead></thead>
-<tfoot></tfoot>
-<tbody>
-  <tr class="row-subcategory">
-    <td class="strong">Subcategory Title</td>
-    <td>Subcategory Description blah blah blah blah rah rah rah rah</td>
-    <td class="data-proficiency">Subcategory Proficiency</td>
-    <td>Subcategory Tags</td>
-  </tr>
-  <tr class="row-aspect">
-    <td class="strong">Aspect Title</td>
-    <td>Aspect Description blah blah blah blah rah rah rah rah</td>
-    <td class="data-proficiency">Aspect Proficiency</td>
-    <td>Aspect Tags</td>
-  </tr>
-</tbody>
-</table>
+<tr class="row-subcategory">
+<td class="data-title">{{ someSkill.title }}</td>
+<td class="data-description">{{ someSkill.description }}</td>
+<td class="data-proficiency">{{ someSkill.proficiency }}</td>
+<td class="data-tags">{% for someTag in someSkill.tags %}{{ someTag }}, {% endfor %}</td>
+</tr>
 
-<h4 class="category-title">Category Title</h4>
-<div class="category-description">Category Description</div>
-<table class="box-shadow small-text">
-<thead></thead>
-<tfoot></tfoot>
-<tbody>
-  <tr class="row-subcategory">
-    <td class="strong">Subcategory Title</td>
-    <td>Subcategory Description blah blah blah blah rah rah rah rah</td>
-    <td class="data-proficiency">Subcategory Proficiency</td>
-    <td>Subcategory Tags</td>
-  </tr>
-  <tr class="row-aspect">
-    <td class="strong">Aspect Title</td>
-    <td>Aspect Description blah blah blah blah rah rah rah rah</td>
-    <td class="data-proficiency">Aspect Proficiency</td>
-    <td>Aspect Tags</td>
-  </tr>
-</tbody>
-</table>
-
-
-{% for global_skill in site.skills %}
-
-
-{% if global_skill.type == "category" %} {% assign category_array = global_skill | sort: category-level %} {% endif %}
-
-
-<!--<h4>Category array:</h4>{{ category_array }}-->
-{% for some_category in category_array %}
-
-Some_category: {{ some_category }}
-
-<!--
-<p><strong>some_category.title:</strong> {{ some_category.title }}</p>
-<p><strong>some_category.description:</strong> {{ some_category.description }}</p>
-<p><strong>some_category.category-level:</strong> {{ some_category.category-level }}</p>
-
-<hr>
--->
+{% endif %}
+{% endif %}
 {% endfor %}
+</tbody>
+</table>
+
+
+<table class="box-shadow small-text">
+<caption class="main">Other</caption>
+<thead></thead>
+<tfoot></tfoot>
+<tbody>
+{% for someSkill in  skillsHash %}
+{% if someSkill.categoryLevel == 2 %}
+{% if someSkill.parentCategory == c.title %}
+
+<tr class="row-subcategory">
+<td class="data-title">{{ someSkill.title }}</td>
+<td class="data-description">{{ someSkill.description }}</td>
+<td class="data-proficiency">{{ someSkill.proficiency }}</td>
+<td class="data-tags">{% for someTag in someSkill.tags %}{{ someTag }}, {% endfor %}</td>
+</tr>
+
+{% endif %}
+{% endif %}
 {% endfor %}
+</tbody>
+</table>
+
+
+{% endfor %}
+

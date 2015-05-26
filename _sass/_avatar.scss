@@ -14,7 +14,7 @@
   -webkit-border-radius: 72px;
   background: url(http://techgraphics.github.io/assets/images/avatar-medium.jpg) no-repeat;
   background-position: center;
-  background-size: 100%;
+  background-size: 105%;
   box-shadow: 0px 6px 16px $base-color-shadow;
 }
 #avatar-small {
@@ -23,7 +23,7 @@
   -webkit-border-radius: 24px;
   background: url(http://techgraphics.github.io/assets/images/avatar-small.jpg) no-repeat;
   background-position: center;
-  background-size: 100%;
+  background-size: 105%;
   border-width: 1px;
   box-shadow: none;
 }
@@ -37,5 +37,5 @@ a #avatar-medium:hover,
 a #avatar-small:hover,
 a #avatar-medium:focus,
 a #avatar-small:focus {
-  background-size: 110%;
+  background-size: 115%;
 }

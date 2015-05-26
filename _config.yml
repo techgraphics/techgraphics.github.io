@@ -22,12 +22,13 @@ gems:
   - jekyll-sitemap
   - autoprefixer-rails
 
-# Post settings
-paginate:            1
-
 # Site specific settings
 url:                 http://techgraphics.github.io
 baseurl:             /
+
+# Post settings
+paginate:            3
+paginate_path: "/news/page:num/"
 
 collections: 
 - glossary

@@ -1,9 +1,9 @@
 ---
 title: Unix operating system
-description: Unix is a family of multitasking, multiuser computer operating systems that derive from the original AT&T UNIX™, developed in the 1970s at the Bell Labs research center
-proficiency: Intermediate
-type: subcategory
-category: Operating System
+description: A family of multitasking, multiuser computer operating systems that derive from the original AT&T UNIX™, developed in the 1970s at the Bell Labs research center.
+proficiency: 3
+parentCategory: Operating System
+categoryLevel: 1
 tags:
   - ipc
   - os

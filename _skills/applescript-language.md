@@ -1,9 +1,9 @@
 ---
 title: AppleScript Language
-description: A scripting language used for inter-process communications on Apple operating systems
-proficiency: Advanced
-type: subcategory
-categories: Scripting Language
+description: A scripting language used for inter-process communications on Apple operating systems.
+proficiency: 2
+parentCategory: Scripting Language
+categoryLevel: 1
 tags:
   - apple
   - ipc

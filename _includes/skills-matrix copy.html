@@ -1,0 +1,134 @@
+{% for parent_skill in site.skills %}
+{% if parent_skill.category-level == 0 %}
+
+{% if parent_skill.category == "Web Development" %}
+<hr><p>{{ parent_skill.category-weight }}</p>
+<h4 class="category-title">{{ parent_skill.title }}</h4>
+<div class="category-description">{{ parent_skill.description }}</div>
+
+{% for sub_skill in site.skills %}
+{% if sub_skill.category-level == 1 %}
+
+{% if forloop.first %}
+<table class="box-shadow small-text">
+<caption class="main">Main</caption>
+<thead></thead>
+<tfoot></tfoot>
+<tbody>
+{% endif %}
+
+<tr class="row-subcategory">
+<td class="data-title">{{ sub_skill.title }}</td>
+<td class="data-description">{{ sub_skill.description }}</td>
+<td class="data-proficiency">{{ sub_skill.proficiency }}</td>
+<td class="data-tags">{% for some_tag in some_skill.tags %}{{ some_tag }}, {% endfor %}</td>
+</tr>
+
+{% if forloop.last %}
+</tbody>
+</table>
+{% endif %}
+
+{% endif %}
+{% endfor %}
+
+
+{% for aspect_skill in site.skills %}
+{% if aspect_skill.category-level == 2 %}
+
+{% if forloop.first %}
+<table class="box-shadow small-text">
+<caption class="other">Other</caption>
+<thead></thead>
+<tfoot></tfoot>
+<tbody>
+{% endif %}
+
+<tr class="row-aspect">
+<td class="data-title">{{ aspect_skill.title }}</td>
+<td class="data-description">{{ aspect_skill.description }}</td>
+<td class="data-proficiency">{{ some_skill.proficiency }}</td>
+<td class="data-tags">{% for aspect_tag in some_skill.tags %}{{ some_tag }}, {% endfor %}</td>
+</tr>
+
+{% if forloop.last %}
+</tbody>
+</table>
+<hr>
+{% endif %}
+
+
+{% endif %}
+{% endfor %}
+
+
+{% endif %}
+
+{% endif %}
+{% endfor %}
+
+
+<!-- 
+{% for sub_skill in site.skills | sort: site.skills.proficiency %}
+{% if sub_skill.category-level == 1 %}
+
+<table class="box-shadow small-text">
+<caption class="main">Main</caption>
+<thead></thead>
+<tfoot></tfoot>
+<tbody>
+
+<tr class="row-subcategory">
+<td class="data-title">{{ sub_skill.title }}</td>
+<td class="data-description">{{ sub_skill.description }}</td>
+<td class="data-proficiency">{{ sub_skill.proficiency }}</td>
+
+<td class="data-tags">{% for some_tag in some_skill.tags %}{{ some_tag }}, {% endfor %}</td>
+
+</tr>
+</tbody>
+</table>
+
+{% endif %}
+{% endfor %}
+
+{% for aspect_skill in site.skills | sort: site.skills.proficiency %}
+{% if aspect_skill.category-level == 2 %}
+
+<table class="box-shadow small-text">
+<caption class="other">Other</caption>
+<thead></thead>
+<tfoot></tfoot>
+<tbody>
+
+<tr class="row-aspect">
+<td class="data-title">{{ aspect_skill.title }}</td>
+<td class="data-description">{{ aspect_skill.description }}</td>
+<td class="data-proficiency">{{ some_skill.proficiency }}</td>
+<td class="data-tags">{% for aspect_tag in some_skill.tags %}{{ some_tag }}, {% endfor %}</td>
+</tr>
+
+</tbody>
+</table>
+
+<hr>
+{% endif %}
+{% endfor %}
+
+
+-->
+
+
+
+<!--
+{% case some_skill.category == "subcategory" %}
+
+{% when 'label' %}
+// {{ label.title }}
+{% when 'product' %}
+// {{ product.vendor | link_to_vendor }} / {{ product.title }}
+{% else %}
+// {{page_title}}
+{% endcase %}
+
+-->

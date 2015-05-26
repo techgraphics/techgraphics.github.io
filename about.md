@@ -16,9 +16,8 @@ I am engaged in developing **full stack** software architecture skills using the
 
 I am also writing [articles on digital design methods](https://medium.com/doing-digital).  
 
-<div class="message rounded-border-4">
-<a href="http://aimia.com.au"><img src="/assets/images/pages/about/aimia-logo.png" alt="Member of AIMIA">MEMBER of the Digital Industry Association for Australia (AIMIA)</a>
-</div>{% include horizontal-rule.html %}
+{% include member-aimia.html %}
+{% include horizontal-rule.html %}
 <!--
 ## Skills
 -->

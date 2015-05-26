@@ -1,7 +1,7 @@
 ---
 title: Design
-description: Using strategic approaches to achieve a unique expectation
-type: category
-category: parent
-category-level: 0
+description: Using strategic approaches to achieve a unique expectation.
+category: Design
+categoryLevel: 0
+categoryWeight: 0
 ---

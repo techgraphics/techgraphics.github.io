@@ -1,0 +1,31 @@
+{% assign skillsCategoryArray = site.skills  | sort: 'categoryWeight' | map: 'category'  %}
+
+
+{% for someBloodySkill in skillsCategoryArray %}
+{{ someBloodySkill }}
+{% endfor %}
+
+{% assign parentSkills = site.skills | sort: 'categoryWeight'  %}
+
+
+{% for someParentSkill in parentSkills %}
+
+{% if someParentSkill.categoryLevel == 0 %}
+{% assign someCategoryArray = someParentSkill %}
+
+{% endif %}
+
+{% for someCategory in someCategoryArray %}
+<h4>{{ someCategory[1] }}</h4>
+
+<hr>
+
+{% endfor %}
+
+{% endfor %}
+
+
+{% assign subSkills = site.skills | sort: 'proficiency' %}
+
+
+

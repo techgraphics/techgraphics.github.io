@@ -1,0 +1,12 @@
+---
+title: Client Side Scripting
+description: Creating and modifying code to interact with the user, control the browser, communicate asynchronously, and alter the document content that is displayed.
+proficiency: 4
+parentCategory: Web Development
+categoryLevel: 1
+tags:
+  - front-end
+  - javascript
+  - scripting
+  - web
+---
