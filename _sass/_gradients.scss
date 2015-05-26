@@ -8,12 +8,12 @@
 .horizontal-rule {
     margin: 36px auto; 
     max-width: 500px;
-    position: relative
+    position: relative;
 }
 
 .horizontal-rule .mask {
     overflow: hidden;
-    height: 24px
+    height: 24px;
 }
 
 .horizontal-rule .mask:after {
@@ -23,7 +23,7 @@
     width: 100%;
     height: 24px;
     border-radius: 125px/12px;
-    box-shadow: 0 0 8px $buff-color-darkest
+    box-shadow: 0 0 8px $buff-color-darkest;
 }
 
 /* Sidebar */
