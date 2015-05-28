@@ -8,5 +8,4 @@ tags:
   - design
   - front-end
   - ia
-  - web
 ---

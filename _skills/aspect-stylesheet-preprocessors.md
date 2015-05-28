@@ -8,5 +8,4 @@ tags:
   - css
   - design
   - tool 
-  - web
 ---

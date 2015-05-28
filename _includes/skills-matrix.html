@@ -6,20 +6,19 @@
 {% if c.categoryLevel == 0 %}
 <h4>{{ c.title }}</h4>
 <p>{{ c.description }}</p>
-{% endif %}
 
 <table class="box-shadow">
 <caption class="main"><h5>Main aspects</h5></caption>
 <thead></thead>
 <tfoot></tfoot>
 <tbody class="small-text">
-{% for someSkill in  skillsHash %}
-{% if someSkill.categoryLevel == 1 %}
+{% for someSkill in skillsHash %}
 {% if someSkill.parentCategory == c.title %}
+{% if someSkill.categoryLevel == 1 %}
 
 <tr class="row-subcategory">
-	<td class="data-title-description"><p><strong>{{ someSkill.title }}</strong></p><p>{{ someSkill.description }}</p></td>
-<td class="data-proficiency-{{ someSkill.proficiency }}">
+  <td class="data-title strong">{{ someSkill.title }}</td>
+  <td class="data-proficiency-{{ someSkill.proficiency }}">
 {% if someSkill.proficiency == 0 %}
 <p>★★★★★</p>
 <p>Expert</p>
@@ -41,6 +40,9 @@
 </td>
 <td class="data-tags">{% for someTag in someSkill.tags %}{{ someTag }}{% if forloop.last == false %}, {% endif %}{% endfor %}</td>
 </tr>
+<tr class="row-subcategory-description">
+  <td colspan=3 class="data-description">{{ someSkill.description }}</td>
+</tr>
 
 {% endif %}
 {% endif %}
@@ -48,19 +50,18 @@
 </tbody>
 </table>
 
-
 <table class="box-shadow">
-<caption class="other"><h5>Other aspects</h5></caption>
+<caption class="main"><h5>Other aspects</h5></caption>
 <thead></thead>
 <tfoot></tfoot>
 <tbody class="small-text">
-{% for someSkill in  skillsHash %}
-{% if someSkill.categoryLevel == 2 %}
+{% for someSkill in skillsHash %}
 {% if someSkill.parentCategory == c.title %}
+{% if someSkill.categoryLevel == 2 %}
 
 <tr class="row-subcategory">
-<td class="data-title-description"><p><strong>{{ someSkill.title }}</strong></p><p>{{ someSkill.description }}</p></td>
-<td class="data-proficiency-{{ someSkill.proficiency }}">
+  <td class="data-title strong">{{ someSkill.title }}</td>
+  <td class="data-proficiency-{{ someSkill.proficiency }}">
 {% if someSkill.proficiency == 0 %}
 <p>★★★★★</p>
 <p>Expert</p>
@@ -82,6 +83,9 @@
 </td>
 <td class="data-tags">{% for someTag in someSkill.tags %}{{ someTag }}{% if forloop.last == false %}, {% endif %}{% endfor %}</td>
 </tr>
+<tr class="row-subcategory-description">
+  <td colspan=3 class="data-description">{{ someSkill.description }}</td>
+</tr>
 
 {% endif %}
 {% endif %}
@@ -90,5 +94,5 @@
 </table>
 
 
+{% endif %}
 {% endfor %}
-

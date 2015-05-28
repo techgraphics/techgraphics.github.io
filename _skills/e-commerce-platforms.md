@@ -6,6 +6,6 @@ parentCategory: Web Development
 categoryLevel: 1
 tags:
   - commerce
+  - shopify
   - shopping
-  - web
 ---

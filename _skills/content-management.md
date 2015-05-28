@@ -8,5 +8,4 @@ tags:
   - cms
   - content
   - methodology
-  - web
 ---

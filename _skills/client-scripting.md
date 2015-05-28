@@ -8,5 +8,4 @@ tags:
   - front-end
   - javascript
   - scripting
-  - web
 ---

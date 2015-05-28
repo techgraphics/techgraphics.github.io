@@ -9,5 +9,4 @@ tags:
   - javascript
   - scripting
   - server
-  - web
 ---

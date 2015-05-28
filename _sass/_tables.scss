@@ -44,10 +44,22 @@ tr.row-category  {
 }
 
 td.data-title { 
+  column-width: 25rem; 
   font-weight: bold;
 }
 
 td.data-description { 
+
+}
+
+td.data-proficiency-, 
+td.data-proficiency-1, 
+td.data-proficiency-2, 
+td.data-proficiency-3, 
+td.data-proficiency-4, 
+td.data-proficiency-5 {
+  column-width: 5rem; 
+  text-align: center;
 }
 
 td.data-proficiency- { 
@@ -79,8 +91,9 @@ td.data-proficiency-5 {
 	color: white;
 }
 
-
 td.data-tags { 
+/*  column-width: 3rem; */
+  text-align: center; 
 }
 
 caption.main, 

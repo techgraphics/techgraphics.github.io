@@ -7,5 +7,4 @@ categoryLevel: 1
 tags:
   - javascript
   - scripting
-  - web
 ---
