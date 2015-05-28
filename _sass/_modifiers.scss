@@ -1,6 +1,6 @@
 // Modifiers
 //
-// Messages, backgrounds, borders, box shadows.
+// Messages, tags, backgrounds, borders, box shadows.
 
 
 // Messages
@@ -14,6 +14,20 @@
   color: $message-color;
   background-color: $buff-color-brightest;
   box-shadow: 0 0 8px $buff-color-darkest
+}
+
+
+// Tags
+//
+
+.tag {
+  background-color: $white-color;
+  box-shadow: 0 0 8px $buff-color-darkest;
+}
+
+.tag:before, 
+.tag:after {
+  content: " ";
 }
 
 // Backgrounds

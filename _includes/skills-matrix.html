@@ -18,7 +18,8 @@
 
 <tr class="row-subcategory">
   <td class="data-title strong">{{ someSkill.title }}</td>
-  <td class="data-proficiency-{{ someSkill.proficiency }}">
+<td class="data-tags">{% for someTag in someSkill.tags %}<i class="tag">{{ someTag }}</i>{% if forloop.last == false %} {% endif %}{% endfor %}</td>
+<td class="data-proficiency-{{ someSkill.proficiency }}">
 {% if someSkill.proficiency == 0 %}
 <p>★★★★★</p>
 <p>Expert</p>
@@ -38,7 +39,6 @@
 <p>Unknown</p>
 {% endif %}
 </td>
-<td class="data-tags">{% for someTag in someSkill.tags %}{{ someTag }}{% if forloop.last == false %}, {% endif %}{% endfor %}</td>
 </tr>
 <tr class="row-subcategory-description">
   <td colspan=3 class="data-description">{{ someSkill.description }}</td>
@@ -61,7 +61,8 @@
 
 <tr class="row-subcategory">
   <td class="data-title strong">{{ someSkill.title }}</td>
-  <td class="data-proficiency-{{ someSkill.proficiency }}">
+<td class="data-tags">{% for someTag in someSkill.tags %}<i class="tag">{{ someTag }}</i>{% if forloop.last == false %} {% endif %}{% endfor %}</td>
+<td class="data-proficiency-{{ someSkill.proficiency }}">
 {% if someSkill.proficiency == 0 %}
 <p>★★★★★</p>
 <p>Expert</p>
@@ -81,7 +82,6 @@
 <p>Unknown</p>
 {% endif %}
 </td>
-<td class="data-tags">{% for someTag in someSkill.tags %}{{ someTag }}{% if forloop.last == false %}, {% endif %}{% endfor %}</td>
 </tr>
 <tr class="row-subcategory-description">
   <td colspan=3 class="data-description">{{ someSkill.description }}</td>
