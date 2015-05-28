@@ -7,6 +7,7 @@ categoryLevel: 1
 tags:
   - design
   - hci
+  - hig
   - interaction
   - ixd
   - ui
