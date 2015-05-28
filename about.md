@@ -4,7 +4,7 @@ title: About me
 ---
 <div class="message rounded-border-4">
 	<p>I am a <strong>Digital Designer</strong> based in Adelaide, Australia.</p>
-	<p>My work interests are User Experience Design, Content Management and Information Architecture.</p>
+	<p>My work interests are <em>User Experience Design</em>, <em>Content Management</em> and <em>Information Architecture</em>.</p>
 </div>
 
 ### Over the past few years
