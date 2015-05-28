@@ -1,7 +1,7 @@
 ---
 title: Joomla!
 description: A free and open-source content management system for publishing web content.
-proficiency: 2
+proficiency: 3
 parentCategory: Content Management System
 categoryLevel: 1
 tags:
