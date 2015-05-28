@@ -8,5 +8,6 @@ tags:
   - education
   - learning
   - lms
+  - moodle 
   - platform
 ---
