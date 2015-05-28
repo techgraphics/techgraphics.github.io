@@ -6,6 +6,7 @@ parentCategory: Design
 categoryLevel: 1
 tags:
   - backend
+  - categories
   - content
   - design
   - discovery
@@ -13,5 +14,6 @@ tags:
   - ia
   - information
   - navigation
+  - tags
   - taxonomy
 ---
