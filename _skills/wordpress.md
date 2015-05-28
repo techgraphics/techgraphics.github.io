@@ -8,6 +8,7 @@ tags:
   - backend
   - blog
   - cms
+  - content
   - database
   - framework
   - oss

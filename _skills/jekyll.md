@@ -8,10 +8,12 @@ tags:
   - backend
   - blog
   - cms
+  - content
   - data
   - jekyll
   - oss
   - ruby
+  - scaffolding
   - tags
   - templates
 ---

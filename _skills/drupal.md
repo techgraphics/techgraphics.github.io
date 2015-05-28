@@ -7,6 +7,7 @@ categoryLevel: 1
 tags:
   - backend
   - cms
+  - content
   - database
   - drupal
   - framework

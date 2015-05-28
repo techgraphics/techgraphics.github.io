@@ -4,7 +4,6 @@
 
 {% for c in  categoryHash %}
 {% if c.categoryLevel == 0 %}
-{% include horizontal-rule.html %}
 <h4>{{ c.title }}</h4>
 <p>{{ c.description }}</p>
 
@@ -96,6 +95,7 @@
 </tbody>
 </table>
 
+{% include horizontal-rule.html %}
 
 {% endif %}
 {% endfor %}

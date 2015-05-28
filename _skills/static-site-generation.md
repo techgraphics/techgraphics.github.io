@@ -8,6 +8,7 @@ tags:
   - cms
   - content
   - data
+  - scaffolding
   - tags
   - templates
   - tool
