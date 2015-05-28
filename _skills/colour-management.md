@@ -6,5 +6,5 @@ parentCategory: Design
 categoryLevel: 2
 tags:
   - colour
-  - design
+  - graphics
 ---

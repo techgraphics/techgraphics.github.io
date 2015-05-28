@@ -7,7 +7,10 @@ categoryLevel: 1
 tags:
   - backend
   - javascript
+  - node
   - perl
+  - ruby
   - scripting
   - server
+  - shell
 ---

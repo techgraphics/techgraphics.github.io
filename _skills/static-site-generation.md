@@ -7,5 +7,8 @@ categoryLevel: 1
 tags:
   - cms
   - content
+  - data
+  - tags
+  - templates
   - tool
 ---

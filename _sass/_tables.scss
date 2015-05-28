@@ -30,22 +30,22 @@ tr:nth-child(even) {
 
 tr.row-header {
   background-color: $white-color;
-  bgcolor: $white-color ;
 }
 
 tr.row-footer {
   background-color: $white-color;
-  bgcolor: $white-color ;
 }
 
 tr.row-category  {
   background-color: $white-color;
-  bgcolor: $white-color ;
+  height: 4rem; 
+}
+tr.row-subcategory  {
+  
 }
 
 td.data-title { 
-  column-width: 25rem; 
-  font-weight: bold;
+
 }
 
 td.data-description { 
@@ -58,8 +58,8 @@ td.data-proficiency-2,
 td.data-proficiency-3, 
 td.data-proficiency-4, 
 td.data-proficiency-5 {
-  column-width: 5rem; 
   text-align: center;
+  width: 6rem; 
 }
 
 td.data-proficiency- { 
@@ -92,8 +92,8 @@ td.data-proficiency-5 {
 }
 
 td.data-tags { 
-/*  column-width: 3rem; */
   text-align: center; 
+  width: 8rem;
 }
 
 caption.main, 

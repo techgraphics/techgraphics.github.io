@@ -8,5 +8,6 @@ tags:
   - design
   - hci
   - interaction
+  - ixd
   - ux
 ---

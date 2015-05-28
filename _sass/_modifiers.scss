@@ -1,6 +1,6 @@
 // Modifiers
 //
-// Messages, tags, backgrounds, borders, box shadows.
+// Messages, tags, text color, backgrounds, borders, box shadows.
 
 
 // Messages
@@ -23,11 +23,24 @@
 .tag {
   background-color: $white-color;
   box-shadow: 0 0 8px $buff-color-darkest;
-  padding-left: 4px; 
-  padding-right: 4px;
-  padding-top: 1px; 
-  padding-bottom: 1px;
+  line-height: 1.45rem;
+  padding-left: 6px; 
+  padding-right: 6px;
+  padding-top: 3px; 
+  padding-bottom: 3px;
 }
+
+// Text colour
+//
+
+.text-white-20 {
+  color: rgba(255,255,255,0.2);
+}
+
+.text-white-30 {
+  color: rgba(255,255,255,0.3);
+}
+
 
 // Backgrounds
 //
