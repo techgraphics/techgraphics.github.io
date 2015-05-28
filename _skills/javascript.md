@@ -1,7 +1,7 @@
 ---
-title: JavaScript Language
+title: JavaScript
 description: A dynamic programming language, also known as ECMAScript.
-proficiency: 4
+proficiency: 3
 parentCategory: Scripting Language
 categoryLevel: 1
 tags:

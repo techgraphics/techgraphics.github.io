@@ -1,7 +1,7 @@
 ---
-title: Perl Language
+title: Perl
 description: A family of high-level, general-purpose, interpreted, dynamic programming languages.
-proficiency: 3
+proficiency: 2
 parentCategory: Scripting Language
 categoryLevel: 1
 tags:

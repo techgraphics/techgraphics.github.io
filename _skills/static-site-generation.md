@@ -7,5 +7,5 @@ categoryLevel: 1
 tags:
   - cms
   - content
-  - methodology
+  - tool
 ---

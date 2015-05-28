@@ -1,5 +1,5 @@
 ---
-title: Mac OS X operating system
+title: Mac OS X
 description: A series of Unix-based graphical interface operating systems developed and marketed by Apple Inc.
 proficiency: 3
 parentCategory: Operating System
