@@ -14,6 +14,7 @@ tags:
   - ia
   - information
   - navigation
+  - structure
   - tags
   - taxonomy
 ---

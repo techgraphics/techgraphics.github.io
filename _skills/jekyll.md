@@ -1,12 +1,12 @@
 ---
 title: Jekyll
-description: A simple but powerful, blog-aware, static site generator that makes fast performing websites.
+description: A simple but powerful, blog-aware, static site generator that helps to produce fast performing websites.
 proficiency: 1
 parentCategory: Content Management System
 categoryLevel: 1
 tags:
   - backend
-  - blog
+  - blogs
   - cms
   - content
   - data

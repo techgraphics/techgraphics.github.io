@@ -1,7 +1,7 @@
 ---
 title: Liquid Templates
 description: An open-source, Ruby-based template language created by Shopify.
-proficiency: 4
+proficiency: 3
 parentCategory: Web Development
 categoryLevel: 2
 tags:
