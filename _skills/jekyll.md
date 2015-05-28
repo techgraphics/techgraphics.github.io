@@ -1,6 +1,6 @@
 ---
 title: Jekyll
-description: A simple, blog-aware, static site generator.
+description: A simple but powerful, blog-aware, static site generator that makes fast performing websites.
 proficiency: 1
 parentCategory: Content Management System
 categoryLevel: 1
@@ -11,6 +11,7 @@ tags:
   - content
   - data
   - jekyll
+  - liquid
   - oss
   - ruby
   - scaffolding

@@ -1,6 +1,5 @@
 ---
 layout: skills
-title: Skills Matrix
+title: Knowledge and Skills Base
 ---
-## Knowledge and Skills Base
 {% include skills-matrix.html %}
