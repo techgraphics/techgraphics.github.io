@@ -6,5 +6,7 @@ parentCategory: Design
 categoryLevel: 1
 tags:
   - design
+  - gestalt
   - graphics
+  - semiotics
 ---
