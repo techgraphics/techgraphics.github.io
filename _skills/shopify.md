@@ -5,6 +5,7 @@ proficiency: 3
 parentCategory: Content Management System
 categoryLevel: 1
 tags:
+  - activemerchant
   - backend
   - cms
   - commerce

@@ -7,6 +7,7 @@ categoryLevel: 2
 tags:
   - backend
   - erb
+  - generators
   - mvc
   - rails
   - rake
