@@ -5,6 +5,7 @@ proficiency: 4
 parentCategory: Legal Considerations
 categoryLevel: 1
 tags:
+  - agreement
   - law
   - tos
 ---

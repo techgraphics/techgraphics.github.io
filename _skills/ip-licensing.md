@@ -5,6 +5,7 @@ proficiency: 2
 parentCategory: Legal Considerations
 categoryLevel: 1
 tags:
+  - agreement
   - ip
   - law
   - licence
