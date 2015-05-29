@@ -9,10 +9,15 @@ tags:
 
 I have updated my website to use the [Jekyll blogging system](http://jekyllrb.com) created by [Tom Preston-Werner](https://twitter.com/mojombo/).  
 
-* My website theme is based on [Hyde](http://hyde.getpoole.com) created by [Mark Otto](https://twitter.com/mdo)  
-* My website body font is [Raleway Medium](https://www.google.com/fonts/specimen/Raleway)  
-* My website title font is [Trade Winds](https://www.google.com/fonts/specimen/Trade+Winds)  
 * **Jekyll** uses the [Liquid templating language](http://liquidmarkup.org) to process templates  
+* My website theme is based on [Hyde](http://hyde.getpoole.com) created by [Mark Otto](https://twitter.com/mdo)  
+
+## Fonts used
+* [Raleway Medium](https://www.google.com/fonts/specimen/Raleway)  
+* [Condiment](https://www.google.com/fonts/specimen/Condiment)  
+* [Bitter](https://www.google.com/fonts/specimen/Bitter)  
+* [Trade Winds](https://www.google.com/fonts/specimen/Trade+Winds)  
+
 
 {% comment %}
 
