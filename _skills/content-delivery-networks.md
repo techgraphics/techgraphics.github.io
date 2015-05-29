@@ -1,5 +1,5 @@
 ---
-title: Content Delivery Networks
+title: Content Delivery Networks (CDN)
 description: Used to serve content to end-users with high availability and high performance.
 proficiency: 3
 parentCategory: Web Development
