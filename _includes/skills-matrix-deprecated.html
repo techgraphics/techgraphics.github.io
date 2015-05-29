@@ -1,8 +1,9 @@
-{% assign categoryHash = site.skills | where: "categoryLevel", 0 | sort: 'categoryWeight'  %}
-{% assign skillsMainHash = site.skills | where: "categoryLevel", 1| sort: 'proficiency'  %}
-{% assign skillsAspectHash = site.skills | where: "categoryLevel", 2 | sort: 'proficiency'  %}
+{% assign categoryHash = site.skills | sort: 'categoryWeight'  %}
+
+{% assign skillsHash = site.skills | sort: 'proficiency'  %}
 
 {% for c in  categoryHash %}
+{% if c.categoryLevel == 0 %}
 <h4>{{ c.title }}</h4>
 <p class="message">{{ c.description }}</p>
 
@@ -11,84 +12,84 @@
 <thead></thead>
 <tfoot></tfoot>
 <tbody class="small-text">
-{% for someMainSkill in skillsMainHash %}
-{% if someMainSkill.parentCategory == c.title %}
+{% for someSkill in skillsHash %}
+{% if someSkill.parentCategory == c.title %}
+{% if someSkill.categoryLevel == 1 %}
 
 <tr class="row-subcategory">
-  <td class="data-title"><h6>{{ someMainSkill.title }}</h6></td>
-<td class="data-tags">{% for someTag in someMainSkill.tags %}<i class="tag">{{ someTag }}</i>{% if forloop.last == false %} {% endif %}{% endfor %}</td>
-<td class="data-proficiency-{{ someMainSkill.proficiency }}">
-{% if someMainSkill.proficiency == 0 %}
+  <td class="data-title"><h6>{{ someSkill.title }}</h6></td>
+<td class="data-tags">{% for someTag in someSkill.tags %}<i class="tag">{{ someTag }}</i>{% if forloop.last == false %} {% endif %}{% endfor %}</td>
+<td class="data-proficiency-{{ someSkill.proficiency }}">
+{% if someSkill.proficiency == 0 %}
 <p class="proficiency-stars"><b class="text-shadow-glow">★★★★★</b></p>
 <p>Expert</p>
-{% elsif someMainSkill.proficiency == 1 %}
+{% elsif someSkill.proficiency == 1 %}
 <p class="proficiency-stars"><b class="text-shadow-glow">★★★★</b><b class="text-white-20">★</b></p>
 <p>Advanced</p>
-{% elsif someMainSkill.proficiency == 2 %}
+{% elsif someSkill.proficiency == 2 %}
 <p class="proficiency-stars"><b class="text-shadow-glow">★★★</b><b class="text-white-20">★★</b></p>
 <p>Intermediate</p>
-{% elsif someMainSkill.proficiency == 3 %}
+{% elsif someSkill.proficiency == 3 %}
 <p class="proficiency-stars"><b class="text-shadow-glow">★★</b><b class="text-white-20">★★★</b></p>
 <p>Basic</p>
-{% elsif someMainSkill.proficiency == 4 %}
+{% elsif someSkill.proficiency == 4 %}
 <p class="proficiency-stars"><b class="text-shadow-glow">★</b><b class="text-white-20">★★★★</b></p>
 <p>Beginner</p>
 {% else %}
 <p class="proficiency-stars"><b class="text-white-20">★★★★★</b></p>
 <p>Unknown</p>
 {% endif %}
-
 </td>
 </tr>
 <tr class="row-subcategory-description">
-  <td colspan=3 class="data-description">{{ someMainSkill.description }}</td>
+  <td colspan=3 class="data-description">{{ someSkill.description }}</td>
 </tr>
+
+{% endif %}
 {% endif %}
 {% endfor %}
 </tbody>
 </table>
-
-
 
 <table class="box-shadow">
 <caption class="main"><h5>Other aspects</h5></caption>
 <thead></thead>
 <tfoot></tfoot>
 <tbody class="small-text">
-
-{% for someAspectSkill in skillsAspectHash %}
-{% if someAspectSkill.parentCategory == c.title %}
+{% for someSkill in skillsHash %}
+{% if someSkill.parentCategory == c.title %}
+{% if someSkill.categoryLevel == 2 %}
 
 <tr class="row-subcategory">
-  <td class="data-title"><h6>{{ someAspectSkill.title }}</h6></td>
-<td class="data-tags">{% for someTag in someAspectSkill.tags %}<i class="tag">{{ someTag }}</i>{% if forloop.last == false %} {% endif %}{% endfor %}</td>
-<td class="data-proficiency-{{ someAspectSkill.proficiency }}">
-{% if someAspectSkill.proficiency == 0 %}
+  <td class="data-title"><h6>{{ someSkill.title }}</h6></td>
+<td class="data-tags">{% for someTag in someSkill.tags %}<i class="tag">{{ someTag }}</i>{% if forloop.last == false %} {% endif %}{% endfor %}</td>
+<td class="data-proficiency-{{ someSkill.proficiency }}">
+{% if someSkill.proficiency == 0 %}
 <p class="proficiency-stars"><b class="text-shadow-glow">★★★★★</b></p>
-<p>Expert</p>
-{% elsif someAspectSkill.proficiency == 1 %}
+<p class="proficiency-stars">Expert</p>
+{% elsif someSkill.proficiency == 1 %}
 <p class="proficiency-stars"><b class="text-shadow-glow">★★★★</b><b class="text-white-20">★</b></p>
 <p>Advanced</p>
-{% elsif someAspectSkill.proficiency == 2 %}
+{% elsif someSkill.proficiency == 2 %}
 <p class="proficiency-stars"><b class="text-shadow-glow">★★★</b><b class="text-white-20">★★</b></p>
 <p>Intermediate</p>
-{% elsif someAspectSkill.proficiency == 3 %}
+{% elsif someSkill.proficiency == 3 %}
 <p class="proficiency-stars"><b class="text-shadow-glow">★★</b><b class="text-white-20">★★★</b></p>
 <p>Basic</p>
-{% elsif someAspectSkill.proficiency == 4 %}
+{% elsif someSkill.proficiency == 4 %}
 <p class="proficiency-stars"><b class="text-shadow-glow">★</b><b class="text-white-20">★★★★</b></p>
 <p>Beginner</p>
 {% else %}
 <p class="proficiency-stars"><b class="text-white-20">★★★★★</b></p>
 <p>Unknown</p>
 {% endif %}
-
 </td>
 </tr>
 <tr class="row-subcategory-description">
-  <td colspan=3 class="data-description">{{ someAspectSkill.description }}</td>
+  <td colspan=3 class="data-description">{{ someSkill.description }}</td>
 </tr>
 
+{% endif %}
 {% endif %}
 {% endfor %}
 </tbody>
@@ -96,4 +97,5 @@
 
 {% include horizontal-rule.html %}
 
+{% endif %}
 {% endfor %}
