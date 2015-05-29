@@ -1,23 +1,21 @@
 {% assign categoryHash = site.skills | where: "categoryLevel", 0 | sort: 'categoryWeight'  %}
+{% assign skillsMainHash = site.skills | where: "categoryLevel", 1| sort: 'proficiency'  %}
+{% assign skillsAspectHash = site.skills | where: "categoryLevel", 2 | sort: 'proficiency'  %}
 
 {% for c in  categoryHash %}
 <h4>{{ c.title }}</h4>
 <p class="message">{{ c.description }}</p>
 
-{% assign skillsMainHash = site.skills | where: "categoryLevel", 1 | where: "parentCategory",c.title | sort: 'proficiency'  %}
-
-{% for someMainSkill in skillsMainHash %}
-
-{% if forloop.first %}
 <table class="box-shadow">
 <caption class="main"><h5>Main</h5></caption>
 <thead></thead>
 <tfoot></tfoot>
 <tbody class="small-text">
-{% endif %}
+{% for someMainSkill in skillsMainHash %}
+{% if someMainSkill.parentCategory == c.title %}
 
 <tr class="row-subcategory">
-<td class="data-title"><h6>{{ someMainSkill.title }}</h6></td>
+  <td class="data-title"><h6>{{ someMainSkill.title }}</h6></td>
 <td class="data-tags">{% for someTag in someMainSkill.tags %}<i class="tag">{{ someTag }}</i>{% if forloop.last == false %} {% endif %}{% endfor %}</td>
 <td class="data-proficiency-{{ someMainSkill.proficiency }}">
 {% if someMainSkill.proficiency == 0 %}
@@ -39,34 +37,30 @@
 <p class="proficiency-stars"><b class="text-white-20">★★★★★</b></p>
 <p>Unknown</p>
 {% endif %}
+
 </td>
 </tr>
-
 <tr class="row-subcategory-description">
-<td colspan=3 class="data-description">{{ someMainSkill.description }}</td>
+  <td colspan=3 class="data-description">{{ someMainSkill.description }}</td>
 </tr>
-
-{% if forloop.last %}
+{% endif %}
+{% endfor %}
 </tbody>
 </table>
-{% endif %}
 
-{% endfor %}
 
-{% assign skillsAspectHash = site.skills | where: "categoryLevel", 2 | where: "parentCategory",c.title | sort: 'proficiency'  %}
 
-{% for someAspectSkill in skillsAspectHash %}
-
-{% if forloop.first %}
 <table class="box-shadow">
 <caption class="main"><h5>Other aspects</h5></caption>
 <thead></thead>
 <tfoot></tfoot>
 <tbody class="small-text">
-{% endif %}
-  
+
+{% for someAspectSkill in skillsAspectHash %}
+{% if someAspectSkill.parentCategory == c.title %}
+
 <tr class="row-subcategory">
-<td class="data-title"><h6>{{ someAspectSkill.title }}</h6></td>
+  <td class="data-title"><h6>{{ someAspectSkill.title }}</h6></td>
 <td class="data-tags">{% for someTag in someAspectSkill.tags %}<i class="tag">{{ someTag }}</i>{% if forloop.last == false %} {% endif %}{% endfor %}</td>
 <td class="data-proficiency-{{ someAspectSkill.proficiency }}">
 {% if someAspectSkill.proficiency == 0 %}
@@ -88,19 +82,17 @@
 <p class="proficiency-stars"><b class="text-white-20">★★★★★</b></p>
 <p>Unknown</p>
 {% endif %}
+
 </td>
 </tr>
-
 <tr class="row-subcategory-description">
-<td colspan=3 class="data-description">{{ someAspectSkill.description }}</td>
+  <td colspan=3 class="data-description">{{ someAspectSkill.description }}</td>
 </tr>
 
-{% if forloop.last %}
+{% endif %}
+{% endfor %}
 </tbody>
 </table>
-{% endif %}
-
-{% endfor %}
 
 {% include horizontal-rule.html %}
 
