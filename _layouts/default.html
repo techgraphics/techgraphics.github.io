@@ -1,11 +1,15 @@
 <!DOCTYPE html>
-<html lang="en-GB">
-  {% include head.html %} 
-  <body class="theme-base">
-    {% include sidebar.html %}
-    {% include find-me-on-github.html %}
-    <div class="content container">
-      {{ content }}
-    </div>
-  </body>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en-GB"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en-GB"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en-GB"> <![endif]-->
+<!--[if IE 9 ]><html class="ie9 no-js" lang="en-GB"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html class="no-js" lang="en-GB"> <!--<![endif]-->
+{% include head.html %} 
+<body class="theme-base">
+{% include sidebar.html %}
+{% include find-me-on-github.html %}
+<div class="content container">
+{{ content }}
+</div>
+</body>
 </html>
