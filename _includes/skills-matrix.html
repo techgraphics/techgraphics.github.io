@@ -2,7 +2,7 @@
 
 {% for c in  categoryHash %}
 <h4>{{ c.title }}</h4>
-<p class="message">{{ c.description }}</p>
+<p class="message rounded-border-4">{{ c.description }}</p>
 
 {% assign skillsMainHash = site.skills | where: "categoryLevel", 1 | where: "parentCategory",c.title | sort: 'proficiency'  %}
 
