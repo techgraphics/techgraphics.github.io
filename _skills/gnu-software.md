@@ -7,6 +7,7 @@ categoryLevel: 2
 tags:
   - gnu
   - gpl
+  - oss
   - software
   - unix
 ---
