@@ -1,59 +1,37 @@
 // Modifiers
 //
-// Messages, tags, text color, backgrounds, borders, box shadows.
+// Backgrounds, box shadow, borders, messages, tags, code, text color.
 
-
-// Messages
-//
-// Show alert messages to users. You may add it to single elements like a `<p>`,
-// or to a parent if there are multiple elements to show.
-
-.message {
-  margin-bottom: 1rem;
-  padding: 1rem;
-  color: $message-color;
-  background-color: $buff-color-brightest;
-  box-shadow: 0 0 8px $buff-color-darkest;
-}
-
-
-// Tags
+// Background
 //
 
+.background-white, 
+.highlight,
 .tag {
   background-color: $white-color;
-  box-shadow: 0 0 8px $buff-color-darkest;
-  line-height: 1.45rem;
-  padding-left: 6px; 
-  padding-right: 6px;
-  padding-top: 3px; 
-  padding-bottom: 3px;
 }
 
-// Text colour
-//
-
-.text-white-20 {
-  color: rgba(255,255,255,0.2);
-}
-
-.text-white-30 {
-  color: rgba(255,255,255,0.3);
-}
-
-.text-shadow-glow {
-  text-shadow: 0 0 8px $white-color;
-}
-
-// Backgrounds
-//
-
-.background-white {
-  background-color: $white-color;
-}
-.background-buff-brightest {
+.background-buff-brightest, 
+.code, 
+.message {
   background-color: $buff-color-brightest;
 }
+
+.background-buff-darkest {
+  background-color: $buff-color-darkest;
+}
+
+
+// Box shadow
+//
+
+.box-shadow,
+.code,
+.message, 
+.tag {
+  box-shadow: 0 0 8px $buff-color-darkest;  
+}
+
 
 // Borders
 //
@@ -61,7 +39,10 @@
 .rounded-border-2 {
   border-radius: 2px;
 }
-.rounded-border-4 {
+.rounded-border-4,
+.code,
+.message, 
+.tag {
   border-radius: 4px;
 }
 .rounded-border-6 {
@@ -74,9 +55,80 @@
   border-radius: 12px;
 }
 
-// Box shadow
+
+// Messages
+//
+// Show alert messages to users. You may add it to single elements like a `<p>`,
+// or to a parent if there are multiple elements to show.
+
+.message {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  color: $message-color;
+}
+
+
+// Tags
 //
 
-.box-shadow {
-  box-shadow: 0 0 8px $buff-color-darkest
+.tag {
+  line-height: 1.45rem;
+  padding-left: 6px; 
+  padding-right: 6px;
+  padding-top: 3px; 
+  padding-bottom: 3px;
+}
+
+
+// Code
+//
+// Inline and block-level code snippets. Includes tweaks to syntax highlighted
+// snippets from Pygments/Rouge and Gist embeds.
+
+code,
+pre {
+  font-family: Menlo, Monaco, "Courier New", monospace;
+}
+
+code {
+  padding: .25em .5em;
+  font-size: 85%;
+  color: #bf616a;
+}
+
+pre {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+pre code {
+  padding: 0;
+  font-size: 100%;
+  color: inherit;
+  background-color: transparent;
+}
+
+// Pygments via Jekyll
+.highlight {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  font-size: .8rem;
+  line-height: 1.4;
+  border-radius: .25rem;
+
+  pre {
+    margin-bottom: 0;
+    overflow-x: auto;
+  }
+
+  .lineno {
+    display: inline-block; // Ensures the null space also isn't selectable
+    padding-right: .75rem;
+    padding-left: .25rem;
+    color: #999;
+    // Make sure numbers aren't selectable
+    -webkit-user-select: none;
+       -moz-user-select: none;
+            user-select: none;
+  }
 }
