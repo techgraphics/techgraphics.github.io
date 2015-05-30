@@ -1,16 +1,18 @@
-// Pagination
-//
-// Super lightweight (HTML-wise) blog pagination. `span`s are provide for when
-// there are no more previous or next posts to show.
+/*! PAGINATION */
+
+/* 
+ * Super lightweight (HTML-wise) blog pagination. `span`s are provide for when
+ * there are no more previous or next posts to show.
+ */ 
 
 .pagination {
-  overflow: hidden; // clearfix
+  overflow: hidden; /* clearfix */
   margin: 0 -1.5rem 1rem;
   color: $base-color-bright;
   text-align: center;
 }
 
-// Pagination items can be `span`s or `a`s
+/* Pagination items can be `span`s or `a`s */
 .pagination-item {
   display: block;
   padding: 1rem;
@@ -22,7 +24,7 @@
   }
 }
 
-// Only provide a hover state for linked pagination items
+/* Only provide a hover state for linked pagination items */
 a.pagination-item:hover {
   background-color: $buff-color-brightest;
 }
@@ -49,3 +51,5 @@ a.pagination-item:hover {
     }
   }
 }
+
+/*! endof PAGINATION */

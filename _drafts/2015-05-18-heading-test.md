@@ -4,12 +4,24 @@ title: Heading test
 tags:
  - test
 ---
-# Heading 1
-## Heading 2
-### Heading 3
-#### Heading 4
-##### Heading 5
-###### Heading 6
+# Heading 1 
+Regular text sample 
+
+## Heading 2 
+Regular text sample 
+
+### Heading 3 
+Regular text sample 
+
+#### Heading 4 
+Regular text sample 
+
+##### Heading 5 
+Regular text sample 
+
+###### Heading 6 
+Regular text sample 
+
 
 {% comment %}
 

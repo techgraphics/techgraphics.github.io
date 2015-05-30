@@ -1,9 +1,16 @@
-// Modifiers
-//
-// Backgrounds, box shadow, borders, messages, tags, code, text color.
+/*! MODIFIERS */
 
-// Background
-//
+/**
+ * NOTE:  Dependencies: 
+ *
+ * "_functions-typographics.scss" used for:
+ * pt-as-px()
+ *
+ */
+ 
+/**
+ * Backgrounds, box shadow, borders, messages, tags, code, text color.
+ */
 
 .background-white, 
 .highlight,
@@ -22,98 +29,107 @@
 }
 
 
-// Box shadow
-//
+/** 
+ * Box shadow 
+ */
 
 .box-shadow,
 .code,
 .message, 
 .tag {
-  box-shadow: 0 0 8px $buff-color-darkest;  
+  box-shadow: 0 0 pt-as-px(6) $buff-color-darkest;  /* 6pt = 8px */  
 }
 
 
-// Borders
-//
+/** 
+ * Borders 
+ */
 
-.rounded-border-2 {
-  border-radius: 2px;
-}
-.rounded-border-4,
+.rounded-border-3,
 .code,
-.message, 
-.tag {
-  border-radius: 4px;
+.message {
+  border-radius: pt-as-px(3);  /* 3pt  = 4px      */
+}
+.rounded-border-2 {
+  border-radius: pt-as-px(2);  /* 2pt  = 2.66..px */ 
+}
+.rounded-border-4 {
+  border-radius: pt-as-px(4);  /* 4pt  = 5.33..px */ 
 }
 .rounded-border-6 {
-  border-radius: 6px;
+  border-radius: pt-as-px(6);  /* 6pt  = 8px      */
 }
 .rounded-border-8 {
-  border-radius: 8px;
+  border-radius: pt-as-px(8);  /* 8pt  = 10.66..px */
 }
 .rounded-border-12 {
-  border-radius: 12px;
+  border-radius: pt-as-px(12); /* 12pt = 16px      */
 }
 
 
-// Messages
-//
-// Show alert messages to users. You may add it to single elements like a `<p>`,
-// or to a parent if there are multiple elements to show.
-
+/** 
+ * Messages
+ *
+ * Show alert messages to users. You may add it to single elements like a `<p>`,
+ * or to a parent if there are multiple elements to show.
+ */
+ 
 .message {
   margin-bottom: 1rem;
-  padding: 1rem;
-  color: $message-color;
+        padding: 1rem;
+          color: $message-color;
 }
 
 
-// Tags
-//
+/** 
+ * Tags
+ */
 
 .tag {
-  line-height: 1.45rem;
-  padding-left: 6px; 
-  padding-right: 6px;
-  padding-top: 3px; 
-  padding-bottom: 3px;
+     line-height: 1.45rem;
+    padding-left: pt-as-px(4.5); /* 4.5pt = 6px      */
+   padding-right: pt-as-px(4.5);
+     padding-top: pt-as-px(2.5); /* 2.5pt = 3.33..px */
+  padding-bottom: pt-as-px(2.5);
 }
 
 
-// Code
-//
-// Inline and block-level code snippets. Includes tweaks to syntax highlighted
-// snippets from Pygments/Rouge and Gist embeds.
-
+/** 
+ * Code
+ *
+ * Inline and block-level code snippets. Includes tweaks to syntax highlighted
+ * snippets from Pygments/Rouge and Gist embeds.
+ */
+ 
 code,
 pre {
   font-family: Menlo, Monaco, "Courier New", monospace;
 }
 
 code {
-  padding: .25em .5em;
+    padding: .25em .5em;
   font-size: 85%;
-  color: #bf616a;
+      color: $code-color-inline;
 }
 
 pre {
-  margin-top: 0;
+     margin-top: 0;
   margin-bottom: 1rem;
 }
 
 pre code {
-  padding: 0;
-  font-size: 100%;
-  color: inherit;
+           padding: 0;
+         font-size: 100%;
+             color: inherit;
   background-color: transparent;
 }
 
-// Pygments via Jekyll
+/* Pygments via Jekyll */
 .highlight {
-  padding: 1rem;
+        padding: 1rem;
   margin-bottom: 1rem;
-  font-size: .8rem;
-  line-height: 1.4;
+      font-size: .8rem;
+    line-height: 1.4;
   border-radius: .25rem;
 
   pre {
@@ -122,13 +138,15 @@ pre code {
   }
 
   .lineno {
-    display: inline-block; // Ensures the null space also isn't selectable
+          display: inline-block; /* Ensures the null space also isn't selectable */
+            color: #999;
     padding-right: .75rem;
-    padding-left: .25rem;
-    color: #999;
-    // Make sure numbers aren't selectable
+     padding-left: .25rem;
+     /*  Make sure numbers aren't selectable */
     -webkit-user-select: none;
        -moz-user-select: none;
             user-select: none;
   }
 }
+
+/*! endof MODIFIERS */

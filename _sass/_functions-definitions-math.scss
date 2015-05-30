@@ -1,0 +1,170 @@
+/*! MATH FUNCTIONS */
+
+@function percent($rational) {
+  $pc: $rational * 100 ;
+  @return #{$pc}+"%";
+}
+
+@function partof64($rational) {
+  $ratio: 64 / $rational ;
+  @return $ratio;
+}
+@function partof32($rational) {
+  $ratio: 32 / $rational ;
+  @return $ratio;
+}
+@function partof16($rational) {
+  $ratio: 16 / $rational ;
+  @return $ratio;
+}
+@function partof15($rational) {
+  $ratio: 15 / $rational ;
+  @return $ratio;
+}
+@function partof14($rational) {
+  $ratio: 14 / $rational ;
+  @return $ratio;
+}
+@function partof13($rational) {
+  $ratio: 13 / $rational ;
+  @return $ratio;
+}
+@function partof12($rational) {
+  $ratio: 12 / $rational ;
+  @return $ratio;
+}
+@function partof11($rational) {
+  $ratio: 11 / $rational ;
+  @return $ratio;
+}
+@function partof10($rational) {
+  $ratio: 10 / $rational ;
+  @return $ratio;
+}
+@function partof9($rational) {
+  $ratio: 9 / $rational ;
+  @return $ratio;
+}
+@function partof8($rational) {
+  $ratio: 8 / $rational ;
+  @return $ratio;
+}
+@function partof7($rational) {
+  $ratio: 7 / $rational ;
+  @return $ratio;
+}
+@function partof6($rational) {
+  $ratio: 6 / $rational ;
+  @return $ratio;
+}
+@function partof5($rational) {
+  $ratio: 5 / $rational ;
+  @return $ratio;
+}
+@function partof4($rational) {
+  $ratio: 4 / $rational ;
+  @return $ratio;
+}
+@function partof3($rational) {
+  $ratio: 3 / $rational ;
+  @return $ratio;
+}
+@function partof2($rational) {
+  $ratio: 2 / $rational ;
+  @return $ratio;
+}
+
+/*! end MATH FUNCTIONS */
+
+
+/*! RATIO DEFINITIONS */
+
+/**
+ * Decimal
+ */ 
+
+     $ratio-usa-widescreen: 1.85     ;
+         $ratio-usa-cinema: 2.39     ;
+      
+        $ratio-lichtenburg: 1.414214 ; /*        sqrt(2)      */
+             $ratio-golden: 1.618034 ; /*     (1+sqrt(5))/2   */
+             $ratio-silver: 2.414214 ; /*      1+sqrt(2)      */
+$ratio-lichtenburg-inverse: 0.707107 ; /*     1/(sqrt(2))     */
+     $ratio-golden-inverse: 0.618034 ; /*  1/((1+sqrt(5))/2)  */
+     $ratio-silver-inverse: 0.414214 ; /*   1/(1+sqrt(2))     */
+     
+
+/**
+ * Fractional
+ */ 
+
+$ratio-1-2:    1/2  ; /*  0.5      */
+$ratio-1-3:    1/3  ; /*  0.3333.. */
+$ratio-2-3:    2/3  ; /*  0.6666.. */
+$ratio-1-4:    1/4  ; /*  0.25     */
+$ratio-3-4:    3/4  ; /*  0.75     */
+$ratio-2-5:    2/5  ; /*  0.4      */
+$ratio-3-5:    3/5  ; /*  0.6      */
+$ratio-1-6:    1/6  ; /*  0.1666.. */
+$ratio-5-6:    5/6  ; /*  0.8333.. */
+$ratio-1-7:    1/7  ; /*  0.1429   */
+$ratio-2-7:    2/7  ; /*  0.2857   */
+$ratio-3-7:    3/7  ; /*  0.4286   */
+$ratio-4-7:    4/7  ; /*  0.5714   */
+$ratio-5-7:    5/7  ; /*  0.7143   */
+$ratio-6-7:    6/7  ; /*  0.8571   */
+$ratio-1-8:    1/8  ; /*  0.125    */
+$ratio-3-8:    3/8  ; /*  0.375    */
+$ratio-5-8:    5/8  ; /*  0.625    */
+$ratio-7-8:    7/8  ; /*  0.875    */
+$ratio-1-9:    1/9  ; /*  0.1111.. */
+$ratio-2-9:    2/9  ; /*  0.2222.. */
+$ratio-4-9:    4/9  ; /*  0.4444.. */
+$ratio-5-9:    5/9  ; /*  0.5555.. */
+$ratio-7-9:    7/9  ; /*  0.7777.. */
+$ratio-8-9:    8/9  ; /*  0.8888.. */
+$ratio-1-12:   1/12 ; /*  0.0833.. */
+$ratio-5-12:   5/12 ; /*  0.4166.. */
+$ratio-7-12:   7/12 ; /*  0.5833.. */
+$ratio-11-12: 11/12 ; /*  0.9166.. */
+$ratio-1-16:   1/16 ; /*  0.0625    */
+$ratio-3-16:   3/16 ; /*  0.1875    */
+$ratio-5-16:   5/16 ; /*  0.3125    */
+$ratio-7-16:   7/16 ; /*  0.4375    */
+$ratio-9-16:   9/16 ; /*  0.5625    */
+$ratio-11-16: 11/16 ; /*  0.6875    */
+$ratio-13-16: 13/16 ; /*  0.825     */
+$ratio-15-16: 15/16 ; /*  0.9375    */
+
+$ratio-3-2:    3/2  ; /*  1.5000   */
+$ratio-4-3:    4/3  ; /*  1.3333.. */
+$ratio-5-2:    5/2  ; /*  2.5000   */
+$ratio-5-3:    5/3  ; /*  1.6666.. */
+$ratio-5-4:    5/4  ; /*  1.2500   */
+$ratio-6-5:    6/5  ; /*  1.2000   */
+$ratio-7-2:    7/2  ; /*  3.5000   */
+$ratio-7-3:    7/3  ; /*  2.3333.. */
+$ratio-7-4:    7/4  ; /*  1.7500   */
+$ratio-7-5:    7/5  ; /*  1.4000   */
+$ratio-7-6:    7/6  ; /*  1.1666.. */
+$ratio-8-3:    8/3  ; /*  2.6666.. */
+$ratio-8-5:    8/5  ; /*  1.6000   */
+$ratio-8-7:    8/7  ; /*  1.1429   */
+$ratio-9-2:    9/2  ; /*  4.5000   */
+$ratio-9-4:    9/4  ; /*  2.2500   */
+$ratio-9-5:    9/5  ; /*  1.8000   */
+$ratio-9-7:    9/7  ; /*  1.2857   */
+$ratio-9-8:    9/8  ; /*  1.1250   */
+$ratio-12-5:  12/5  ; /*  2.4000   */
+$ratio-12-7:  12/7  ; /*  1.7143   */
+$ratio-12-11: 12/11 ; /*  1.0909   */
+$ratio-16-3:  16/3  ; /*  5.3333   */
+$ratio-16-5:  16/5  ; /*  3.2000   */
+$ratio-16-7:  16/7  ; /*  2.2857   */
+$ratio-16-9:  16/9  ; /*  1.7777.. */
+$ratio-16-11: 16/11 ; /*  1.4545   */
+$ratio-16-13: 16/13 ; /*  1.2308   */
+$ratio-16-15: 16/15 ; /*  1.0667   */
+
+
+/*! endof RATIO DEFINITIONS */

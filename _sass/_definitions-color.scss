@@ -1,9 +1,9 @@
-// Colours
-//
-// 
+/*! COLOUR DEFINITIONS */
 
 $white-color: #ffffff; /* Keep maximum whiteness */
 $black-color: #000000; /* Keep maximum blackness */
+$code-color-inline: #cc0000; 
+$message-color: inherit;
 
 $buff-color-brightest: #fffcf4;
 $buff-color-brightest-complementary: #f4f7ff;
@@ -36,7 +36,6 @@ $avatar-border-color: rgba(255,250,237,0.85) ;
 $anchor-color-default-underline-unfocused: #aaaaaa; 
 $anchor-color-default-underline-focused: $base-color-normal;
 
-$message-color: inherit;
 
 $h1-color: $base-color-darker; 
 $h2-color: #34c400; /* base-color-darker +hue60 */
@@ -55,3 +54,5 @@ $td-proficiency-intermediate: #339933;
 $td-proficiency-advanced: $base-color-normal;
 $td-proficiency-expert: #6600cc;
 $td-proficiency-unknown: #888888;
+
+/*! endof COLOUR DEFINITIONS */

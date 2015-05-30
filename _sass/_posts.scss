@@ -1,7 +1,9 @@
-// Posts and pages
-//
-// Each post is wrapped in `.post` and is used on default and post layouts. Each
-// page is wrapped in `.page` and is only used on the page layout.
+/*! POSTS AND PAGES */
+
+/*
+ * Each post is wrapped in `.post` and is used on default and post layouts. Each
+ * page is wrapped in `.page` and is only used on the page layout.
+ */ 
 
 .page,
 .post {
@@ -70,3 +72,5 @@
     */
   }
 }
+
+/*! endof POSTS AND PAGES */

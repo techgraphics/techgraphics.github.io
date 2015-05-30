@@ -22,8 +22,10 @@
 // Designed, built, and released under MIT license by @mdo. Learn more at
 // https://github.com/poole/poole.
 
+@import "licence";
 @import "normalize";
-@import "definitions-units";
+@import "functions-definitions-math";
+@import "functions-typographic";
 @import "definitions-color";
 @import "theme";
 @import "type";

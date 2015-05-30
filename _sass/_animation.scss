@@ -1,3 +1,5 @@
+/*! ANIMATION */
+
 $site-title-timing: 3000ms;
 #site-title-animation-intro {
   animation: 
@@ -206,3 +208,5 @@ $txt-shadow-color: rgba(255,255,255,0.7);
   99.45% { transform: matrix3d(1, -0.001, 0, 0, 0.001, 1, 0, 0, 0, 0, 1, 0, 0, -0.005, 1, 1); }
   100.00% { transform: matrix3d(1, -0.001, 0, 0, 0.001, 1, 0, 0, 0, 0, 1, 0, 0, -0.005, 1, 1); }
 }
+
+/*! endof ANIMATION */

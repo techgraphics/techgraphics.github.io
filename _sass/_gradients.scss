@@ -1,7 +1,9 @@
-// Gradients
-//
-// Horizontal rule, Sidebar.
+/*! GRADIENTS */
 
+/** 
+ * Horizontal rule, Sidebar.
+ */
+ 
 
 /* Horizontal rule */
 
@@ -25,6 +27,7 @@
     border-radius: 125px/12px;
     box-shadow: 0 0 8px $buff-color-darkest;
 }
+
 
 /* Sidebar */
 
@@ -98,3 +101,5 @@ $linear-gradient-stop-value-4: 100%;
     );
 
 }
+
+/*! endof GRADIENTS */

@@ -1,0 +1,179 @@
+/* 
+ * RATIO AND UNIT DEFINITIONS
+ * 
+ * Ratios, Points (defined in pixels).
+ * 
+ */
+
+/**
+ * Ratios
+ */
+ 
+        $css-pixels-per-point: 4/3 ;      /** 1.33.. Reference: http://www.thomasphinney.com/2011/03/point-size/ **/
+
+        $pc-ratio-lichtenburg: 141.4214 ; /*     sqrt(2)         */
+             $pc-ratio-golden: 161.8034 ; /*  (1+sqrt(5))/2      */
+             $pc-ratio-silver: 241.4214 ; /*   1+sqrt(2)         */
+$pc-ratio-lichtenburg-inverse:  70.7107 ; /*     1/(sqrt(2))     */
+     $pc-ratio-golden-inverse:  61.8034 ; /*  1/((1+sqrt(5))/2)  */
+     $pc-ratio-silver-inverse:  41.4214 ; /*   1/(1+sqrt(2))     */
+
+$pc-ratio-1-2:  ( 1/2 * 100 ) ; /*  50.00   */
+$pc-ratio-1-3:  ( 1/3 * 100 ) ; /*  33.33.. */
+$pc-ratio-2-3:  ( 2/3 * 100 ) ; /*  66.66.. */
+$pc-ratio-1-4:  ( 1/4 * 100 ) ; /*  25.00   */
+$pc-ratio-3-4:  ( 3/4 * 100 ) ; /*  75.00   */
+$pc-ratio-2-5:  ( 2/5 * 100 ) ; /*  40.00   */
+$pc-ratio-3-5:  ( 3/5 * 100 ) ; /*  60.00   */
+$pc-ratio-1-6:  ( 1/6 * 100 ) ; /*  16.66.. */
+$pc-ratio-5-6:  ( 5/6 * 100 ) ; /*  83.33.. */
+$pc-ratio-1-7:  ( 1/7 * 100 ) ; /*  14.29   */
+$pc-ratio-2-7:  ( 2/7 * 100 ) ; /*  28.57   */
+$pc-ratio-3-7:  ( 3/7 * 100 ) ; /*  42.86   */
+$pc-ratio-4-7:  ( 4/7 * 100 ) ; /*  57.14   */
+$pc-ratio-5-7:  ( 5/7 * 100 ) ; /*  71.43   */
+$pc-ratio-6-7:  ( 6/7 * 100 ) ; /*  85.71   */
+$pc-ratio-1-8:  ( 1/8 * 100 ) ; /*  12.50   */
+$pc-ratio-3-8:  ( 3/8 * 100 ) ; /*  37.50   */
+$pc-ratio-5-8:  ( 5/8 * 100 ) ; /*  62.50   */
+$pc-ratio-7-8:  ( 7/8 * 100 ) ; /*  87.50   */
+$pc-ratio-1-9:  ( 1/9 * 100 ) ; /*  11.11.. */
+$pc-ratio-2-9:  ( 2/9 * 100 ) ; /*  22.22.. */
+$pc-ratio-4-9:  ( 4/9 * 100 ) ; /*  44.44.. */
+$pc-ratio-5-9:  ( 5/9 * 100 ) ; /*  55.55.. */
+$pc-ratio-7-9:  ( 7/9 * 100 ) ; /*  77.77.. */
+$pc-ratio-8-9:  ( 8/9 * 100 ) ; /*  88.88.. */
+$pc-ratio-1-12: (1/12 * 100 ) ; /*   8.33.. */
+$pc-ratio-5-12: (5/12 * 100 ) ; /*  41.66.. */
+$pc-ratio-7-12: (7/12 * 100 ) ; /*  58.33.. */
+$pc-ratio-11-12:(11/12 *100 ) ; /*  91.66.. */
+$pc-ratio-1-16: (1/16 * 100 ) ; /*   6.25   */
+$pc-ratio-3-16: (3/16 * 100 ) ; /*  18.75   */
+$pc-ratio-5-16: (5/16 * 100 ) ; /*  31.25   */
+$pc-ratio-7-16: (7/16 * 100 ) ; /*  43.75   */
+$pc-ratio-9-16: (9/16 * 100 ) ; /*  56.25   */
+$pc-ratio-11-16:(11/16 *100 ) ; /*  68.75   */
+$pc-ratio-13-16:(13/16 *100 ) ; /*  81.25   */
+$pc-ratio-15-16:(15/16 *100 ) ; /*  93.75   */
+
+$pc-ratio-3-2:  ( 3/2 * 100); /*  150.00   */
+$pc-ratio-4-3:  ( 4/3 * 100); /*  133.33.. */
+$pc-ratio-5-2:  ( 5/2 * 100); /*  250.00   */
+$pc-ratio-5-3:  ( 5/3 * 100); /*  166.66.. */
+$pc-ratio-5-4:  ( 5/4 * 100); /*  125.00   */
+$pc-ratio-6-5:  ( 6/5 * 100); /*  120.00   */
+$pc-ratio-7-2:  ( 7/2 * 100); /*  350.00   */
+$pc-ratio-7-3:  ( 7/3 * 100); /*  233.33.. */
+$pc-ratio-7-4:  ( 7/4 * 100); /*  175.00   */
+$pc-ratio-7-5:  ( 7/5 * 100); /*  140.00   */
+$pc-ratio-7-6:  ( 7/6 * 100); /*  116.66.. */
+$pc-ratio-8-3:  ( 8/3 * 100); /*  266.66.. */
+$pc-ratio-8-5:  ( 8/5 * 100); /*  160.00   */
+$pc-ratio-8-7:  ( 8/7 * 100); /*  114.29   */
+$pc-ratio-9-2:  ( 9/2 * 100); /*  450.00   */
+$pc-ratio-9-4:  ( 9/4 * 100); /*  225.00   */
+$pc-ratio-9-5:  ( 9/5 * 100); /*  180.00   */
+$pc-ratio-9-7:  ( 9/7 * 100); /*  128.57   */
+$pc-ratio-9-8:  ( 9/8 * 100); /*  112.50   */
+$pc-ratio-12-5: ( 12/5 *100); /*  240.00   */
+$pc-ratio-12-7: ( 12/7 *100); /*  171.43   */
+$pc-ratio-12-11:(12/11 *100); /*  109.09   */
+$pc-ratio-16-3: ( 16/3 *100); /*  533.33   */
+$pc-ratio-16-5: ( 16/5 *100); /*  320.00   */
+$pc-ratio-16-7: ( 16/7 *100); /*  228.57   */
+$pc-ratio-16-9: ( 16/9 *100); /*  177.77.. */
+$pc-ratio-16-11:(16/11 *100); /*  145.45   */
+$pc-ratio-16-13:(16/13 *100); /*  123.08   */
+$pc-ratio-16-15:(16/15 *100); /*  106.67   */
+
+
+/**
+ * Points (defined in pixels)
+ * 
+ * Reference: http://www.thomasphinney.com/2011/03/point-size/
+ * 
+ * The web can use points, but just defines them in terms of pixels. 
+ * It has inherited the Windows definition of that ratio, so on the web by default 1 pt = 4/3 pixels, so 12 pt is equal to 16 pixels.
+ *
+ * But the relationship between pixels and points is broken in some browsers on Windows (such as Internet Explorer 7 and earlier) when the user has a non-standard resolution set. 
+ * 
+ */
+
+$pt-0-75:(0.75*$css-pixels-per-point)px; /*   1px      */
+$pt-1-5:(1.5 * $css-pixels-per-point)px; /*   2px      */
+$pt-2-25:(2.25*$css-pixels-per-point)px; /*   3px      */
+
+$pt-3:  (3.0 * $css-pixels-per-point)px; /*   4px      */
+$pt-3-5:(3.5 * $css-pixels-per-point)px; /*   4.66..px */
+$pt-4:  (4.0 * $css-pixels-per-point)px; /*   5.33..px */
+$pt-4-5:(4.5 * $css-pixels-per-point)px; /*   6px      */
+$pt-5:  (5.0 * $css-pixels-per-point)px; /*   6.66..px */
+$pt-5-5:(5.5 * $css-pixels-per-point)px; /*   7.33..px */
+$pt-6:  (6.0 * $css-pixels-per-point)px; /*   8px      */
+$pt-6-5:(6.5 * $css-pixels-per-point)px; /*   8.33..px */
+$pt-7:  (7.0 * $css-pixels-per-point)px; /*   9.33..px */
+$pt-7-5:(7.5 * $css-pixels-per-point)px; /*  10px      */
+$pt-8:  (8.0 * $css-pixels-per-point)px; /*  10.66..px */
+$pt-8-5:(8.5 * $css-pixels-per-point)px; /*  11.33..px */
+$pt-9:  (9.0 * $css-pixels-per-point)px; /*  12px      */
+$pt-9-5:(9.5 * $css-pixels-per-point)px; /*  12.33..px */
+
+$pt-10: ( 10 * $css-pixels-per-point)px; /*  13.33..px */
+$pt-10-5:(10.5*$css-pixels-per-point)px; /*  14px      */
+$pt-11: ( 11 * $css-pixels-per-point)px; /*  14.66..px */
+$pt-11-5:(11.5*$css-pixels-per-point)px; /*  15.33..px */
+$pt-12: ( 12 * $css-pixels-per-point)px; /*  16px      */
+$pt-12-5:(12.5*$css-pixels-per-point)px; /*  16.66..px */
+$pt-13: ( 13 * $css-pixels-per-point)px; /*  17.33..px */
+$pt-13-5:(13.5*$css-pixels-per-point)px; /*  18px      */
+$pt-14: ( 14 * $css-pixels-per-point)px; /*  18.66..px */
+$pt-14-5:(14.5*$css-pixels-per-point)px; /*  19.33..px */
+$pt-15: ( 15 * $css-pixels-per-point)px; /*  20px      */
+$pt-15-5:(15.5*$css-pixels-per-point)px; /*  20.66..px */
+
+$pt-16: ( 16 * $css-pixels-per-point)px; /*  21.33..px */
+$pt-17: ( 17 * $css-pixels-per-point)px; /*  22.66..px */
+$pt-18: ( 18 * $css-pixels-per-point)px; /*  24px      */
+$pt-19: ( 19 * $css-pixels-per-point)px; /*  25.33..px */
+
+$pt-20: ( 20 * $css-pixels-per-point)px; /*  26.66..px */
+$pt-22: ( 22 * $css-pixels-per-point)px; /*  29.33..px */
+$pt-24: ( 24 * $css-pixels-per-point)px; /*  32px      */
+$pt-26: ( 26 * $css-pixels-per-point)px; /*  34.33..px */
+$pt-28: ( 28 * $css-pixels-per-point)px; /*  37.33..px */
+
+$pt-30: ( 30 * $css-pixels-per-point)px; /*  40px      */
+$pt-32: ( 32 * $css-pixels-per-point)px; /*  42.66..px */
+$pt-34: ( 34 * $css-pixels-per-point)px; /*  45.33..px */
+$pt-36: ( 36 * $css-pixels-per-point)px; /*  48px      */
+$pt-38: ( 38 * $css-pixels-per-point)px; /*  50.66..px */
+
+$pt-40: ( 40 * $css-pixels-per-point)px; /*  53.33..px */
+$pt-42: ( 42 * $css-pixels-per-point)px; /*  56px      */
+$pt-44: ( 44 * $css-pixels-per-point)px; /*  58.66..px */
+$pt-46: ( 46 * $css-pixels-per-point)px; /*  61.33..px */
+$pt-48: ( 48 * $css-pixels-per-point)px; /*  64px      */
+
+$pt-50: ( 50 * $css-pixels-per-point)px; /*  66.66..px */
+$pt-52: ( 52 * $css-pixels-per-point)px; /*  69.33..px */
+$pt-54: ( 54 * $css-pixels-per-point)px; /*  72px      */
+$pt-56: ( 56 * $css-pixels-per-point)px; /*  74.66..px */
+$pt-58: ( 58 * $css-pixels-per-point)px; /*  77.33..px */
+
+$pt-60: ( 60 * $css-pixels-per-point)px; /*  80px      */
+$pt-66: ( 66 * $css-pixels-per-point)px; /*  88px      */
+
+$pt-72: ( 72 * $css-pixels-per-point)px; /*  96px      */
+$pt-84: ( 84 * $css-pixels-per-point)px; /* 112px      */
+$pt-96: ( 96 * $css-pixels-per-point)px; /* 128px      */
+$pt-108:(108 * $css-pixels-per-point)px; /* 144px      */
+$pt-120:(120 * $css-pixels-per-point)px; /* 160px      */
+$pt-132:(132 * $css-pixels-per-point)px; /* 176px      */
+$pt-144:(144 * $css-pixels-per-point)px; /* 192px      */
+
+$pt-168:(168 * $css-pixels-per-point)px; /* 224px      */
+$pt-192:(192 * $css-pixels-per-point)px; /* 256px      */
+$pt-216:(216 * $css-pixels-per-point)px; /* 288px      */
+$pt-240:(240 * $css-pixels-per-point)px; /* 320px      */
+$pt-264:(264 * $css-pixels-per-point)px; /* 352px      */
+$pt-288:(288 * $css-pixels-per-point)px; /* 384px      */

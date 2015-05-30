@@ -1,8 +1,12 @@
-// Layout - Modified from Hyde - A brazen two-column theme for Jekyll. http://hyde.getpoole.com
-//
-// Sidebar, Container, Reverse layout, Footer.
+/*! LAYOUT */
 
-/*
+/** 
+ * Modified from Hyde - A brazen two-column theme for Jekyll. http://hyde.getpoole.com
+ * 
+ * Sidebar, Container, Reverse layout, Footer.
+ */
+
+/**
  *  __                  __
  * /\ \                /\ \
  * \ \ \___   __  __   \_\ \     __
@@ -17,7 +21,7 @@
  * https://github.com/poole/hyde.
  */
 
-/*
+/**
  * Sidebar
  *
  * Flexible banner for housing site name, intro, and "footer" content. Starts
@@ -63,7 +67,8 @@ a.sidebar-nav-item:focus {
   font-size: 0.7rem;
 }
 
-/* Sticky sidebar
+/**
+ * Sticky sidebar
  *
  * Add the `sidebar-sticky` class to the sidebar's container to affix it the
  * contents to the bottom of the sidebar in tablets and up.
@@ -79,7 +84,8 @@ a.sidebar-nav-item:focus {
 }
 
 
-/* Container
+/**
+ * Container
  *
  * Align the contents of the site above the proper threshold with some margin-fu
  * with a 25%-wide `.sidebar`.
@@ -117,7 +123,7 @@ a.sidebar-nav-item:focus {
 }
 
 
-/*
+/**
  * Reverse layout
  *
  * Flip the orientation of the page by placing the `.sidebar` on the right.
@@ -141,10 +147,12 @@ a.sidebar-nav-item:focus {
 }
 
 
-/*
+/**
  * Footer
  */
 
 footer {
   margin-bottom: 2rem;
 }
+
+/*! endof LAYOUT */

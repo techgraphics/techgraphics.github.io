@@ -2,8 +2,8 @@
 layout: skills
 title: Skills
 ---
-## Certifications
+# Certifications
 {% include certifications.html %}
 {% include horizontal-rule.html %}
-## Knowledge and Skills Base
+# Knowledge and Skills Base
 {% include skills-matrix.html %}
