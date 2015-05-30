@@ -48,9 +48,20 @@
  * But the relationship between pixels and points is broken in some browsers on Windows (such as Internet Explorer 7 and earlier) when the user has a non-standard resolution set. 
  * 
  * 
+ *  0.125pt= 0.166..px
+ *  0.25pt = 0.33..px
+ *  0.5pt  = 0.66..px
  *  0.75pt = 1px 
+ * 
+ *  1pt    = 1.33..px
+ *  1.25pt = 1.66..px
  *  1.5pt  = 2px 
+ *  1.75pt = 2.33..px
+ *
+ *  2pt    = 2.66..px
  *  2.25pt = 3px 
+ *  2.5pt  = 3.33..px
+ *  2.75pt = 3.66..px
  *
  *  3pt   = 4px 
  *  3.5pt = 4.66..px
