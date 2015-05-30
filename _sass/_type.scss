@@ -38,7 +38,7 @@ html {
  */
  
 h1.page-title, h1.post-title {
-    font-size: 4rem;
+    font-size: 4em;
   font-weight: normal;
   text-shadow: pt-as-px(2.25) pt-as-px(1.5) 0 $buff-color-normal, pt-as-px(4.5) pt-as-px(3) 0 $base-color-brighter;
 }
@@ -55,44 +55,46 @@ h1.post-title {
 h1, h2, h3, h4, h5, h6 {
     font-family: "Bitter";
     font-weight: 700, 800, bold;
-  margin-bottom: .5rem;
-    line-height: 1.25;
+    margin-top: .5em;
+    margin-bottom: .25em;
+/*  margin-bottom: .5rem; */
+      line-height: 1; 
 /*  text-rendering: optimizeLegibility; // This property is not defined in any CSS standard  */
 }
 
 h1 {
-  margin-top: h1-rem($ratio-silver);
-   font-size: h1-rem($ratio-silver);
+/*  margin-top: h1-em($ratio-silver)/12; */
+   font-size: h1-em($ratio-silver);
        color: $h1-color;
 }
 
 h2 {
-  margin-top: h2-rem($ratio-silver);
-   font-size: h2-rem($ratio-silver);
+/*  margin-top: h2-em($ratio-silver)/12; */
+   font-size: h2-em($ratio-silver);
        color: $h2-color;
 }
 
 h3 {
-  margin-top: h3-rem($ratio-silver);
-   font-size: h3-rem($ratio-silver);
+/*  margin-top: h3-em($ratio-silver)/12; */
+   font-size: h3-em($ratio-silver);
        color: $h3-color;
 }
 
 h4 {
-  margin-top: h4-rem($ratio-silver);
-   font-size: h4-rem($ratio-silver);
+/*  margin-top: h4-em($ratio-silver)/12; */
+   font-size: h4-em($ratio-silver);
        color: $h4-color;
 }
 
 h5 {
-  margin-top: h5-rem($ratio-silver);
-   font-size: h5-rem($ratio-silver);
+/*  margin-top: h5-em($ratio-silver)/12; */
+   font-size: h5-em($ratio-silver);
        color: $h5-color;
 }
 
 h6 {
-  margin-top: h6-rem($ratio-silver);
-   font-size: h6-rem($ratio-silver);
+/*  margin-top: h6-em($ratio-silver)/12; */
+   font-size: h6-em($ratio-silver);
        color: $h6-color;
 }
 

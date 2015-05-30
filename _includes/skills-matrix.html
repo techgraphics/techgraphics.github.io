@@ -1,6 +1,7 @@
 {% assign categoryHash = site.skills | where: "categoryLevel", 0 | sort: 'categoryWeight'  %}
 
 {% for c in  categoryHash %}
+<hr>
 <h2>{{ c.title }}</h2>
 <p class="message rounded-border-4">{{ c.description }}</p>
 
@@ -102,6 +103,5 @@
 
 {% endfor %}
 
-{% include horizontal-rule.html %}
 
 {% endfor %}
