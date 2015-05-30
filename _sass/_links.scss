@@ -24,5 +24,19 @@ a:hover, a:focus {
 }
 
 a.no-underline {
- text-decoration: none;
+  text-decoration: none;
+  border-bottom: 0;
+  box-shadow: 0 0;
+}
+ 
+a.post-title:default,
+a.post-title:link,
+a.post-title:visited {
+    text-decoration: none;
+/*    border-bottom: 1px solid $h4-color; */
+}
+ 
+a.post-title:hover, 
+a.post-title:focus {
+/*    box-shadow: 0 4px $h4-color; */
 }

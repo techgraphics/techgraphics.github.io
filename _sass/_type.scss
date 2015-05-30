@@ -18,17 +18,25 @@ html {
   line-height: 1.5;
 }
 
-h1.page-title {
-  font-family: "Condiment";
+h1.page-title, h1.post-title {
   font-size: 4rem;
   font-weight: normal;
   text-shadow: 3px 2px 0 $buff-color-normal, 6px 4px 0 $base-color-brighter;
+  
+}
+h1.page-title {
+  font-family: "Condiment";
+}
+
+h1.post-title {
+  color: $h4-color;
+  font-family: "Alex Brush";
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Bitter";
   margin-bottom: .5rem;
-  font-weight: 700, 800;
+  font-weight: 700, 800, bold;
   line-height: 1.25;
 /*  text-rendering: optimizeLegibility; // This property is not defined in any CSS standard  */
 }
@@ -194,8 +202,8 @@ a[href^="#fnref:"] {
 }
 
 .proficiency-stars {
-    font-size: 16px;
-    letter-spacing: 2px;
+  font-size: 16px;
+  letter-spacing: 2px;
   @media (min-width: 38em) {
     font-size: 18px;
   }

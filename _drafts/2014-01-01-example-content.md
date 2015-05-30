@@ -29,7 +29,7 @@ Most of these elements are styled by browsers with few modifications on our part
 
 ## Footnotes
 
-Footnotes are supported as part of the Markdown syntax. Here's one in action. Clicking this number[^fn-sample_footnote] will lead you to a footnote. The syntax looks like:
+Footnotes are supported as part of the Markdown syntax. Here’s one in action. Clicking this number[^fn-sample_footnote] will lead you to a footnote. The syntax looks like:
 
 {% highlight text %}
 Clicking this number[^fn-sample_footnote]
