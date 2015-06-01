@@ -11,14 +11,14 @@
 
 {% if forloop.first %}
 <table class="box-shadow">
-<caption class="main"><h5>Main</h5></caption>
+<caption class="main"><h4>Main</h4></caption>
 <thead></thead>
 <tfoot></tfoot>
 <tbody class="small-text">
 {% endif %}
 
 <tr class="row-subcategory">
-<td class="data-title"><h6>{{ someMainSkill.title }}</h6></td>
+<td class="data-title"><h5>{{ someMainSkill.title }}</h5></td>
 <td class="data-tags">{% for someTag in someMainSkill.tags %}<i class="tag">{{ someTag }}</i>{% if forloop.last == false %} {% endif %}{% endfor %}</td>
 <td class="data-proficiency-{{ someMainSkill.proficiency }}">
 {% if someMainSkill.proficiency == 0 %}
@@ -60,14 +60,14 @@
 
 {% if forloop.first %}
 <table class="box-shadow">
-<caption class="main"><h5>Other aspects</h5></caption>
+<caption class="main"><h4>Other aspects</h4></caption>
 <thead></thead>
 <tfoot></tfoot>
 <tbody class="small-text">
 {% endif %}
   
 <tr class="row-subcategory">
-<td class="data-title"><h6>{{ someAspectSkill.title }}</h6></td>
+<td class="data-title"><h5>{{ someAspectSkill.title }}</h5></td>
 <td class="data-tags">{% for someTag in someAspectSkill.tags %}<i class="tag">{{ someTag }}</i>{% if forloop.last == false %} {% endif %}{% endfor %}</td>
 <td class="data-proficiency-{{ someAspectSkill.proficiency }}">
 {% if someAspectSkill.proficiency == 0 %}

@@ -86,11 +86,11 @@
  */
 
 .tag {
-     line-height: 1.45rem;
-    padding-left: pt-as-px(4.5); /* 4.5pt = 6px      */
-   padding-right: pt-as-px(4.5);
-     padding-top: pt-as-px(2.5); /* 2.5pt = 3.33..px */
-  padding-bottom: pt-as-px(2.5);
+     line-height: 1.8;
+    padding-left: 0.4rem; // pt-as-px(4.5); /* 4.5pt = 6px      */
+   padding-right: 0.4rem; // pt-as-px(4.5);
+     padding-top: 0.2rem; // pt-as-px(2.5); /* 2.5pt = 3.33..px */
+  padding-bottom: 0.2rem; // pt-as-px(2.5);
 }
 
 

@@ -5,6 +5,38 @@
   @return #{$px}px;
 }
 
+@function h1-em($rational) {
+  $h1: 1 + ( ( ($rational - 1) / 5 ) * 5 );
+  @return #{$h1}em;
+}
+@function h2-em($rational) 
+{
+  $h2: 1 + ( ( ($rational - 1) / 5 ) * 4 );
+  @return #{$h2}em; 
+}
+@function h3-em($rational) 
+{
+  $h3: 1 + ( ( ($rational - 1) / 5 ) * 3 );
+  @return #{$h3}em; 
+}
+@function h4-em($rational) 
+{
+  $h4: 1 + ( ( ($rational - 1) / 5 ) * 2 );
+  @return #{$h4}em; 
+}
+@function h5-em($rational) 
+{
+  $h5: 1 + ( ( ($rational - 1) / 5 ) * 1 );
+  @return #{$h5}em; 
+}
+@function h6-em($rational) 
+{
+  $h6: 1;
+  @return #{$h6}em; 
+}
+
+/*
+
 @function h1-rem($rational) {
   $h1: 1 + ( ( ($rational - 1) / 5 ) * 5 );
   @return #{$h1}rem;
@@ -34,6 +66,8 @@
   $h6: 1;
   @return #{$h6}rem; 
 }
+
+*/
 
 /*! endof TYPOGRAPHIC FUNCTIONS */
 

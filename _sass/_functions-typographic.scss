@@ -1,4 +1,15 @@
 /*! TYPOGRAPHIC FUNCTIONS */
+
+@function leading-adjust-pt($adjustment, $font-size) {
+  $konlh: 1.2; // Kind of "normal" line height
+// Its complicated.. 
+// Just consider this value as an average kind of normal line height with no leading. 
+// Discussion here: [http://meyerweb.com/eric/thoughts/2008/05/06/line-height-abnormal/] 
+$leading-adjust: ($font-size/$adjustment) * $konlh;
+  $new-line-height: $konlh + $leading-adjust; 
+  @return $new-line-height; 
+}
+
 @function pt-as-px($pt) {
   $css-pixels-per-point: 4/3; /* Reference: http://www.thomasphinney.com/2011/03/point-size/ */
   $px: $pt * $css-pixels-per-point;
@@ -173,3 +184,4 @@
  * 288pt = 384px
  *
  */
+ 

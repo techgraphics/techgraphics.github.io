@@ -34,7 +34,7 @@ html {
   line-height: 1.5;
 }
 */
-/*
+
 html {
   font-family: "Raleway", Verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
@@ -77,12 +77,6 @@ html {
   }
   line-height: 1.5;
 }
-*/
-
-body {  
-  font-family: "Raleway"; // Fallbacks specified already in "_base-media-config.scss"
-  font-weight: 500;
-}
 
 /**
  * Headings
@@ -104,13 +98,12 @@ h1.post-title {
 }
 
 h1, h2, h3, h4, h5, h6 {
-      font-family: "Bitter";
-      font-weight: 700, 800, bold;
-      line-height: 1.2;
-       margin-top: .5rem;
-    margin-bottom: .25rem;
+    font-family: "Bitter";
+    font-weight: 700, 800, bold;
+    margin-top: .5em;
+    margin-bottom: .25em;
 /*  margin-bottom: .5rem; */
-/*      line-height: 1; */
+      line-height: 1; 
 /*  text-rendering: optimizeLegibility; // This property is not defined in any CSS standard  */
 }
 
@@ -256,10 +249,9 @@ a[href^="#fnref:"] {
 /* About section */
 .site-title {
                 color: $site-title-color;
-           margin-top: 0.25rem;
+           margin-top: 0;
           font-family: "Trade Winds", serif;
-            font-size: 3.25em;
-          line-height: 1.2;
+            font-size: 3.25rem;
           font-weight: 400;
       text-decoration: none;
        text-transform: none;
@@ -283,7 +275,7 @@ a[href^="#fnref:"] {
 }
 
 .small-text {
-  font-size: pt-as-px(9);  /* 9pt  = 12px      */
+    font-size: pt-as-px(9);  /* 9pt  = 12px      */
   @media (min-width: 38em) {
     font-size: pt-as-px(10); /* 10pt = 13.33..px */
   }
@@ -297,8 +289,8 @@ a[href^="#fnref:"] {
 }
 
 .proficiency-stars {
-       font-size: pt-as-px(12);  /*  12pt = 16px      */
-  letter-spacing: pt-as-px(1.5); /* 1.5pt = 2px       */
+          font-size: pt-as-px(12);  /*  12pt = 16px      */
+     letter-spacing: pt-as-px(1.5); /* 1.5pt = 2px       */
   @media (min-width: 38em) {
     font-size: pt-as-px(13);        /*  13pt = 17.33..px */
   }

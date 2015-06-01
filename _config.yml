@@ -39,5 +39,6 @@ paginate_path: "/news/page:num/"
 # Collections
 collections: 
 - glossary
+- notes
 - resources
 - skills 
