@@ -27,20 +27,17 @@
  * Google Custom Search Engine.
  * Display on right hand side when @media (min-width: 54.6em ).
  */
-.search {
-     display: none;
+ 
+@media (min-width: 54.6em) {
+  .search {
+     display: block;
     position: fixed;
          top: 0;
         left: auto;
        right: 0;
       bottom: 0;
   text-align: left;
-//  width: 15.3rem;
-}
-
-@media (min-width: 54.6em) {
-  .search {
-     display: block;
+//       width: 15.3rem;
   }  
 }
  
