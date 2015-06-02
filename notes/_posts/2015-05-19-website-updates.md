@@ -1,29 +1,33 @@
 ---
-layout: post
-title: Heading test
+layout: posts
+title: Website updates
+category: notes 
 tags:
- - test
+ - jekyll
+ - themes
+ - fonts
 ---
-# Heading 1 
-Regular text sample 
 
-## Heading 2 
-Regular text sample 
+I have updated my website to use the [Jekyll blogging system](http://jekyllrb.com) created by [Tom Preston-Werner](https://twitter.com/mojombo/).  
 
-### Heading 3 
-Regular text sample 
+* **Jekyll** uses the [Liquid templating language](http://liquidmarkup.org) to process templates  
+* My website theme is based on [Hyde](http://hyde.getpoole.com) created by [Mark Otto](https://twitter.com/mdo)  
 
-#### Heading 4 
-Regular text sample 
-
-##### Heading 5 
-Regular text sample 
-
-###### Heading 6 
-Regular text sample 
+## Fonts used
+* [Raleway Medium](https://www.google.com/fonts/specimen/Raleway)  
+* [Condiment](https://www.google.com/fonts/specimen/Condiment)  
+* [Bitter](https://www.google.com/fonts/specimen/Bitter)  
+* [Trade Winds](https://www.google.com/fonts/specimen/Trade+Winds)  
 
 
 {% comment %}
+
+  # Heading 1
+  ## Heading 2
+  ### Heading 3
+  #### Heading 4
+  ##### Heading 5
+  ###### Heading 6
 
   <div class="message">
     Howdy! This is an example blog post that shows several types of HTML content supported in this theme.

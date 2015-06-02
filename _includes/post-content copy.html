@@ -1,8 +1,8 @@
 <div class="posts">
-  {% for post in paginator.posts" %}
-  <div class="{{ post.layout }}-item">
-    <h1 class="{{ post.layout }}-title">
-      <a class="{{ post.layout }}-title" href="{{ post.url }}">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1 class="post-title">
+      <a class="post-title" href="{{ post.url }}">
         {{ post.title }}
       </a>
     </h1>

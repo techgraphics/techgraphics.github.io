@@ -34,11 +34,10 @@ baseurl:             /
 
 # Post settings
 paginate:            3
-paginate_path: "/news/page:num/"
+paginate_path: "/posts/page:num/"
 
 # Collections
 collections: 
 - glossary
-- notes
 - resources
 - skills 

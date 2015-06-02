@@ -1,6 +1,7 @@
 ---
-layout: post 
+layout: notes 
 title: Pantone Colours
+category: notes 
 ---
 {% gist 2b14378d96ee40e956a3 %}
 <hr>

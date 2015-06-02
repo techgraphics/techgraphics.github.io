@@ -1,6 +1,9 @@
 ---
-layout: post
+layout: notes
 title: Example content
+category: tests 
+tags: 
+- jekyll 
 ---
 
 

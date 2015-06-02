@@ -3,51 +3,62 @@
 a:default,
 a:link,
 a:visited {
-  color: inherit;
-  text-decoration: underline;
+                          color: inherit;
+                text-decoration: underline;
   -webkit-text-decoration-color: $anchor-color-default-underline-unfocused;
      -moz-text-decoration-color: $anchor-color-default-underline-unfocused;
         o-text-decoration-color: $anchor-color-default-underline-unfocused;
           text-decoration-color: $anchor-color-default-underline-unfocused;
 }
-a:hover, a:focus {
+a:hover, 
+a:focus {
   -webkit-text-decoration-color: $anchor-color-default-underline-focused;
      -moz-text-decoration-color: $anchor-color-default-underline-focused;
         o-text-decoration-color: $anchor-color-default-underline-focused;
           text-decoration-color: $anchor-color-default-underline-focused;
 }
 .sidebar a {
-  color: $buff-color-normal;
-  text-decoration: none;
+                          color: $buff-color-normal;
+                text-decoration: none;
   -webkit-text-decoration-color: $buff-color-normal;
      -moz-text-decoration-color: $buff-color-normal;
         o-text-decoration-color: $buff-color-normal;
           text-decoration-color: $buff-color-normal;
 }
 
-a.no-underline {
+a.no-underline { // deprecated ??
   text-decoration: none;
-  border-bottom: 0;
-  box-shadow: 0 0;
+    border-bottom: 0;
+       box-shadow: 0 0;
 }
  
-a.post-title:default,
-a.post-title:link,
-a.post-title:visited {
-    text-decoration: none;
-/*    border-bottom: 1px solid $h4-color; */
+a.posts-title:default,
+a.posts-title:link,
+a.posts-title:visited {
+  text-decoration: none;
+/*  border-bottom: 1px solid $h4-color; */
 }
  
-a.post-title:hover, 
-a.post-title:focus {
-/*    box-shadow: 0 4px $h4-color; */
+a.posts-title:hover, 
+a.posts-title:focus {
+/*  box-shadow: 0 4px $h4-color; */
 }
 
 a.notes-title:default,
 a.notes-title:link,
 a.notes-title:visited {
-    text-decoration: none;
-/*    border-bottom: 1px solid $h4-color; */
+  text-decoration: none;
+/*  border-bottom: 1px solid $h4-color; */
 }
+
+a.sidebar-nav-item:hover,
+a.sidebar-nav-item:focus {
+  text-decoration: underline;
+}
+
+a.sidebar-nav-item.active {
+  font-weight: bold;
+}
+
 
 /*! endof LINKS */
