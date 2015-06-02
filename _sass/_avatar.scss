@@ -5,7 +5,7 @@
   border-radius: 50%;
   border-color: $avatar-border-color;
   border-style: solid;
-  border-width: 2px;
+  border-width: 1.5pt;
   margin-left: auto;
   margin-right: auto;
 }
@@ -28,7 +28,7 @@
   -webkit-border-radius: 48pt;
   background: url(http://techgraphics.github.io/assets/images/avatar-medium.jpg) no-repeat;
   background-position: center;
-  background-size: 105%;
+  background-size: 105.5%;
   box-shadow: 0px 6px 16px $base-color-shadow;
 }
 #avatar-small {
@@ -37,8 +37,8 @@
   -webkit-border-radius: 16pt;
   background: url(http://techgraphics.github.io/assets/images/avatar-small.jpg) no-repeat;
   background-position: center;
-  background-size: 105%;
-  border-width: 1px;
+  background-size: 105.5%;
+  border-width: 0.5pt;
   box-shadow: none;
 }
 
