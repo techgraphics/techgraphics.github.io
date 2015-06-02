@@ -8,7 +8,7 @@
  *
  */
  
- 
+
 html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400, normal;
@@ -18,71 +18,71 @@ html {
 
 // theorising that these devices are used at relatively close distances
 
-  @media (min-width: 6em) {
+  @media (min-width: 6em) { // 91px
     font-size: 0.58em; // 7.0pt based on 12pt root
     line-height: leading-adjust-pt(7.0,0.00);
   }
-  @media (min-width: 7em) {
+  @media (min-width: 7em) { // 108px 
     font-size: 0.62em; // 7.4pt based on 12pt root
     line-height: leading-adjust-pt(7.4,0.25);
   }
-  @media (min-width: 8em) {
+  @media (min-width: 8em) { // 128px 
     font-size: 0.65em; // 7.8pt based on 12pt root
     line-height: leading-adjust-pt(7.8,0.50);
   }
-  @media (min-width: 10em) {
+  @media (min-width: 10em) { // 152px
     font-size: 0.68em; // 8.2pt based on 12pt root
     line-height: leading-adjust-pt(8.2,0.75);
   }
-  @media (min-width: 11em) {
+  @media (min-width: 11em) { // 181 px 
     font-size: 0.71em; // 8.6pt based on 12pt root
     line-height: leading-adjust-pt(8.6,1.00);
   }
-  @media (min-width: 13em) {
+  @media (min-width: 13em) { // 215px 
     font-size: 0.75em; // 9.0pt based on 12pt root
     line-height: leading-adjust-pt(9.0,1.25);
   }
-  @media (min-width: 16em) {
+  @media (min-width: 16em) { // 256px 
     font-size: 0.78em; // 9.4pt based on 12pt root
     line-height: leading-adjust-pt(9.4,1.50);
   }
-  @media (min-width: 19em) {
+  @media (min-width: 19em) { // 304px 
     font-size: 0.81em; // 9.8pt based on 12pt root
     line-height: leading-adjust-pt(9.8,1.75);
   }
-  @media (min-width: 23em) {
+  @media (min-width: 23em) { // 362px 
     font-size: 0.85em; // 10.2pt based on 12pt root
     line-height: leading-adjust-pt(10.2,2.00);
   }
-  @media (min-width: 27em) {
+  @media (min-width: 27em) { // 431px 
     font-size: 0.88em; // 10.5pt based on 12pt root
     line-height: leading-adjust-pt(10.5,2.25);
   }
-  @media (min-width: 32em) { // 
+  @media (min-width: 32em) { // 512px 
     font-size: 0.91em; // 10.9pt based on 12pt root
     line-height: leading-adjust-pt(10.9,2.50);
   }
-  @media (min-width: 38em) {
+  @media (min-width: 38em) { // 609px 
     font-size: 0.94em; // 11.3pt based on 12pt root
     line-height: leading-adjust-pt(11.3,2.75);
   }
-  @media (min-width: 45em) {
+  @media (min-width: 45em) { // 724px 
     font-size: 0.98em; // 11.7pt based on 12pt root
     line-height: leading-adjust-pt(11.7,3.00);
   }
-  @media (min-width: 54em) {
+  @media (min-width: 54em) { // 861px 
     font-size: 1.01em; // 12.1pt based on 12pt root
     line-height: leading-adjust-pt(12.1,3.25);    
   }
-  @media (min-width: 64em) {
+  @media (min-width: 64em) { // 1024px 
     font-size: 1.04em; // 12.5pt based on 12pt root
     line-height: leading-adjust-pt(12.5,3.50);
   }
-  @media (min-width: 70em) {
+  @media (min-width: 70em) { // 1117px 
     font-size: 1.08em; // 12.9pt based on 12pt root
       line-height: leading-adjust-pt(12.9,3.75);
   }
-  @media (min-width: 76em) {
+  @media (min-width: 76em) { // 1218px 
     font-size: 1.11em; // 13.3pt based on 12pt root
     line-height: leading-adjust-pt(13.3,4.00);   
   }
@@ -96,22 +96,22 @@ html {
 
 // ??? line-height should inherit from @media (min-width: 76em) ???
     
-  @media (min-width: 83em) {
+  @media (min-width: 83em) { // 1328px 
     font-size: 1.14em; // 13.7pt based on 12pt root
   }
-  @media (min-width: 91em) {
+  @media (min-width: 91em) { // 1448px 
     font-size: 1.17em; // 14.1pt based on 12pt root
   }
-  @media (min-width: 99em) {
+  @media (min-width: 99em) { // 1579px 
     font-size: 1.21em; // 14.5pt based on 12pt root
   }
-  @media (min-width: 108em) {
+  @media (min-width: 108em) { // 1722px 
     font-size: 1.24em; // 14.9pt based on 12pt root
   }
-  @media (min-width: 117em) {
+  @media (min-width: 117em) { // 1878px 
     font-size: 1.27em; // 15.3pt based on 12pt root
   }
-  @media (min-width: 128em) {
+  @media (min-width: 128em) { // 2048px 
     font-size: 1.31em; // 15.7pt based on 12pt root
   }
 // endof Scale in relative proportions

@@ -24,8 +24,9 @@
 
 @import "licence";
 @import "normalize";
+@import "grids"; 
 @import "functions-constants-math";
-@import "functions-typographic";
+@import "functions-mixins-typographic";
 @import "base-media-config";
 
 /* Don't test these: 

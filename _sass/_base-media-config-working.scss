@@ -1,0 +1,89 @@
+/*! BASE MEDIA CONFIG */
+
+/**
+ * NOTE:  Dependencies: 
+ *
+ * "_functions-typographics.scss" used for:
+ * leading-adjust()
+ *
+ */
+ 
+
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400, normal;
+  font-size: 1em; // this should not be changed here but in body{} selector (or in other body child selector)
+
+  @media (min-width: 6em) { /*! 91px */
+    @include text-point-sizing(7.0,7.0);
+  }
+  @media (min-width: 7em) { /*! 108px */
+    @include text-point-sizing(7.39,7.64);
+  }
+  @media (min-width: 8em) { /*! 128px */
+    @include text-point-sizing(7.79,8.29); 
+  }
+  @media (min-width: 10em) { /*! 152px */
+    @include text-point-sizing(8.18,8.93); 
+  }
+  @media (min-width: 11em) { /*! 181 px */
+    @include text-point-sizing(8.58,9.58); 
+  }
+  @media (min-width: 13em) { /*! 215px */
+    @include text-point-sizing(8.97,10.22); 
+  }
+  @media (min-width: 16em) { /*! 256px */
+    @include text-point-sizing(9.36,10.86); 
+  }
+  @media (min-width: 19em) { /*! 304px */
+    @include text-point-sizing(9.76,11.51); 
+  }
+  @media (min-width: 23em) { /*! 362px */
+    @include text-point-sizing(10.15,12.15); 
+  }
+  @media (min-width: 27em) { /*! 431px */
+    @include text-point-sizing(10.54,12.79); 
+  }
+  @media (min-width: 32em) { /*! 512px */
+    @include text-point-sizing(10.94,13.44); 
+  }
+  @media (min-width: 38em) { /*! 609px */
+    @include text-point-sizing(11.33,14.08); 
+  }
+  @media (min-width: 45em) { /*! 724px */
+    @include text-point-sizing(11.73,14.73); 
+  }
+  @media (min-width: 54em) { /*! 861px */
+    @include text-point-sizing(12.12,15.37); 
+  }
+  @media (min-width: 64em) { /*! 1024px */
+    @include text-point-sizing(12.51,16.01); 
+  }
+  @media (min-width: 70em) { /*! 1117px */
+    @include text-point-sizing(12.91,16.66); 
+  }
+  @media (min-width: 76em) { /*! 1218px */
+    @include text-point-sizing(13.3,17.30);
+  }
+  @media (min-width: 83em) { /*! 1328px */
+    @include text-point-sizing(13.69,17.94);
+  }
+  @media (min-width: 91em) { /*! 1448px */
+    @include text-point-sizing(14.09,18.59);
+  }
+  @media (min-width: 99em) { /*! 1579px */
+    @include text-point-sizing(14.48,19.23);
+  }
+  @media (min-width: 108em) { /*! 1722px */
+    @include text-point-sizing(14.88,19.88);
+  }
+  @media (min-width: 117em) { /*! 1878px */
+    @include text-point-sizing(15.27,20.52);
+  }
+  @media (min-width: 128em) { /*! 2048px */
+    @include text-point-sizing(15.66,21.16);
+  }
+
+}
+
+/*! endof BASE MEDIA CONFIG */
