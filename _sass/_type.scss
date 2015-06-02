@@ -88,6 +88,32 @@ body {
  * Headings
  */
  
+ 
+h1.page-title, h1.posts-title, h1.news-title, h1.tests-title, h1.notes-title {
+    font-size: 4em;
+//  font-weight: normal;
+  text-shadow: pt-as-px(2.25) pt-as-px(1.5) 0 $buff-color-normal, pt-as-px(4.5) pt-as-px(3) 0 $base-color-brighter;
+}
+
+h1.page-title {
+  font-family: "Condiment";
+  font-weight: 400, normal; 
+}
+
+h1.news-title, 
+h1.posts-title {
+        color: $h4-color;
+  font-family: "Alex Brush";
+  font-weight: 400, normal; 
+}
+
+h1.tests-title, 
+h1.notes-title {
+        color: #666;
+  font-family: "Cabin Sketch";
+  font-weight: 400, normal; 
+}
+
 h1, h2, h3, h4, h5, h6 {
       font-family: "Bitter";
       font-weight: 700, 800, bold;
@@ -135,32 +161,6 @@ h6 {
    font-size: h6-em($ratio-silver);
        color: $h6-color;
 }
-
-h1.page-title, h1.posts-title, h1.news-title, h1.tests-title, h1.notes-title {
-    font-size: 4em;
-//  font-weight: normal;
-  text-shadow: pt-as-px(2.25) pt-as-px(1.5) 0 $buff-color-normal, pt-as-px(4.5) pt-as-px(3) 0 $base-color-brighter;
-}
-
-h1.page-title {
-  font-family: "Condiment";
-  font-weight: 400, normal; 
-}
-
-h1.news-title, 
-h1.posts-title {
-        color: $h4-color;
-  font-family: "Alex Brush";
-  font-weight: 400, normal; 
-}
-
-h1.tests-title, 
-h1.notes-title {
-        color: #777;
-  font-family: "Cabin Sketch";
-  font-weight: 400, normal; 
-}
-
 
 
 /**
