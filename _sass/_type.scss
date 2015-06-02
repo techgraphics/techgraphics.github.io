@@ -144,13 +144,14 @@ h1.page-title, h1.posts-title, h1.news-title, h1.tests-title, h1.notes-title {
 
 h1.page-title {
   font-family: "Condiment";
-  font-weight: normal; 
+  font-weight: 400; 
 }
 
 h1.news-title, 
 h1.posts-title {
         color: $h4-color;
   font-family: "Alex Brush";
+  font-weight: 400; 
 }
 
 h1.tests-title, 
