@@ -18,7 +18,7 @@ title: Specialities
   <em>
     <p><a href="http://www.oldandsold.com/articles10/trades-5.shtml">Traditionally, a compositor</a> is responsible for setting all the type of a book or document to be printed. They also prepare <a href="https://en.wikipedia.org/wiki/Imposition">imposition formes</a> for the commercial printing process.</p>
     <p>In recent times, the Composing trade has become incorporated with the Graphic Reproduction trade and is now known as <a href="https://en.wikipedia.org/wiki/Premedia">Graphic Pre-press/Pre-media</a>.</p>
-    <p>This involves managing, enhancing and incorporating visual media, including images and text content. Increasingly the content is prepared for digital platforms such as the world wide web, “apps” for mobile devices, digital signage. <a href="http://blog.teamtreehouse.com/i-dont-speak-your-language-frontend-vs-backend">Front end</a> design is used to achieve some degree of interactive functionality by taking advantage of the dynamic nature of the digital medium.</p>
+    <p>These days, it involves managing, enhancing and incorporating visual media, including images and text content. Increasingly the content is prepared for digital platforms such as the world wide web, “apps” for mobile devices, digital signage and other screens. <a href="http://blog.teamtreehouse.com/i-dont-speak-your-language-frontend-vs-backend">Front end design</a> is used to achieve some degree of interactive functionality by taking advantage of the dynamic nature of the digital medium.</p>
   </em>
 </div>
 </div>
