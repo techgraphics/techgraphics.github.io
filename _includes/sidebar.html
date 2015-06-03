@@ -2,7 +2,7 @@
     {% include find-me-on-github.html %}
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
-      <a class="no-underline" href="{{ site.baseurl }}about">
+      <a href="{{ site.baseurl }}about">
         <div class="avatar-circular" id="avatar-medium"></div>
         <h1 class="site-title" id="site-title-animation-intro">
           {{ site.data.main.title }}
@@ -22,7 +22,7 @@
 {% for node in pages_list %}
   {% if node.title != null %}
     {% if node.layout == "page" %}
-      <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %} no-underline" href="{{ node.url }}">{{ node.title }}</a>
+      <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %} no-underline" href="{{ node.url }}">🔶 {{ node.title }}</a>
     {% endif %}
   {% endif %}
 {% endfor %}

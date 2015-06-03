@@ -49,17 +49,22 @@ p {
 }
         
 .site-description {
-       font-size: 1.30rem;
+       font-size: 1.33rem;
      font-weight: 300;
   text-transform: uppercase;
 }
+
 .sidebar-nav-item {
 //  font-family: "Crete Round"; 
 //  font-weight: 400 normal;  
   font-family: "Bitter"; 
   font-weight: 700 800 bold; 
+    font-size: 1.33rem;
 }
 
+.sidebar-copyright {
+  font-size: 0.7rem;
+}
 
 
 /**
@@ -178,6 +183,11 @@ hr.inverted {
      border-top: pt-as-px(1.66) solid $buff-color-darker; 
 }
 
+hr.heading {
+     margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 abbr {
        font-size: 85%;
      font-weight: bold;
@@ -244,6 +254,11 @@ a[href^="#fnref:"] {
 
 .small-text {
   font-size: 0.833em; 
+}
+
+.indent-text {
+   margin-left: 1.5rem; 
+  margin-right: 1.5rem;
 }
 
 .proficiency-stars {
