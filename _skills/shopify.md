@@ -2,7 +2,7 @@
 title: Shopify
 description: A fully managed commerce platform that helps establish online businesses and provides retail point-of-sale systems for both online and offline companies.
 proficiency: 3
-parentCategory: Content Management System
+parentCategory: Content Management Systems
 categoryLevel: 1
 tags:
   - activemerchant

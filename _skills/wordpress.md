@@ -2,7 +2,7 @@
 title: Wordpress
 description: A free and open-source blogging tool and a content management system based on PHP and MySQL.
 proficiency: 3
-parentCategory: Content Management System
+parentCategory: Content Management Systems
 categoryLevel: 1
 tags:
   - backend

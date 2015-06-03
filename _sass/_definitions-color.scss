@@ -37,12 +37,12 @@ $anchor-color-default-underline-unfocused: #aaaaaa;
 $anchor-color-default-underline-focused: $base-color-normal;
 
 
-$h1-color: $base-color-darker; 
-$h2-color: #34c400; /* base-color-darker +hue60 */
-$h3-color: #00c48f; /* base-color-darker +hue120 */
-$h4-color: #0034c4; /* base-color-darker +hue180 */
-$h5-color: #8f00c4; /* base-color-darker +hue240 */
-$h6-color: #c40034; /* base-color-darker +hue300 */
+$h1-color: #34c400; /* base-color-darker +hue60 */
+$h2-color: #00c48f; /* base-color-darker +hue120 */
+$h3-color: #0034c4; /* base-color-darker +hue180 */
+$h4-color: #8f00c4; /* base-color-darker +hue240 */
+$h5-color: #c40034; /* base-color-darker +hue300 */
+$h6-color: $base-color-darker; 
 
 $table-border-color: $base-color-normal;
 $table-background-color: $buff-color-brightest;
