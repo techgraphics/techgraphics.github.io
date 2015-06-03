@@ -11,10 +11,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
 <title>
-{% if page.title == "News" %}
-{{ site.data.main.title }} 🔸 {{ site.data.main.tagline }}
+{% if page.title == "Blog" %}
+✒️ {{ site.data.main.title }} 🔸 {{ site.data.main.description }} 🌏
+{% elsif page.title == "Posts" %}
+✒️ {{ site.data.main.title }} 🔸 {{ site.data.main.description }} 🌏
+{% elsif page.title == "About me" %}
+♂ {{ site.data.main.title }} 🔸 {{ site.data.main.description }} 🌏
+{% elsif page.title == "Skills" %}
+⚓️ {{ site.data.main.title }} 🔸 {{ site.data.main.description }} 🌏
 {% else %}
-{{ page.title }} 🔸 {{ site.data.main.title }}
+📒 {{ page.title }} 🔸 {{ site.data.main.title }} 🌏
 {% endif %}
 </title>
 
