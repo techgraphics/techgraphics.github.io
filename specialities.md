@@ -14,7 +14,7 @@ title: Specialities
 <div>
 
 <p>I am a trade qualified compositor, having served as an apprentice to the printing industry.</p>
-<div class="small-text indent-text">
+<div class="small-text explanation-text">
   <em>
     <p><a href="http://www.oldandsold.com/articles10/trades-5.shtml">Traditionally, a compositor</a> is responsible for setting all the type of a book or document to be printed. They also prepare <a href="https://en.wikipedia.org/wiki/Imposition">imposition formes</a> for the commercial printing process.</p>
     <p>In recent times, the Composing trade has become incorporated with the Graphic Reproduction trade and is now known as <a href="https://en.wikipedia.org/wiki/Premedia">Graphic Pre-press/Pre-media</a>. Pre-media encompasses the whole new world of multichannel media delivery.</p>

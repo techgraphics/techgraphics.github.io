@@ -14,9 +14,9 @@ I have updated my website to use the [Jekyll blogging system](http://jekyllrb.co
 * My website theme is based on [Hyde](http://hyde.getpoole.com) created by [Mark Otto](https://twitter.com/mdo)  
 
 ## Fonts used
-* [Raleway Medium](https://www.google.com/fonts/specimen/Raleway)  
-* [Condiment](https://www.google.com/fonts/specimen/Condiment)  
+* [Lato](https://www.google.com/fonts/specimen/Lato)  
 * [Bitter](https://www.google.com/fonts/specimen/Bitter)  
+* [Condiment](https://www.google.com/fonts/specimen/Condiment)  
 * [Trade Winds](https://www.google.com/fonts/specimen/Trade+Winds)  
 
 

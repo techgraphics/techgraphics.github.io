@@ -252,13 +252,18 @@ a[href^="#fnref:"] {
   font-weight: bold;
 }
 
-.small-text {
+.uppercase-text {
+  text-transform: uppercase;
+}
+
+.small-text, 
+{
   font-size: 0.833em; 
 }
 
-.indent-text {
-   margin-left: 1.5rem; 
-  margin-right: 1.5rem;
+.explanation-text {
+    border-left: 0.25rem solid $base-color-normal;
+   padding-left: 0.50rem;
 }
 
 .proficiency-stars {
