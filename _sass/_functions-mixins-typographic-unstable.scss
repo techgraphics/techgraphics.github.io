@@ -8,7 +8,7 @@
 
 @function leading-adjust-pt($font-size,$adjustment) {
         $font-size: 12.0 !default;
-       $adjustment:  1.0 !default;
+       $adjustment:  0.0 !default;
                           // 
                           // Kind of "normal" line height
             $konlh:  1.2; // It's complicated.. 
@@ -76,9 +76,13 @@
 // Mixins
 // 
 
-@mixin text-point-sizing($font-size,$baseline) {
+@mixin text-point-sizing($font-size: 12,$baseline: null) {
+  @if ($baseline) { } @else {
+      $baseline: $font-size;
+    }
+  $ratio: ($baseline / $font-size) / 12;
   font-size: #{pt-as-em($font-size)}em;
-  line-height: #{leading-adjust-pt($font-size,ratio($baseline,$font-size))} 
+  line-height: #{leading-adjust-pt($font-size,$ratio)} 
 }
 
 

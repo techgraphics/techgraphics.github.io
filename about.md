@@ -18,6 +18,7 @@ I am engaged in developing **full stack** software architecture skills using the
 I am also writing [articles on digital design methods](https://medium.com/doing-digital).  
 
 {% include member-aimia.html %}
+{% include contributor-github.html %}
 {% include horizontal-rule.html %}
 <!--
 ## Knowledge and Skills Base

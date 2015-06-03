@@ -12,14 +12,15 @@
 
 <title>
 {% if page.title == "News" %}
-{{ site.data.main.title }} &middot; {{ site.data.main.tagline }}
+{{ site.data.main.title }} 🔸 {{ site.data.main.tagline }}
 {% else %}
-{{ page.title }} &middot; {{ site.data.main.title }}
+{{ page.title }} 🔸 {{ site.data.main.title }}
 {% endif %}
 </title>
 
 <!-- CSS -->
 <link href="{{ site.baseurl }}assets/styles/main.css" rel="stylesheet" type="text/css">
+<!--<link href="{{ site.baseurl }}assets/styles/main-unstable.css" rel="stylesheet" type="text/css">-->
 <link href="{{ site.baseurl }}assets/foundation-icons/foundation-icons.css" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=Cabin+Sketch:400,700|Bitter:400,700,400italic|Alex+Brush|Condiment|Trade+Winds|Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet" type="text/css">
 

@@ -1,7 +1,7 @@
 ---
 layout: notes 
 title: Pantone Colours
-category: notes 
+category: gists 
 ---
 {% gist 2b14378d96ee40e956a3 %}
 <hr>

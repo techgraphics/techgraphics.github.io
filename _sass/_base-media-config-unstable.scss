@@ -1,18 +1,18 @@
 /*! BASE MEDIA CONFIG */
 
-/**
- * NOTE:  Dependencies: 
- *
- * "_functions-typographics.scss" used for:
- * leading-adjust()
- *
- */
+//
+// NOTE:  Dependencies: 
+//
+// "_functions-typographics.scss" used for:
+// text-point-sizing()
+//
+//
  
 
 html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400, normal;
-  font-size: 1em; // this should not be changed here but in body{} selector (or in other body child selector)
+  font-size: 1em; 
 
   @media (min-width: 6em) { /*! 91px */
     @include text-point-sizing(7.0,7.0);

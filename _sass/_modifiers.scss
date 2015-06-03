@@ -1,16 +1,24 @@
 /*! MODIFIERS */
 
-/**
- * NOTE:  Dependencies: 
- *
- * "_functions-typographics.scss" used for:
- * pt-as-px()
- *
- */
- 
+
 /**
  * Backgrounds, box shadow, borders, messages, tags, code, text color.
  */
+ 
+//
+// Images
+//
+
+/*
+  img.github-ribbon {
+     transform: rotate(0.000001deg);
+  }
+ */
+ 
+ 
+//
+// Backgrounds
+//
 
 .background-white, 
 .highlight,
@@ -37,7 +45,7 @@
 .code,
 .message, 
 .tag {
-  box-shadow: 0 0 pt-as-px(6) $buff-color-darkest;  /* 6pt = 8px */  
+  box-shadow: 0 0 6pt $buff-color-darkest;  // 6pt = 8px  
 }
 
 
@@ -48,22 +56,22 @@
 .rounded-border-3,
 .code,
 .message {
-  border-radius: pt-as-px(3);  /* 3pt  = 4px      */
+  border-radius: 3pt;  // 3pt  = 4px
 }
 .rounded-border-2 {
-  border-radius: pt-as-px(2);  /* 2pt  = 2.66..px */ 
+  border-radius: 2pt;  // 2pt  = 2.66..px
 }
 .rounded-border-4 {
-  border-radius: pt-as-px(4);  /* 4pt  = 5.33..px */ 
+  border-radius: 4pt;  // 4pt  = 5.33..px
 }
 .rounded-border-6 {
-  border-radius: pt-as-px(6);  /* 6pt  = 8px      */
+  border-radius: 6pt;  // 6pt  = 8px
 }
 .rounded-border-8 {
-  border-radius: pt-as-px(8);  /* 8pt  = 10.66..px */
+  border-radius: 8pt;  // 8pt  = 10.66..px
 }
 .rounded-border-12 {
-  border-radius: pt-as-px(12); /* 12pt = 16px      */
+  border-radius: 12pt; // 12pt = 16px
 }
 
 
@@ -87,10 +95,10 @@
 
 .tag {
      line-height: 1.8;
-    padding-left: 0.4rem; // pt-as-px(4.5); /* 4.5pt = 6px      */
-   padding-right: 0.4rem; // pt-as-px(4.5);
-     padding-top: 0.2rem; // pt-as-px(2.5); /* 2.5pt = 3.33..px */
-  padding-bottom: 0.2rem; // pt-as-px(2.5);
+    padding-left: 0.4rem;
+   padding-right: 0.4rem;
+     padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
 }
 
 
