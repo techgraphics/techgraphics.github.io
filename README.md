@@ -1,4 +1,4 @@
-Copyright (c) 2015. Gareth Taylor.  
+Copyright (c) 2015, Gareth Taylor. All rights reserved. 
 <!--
 # Poole
 
