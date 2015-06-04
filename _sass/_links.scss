@@ -3,6 +3,99 @@
 a:default,
 a:link,
 a:visited {
+         position: relative;
+   padding-bottom: 2.66pt;
+  text-decoration: none;
+            color: inherit;
+}
+
+a:hover, 
+a:focus {
+  color: $base-color-darker;
+//  text-shadow: 0 0 1pt $base-color-bright;
+//  -webkit-transition: .125s; // using prefix-free
+   transition: .125s;
+}
+
+a::after {
+     content: ""; 
+    position: absolute; 
+      bottom: 2px; 
+        left: 0; 
+      height: 1px; 
+       width: 100%; 
+  background: $white-color; 
+  background: -webkit-linear-gradient(left, transparent 0%, $base-color-normal 50%,transparent 100%); 
+  background: linear-gradient(left, transparent 0%, $base-color-normal 50%,transparent 100%); 
+}
+
+/*
+// http://stackoverflow.com/questions/18168286/how-can-i-style-external-links-like-wikipedia
+// http://www.realcombiz.com/2014/10/adding-icon-after-external-links-with.html
+
+a.external:hover::after, 
+a.external:focus::after {
+  content: url(http://upload.wikimedia.org/wikipedia/commons/6/64/Icon_External_Link.png);
+   margin: 0 0 0 5px;
+}
+
+*/
+
+a.posts-title:default, a.notes-title:default, a.social:default,
+a.posts-title:link, a.notes-title:link, a.social:link,
+a.posts-title:visited, a.notes-title:visited a.social:visited { 
+  text-decoration: none; 
+}
+ 
+a.posts-title:hover, a.notes-title:hover, a.sidebar-nav-item:hover, .sidebar-about a:hover, a.social:hover,
+a.posts-title:focus, a.notes-title:focus, a.sidebar-nav-item:focus, .sidebar-about a:hover, a.social:focus { 
+      color: inherit;
+text-shadow: inherit;
+//-webkit-transition: 0; // using prefix-free
+   transition: 0;   
+}
+
+a.posts-title::after, a.notes-title::after, a.sidebar-nav-item::after, a.social::after { 
+  display: none; 
+//     content: "";  
+//  background: inherit;
+}
+
+a.sidebar-nav-item:hover,
+a.sidebar-nav-item:focus {
+            color: inherit;
+  text-decoration: underline;
+}
+
+a.sidebar-nav-item.active {
+  font-weight: bold;
+}
+
+/*! endof LINKS */
+
+
+
+/* Deprecated
+
+@mixin link-after-reset() {
+     content: "";  
+  background: inherit;
+}
+
+@mixin link-hover-reset() {
+  text-shadow: inherit;
+//  -webkit-transition: 0; // using prefix-free
+   transition: 0;  
+}
+
+*/
+
+
+/* Deprecated 
+
+a:default,
+a:link,
+a:visited {
                           color: inherit;
                 text-decoration: underline;
   -webkit-text-decoration-color: $anchor-color-default-underline-unfocused;
@@ -31,34 +124,6 @@ a.no-underline { // deprecated ??
     border-bottom: 0;
        box-shadow: 0 0;
 }
- 
-a.posts-title:default,
-a.posts-title:link,
-a.posts-title:visited {
-  text-decoration: none;
-/*  border-bottom: 1px solid $h4-color; */
-}
- 
-a.posts-title:hover, 
-a.posts-title:focus {
-/*  box-shadow: 0 4px $h4-color; */
-}
-
-a.notes-title:default,
-a.notes-title:link,
-a.notes-title:visited {
-  text-decoration: none;
-/*  border-bottom: 1px solid $h4-color; */
-}
-
-a.sidebar-nav-item:hover,
-a.sidebar-nav-item:focus {
-  text-decoration: underline;
-}
-
-a.sidebar-nav-item.active {
-  font-weight: bold;
-}
 
 
-/*! endof LINKS */
+*/

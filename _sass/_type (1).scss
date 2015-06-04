@@ -1,0 +1,348 @@
+/*! TYPOGRAPHY */
+
+/**
+ * NOTE:  Dependencies: 
+ *
+ * "_functions-typographics.scss" used for:
+ * pt-as-px(), h1-rem(), h2-rem(), h3-rem(), h4-rem(), h5-rem(), h6-rem()
+ *
+ */
+
+/**
+ * Base fonts, headings, body text, lists, and other misc typographic elements.
+ */
+
+ 
+/**
+ * Base fonts
+ */
+ 
+/*
+html {
+  font-family: "Raleway", Verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+    font-size: pt-as-px(12); // 12pt = 16px
+  @media (min-width: 38em) {
+    font-size: pt-as-px(13); // 13pt = 17.33..px
+  }
+  @media (min-width: 48em) {
+    font-size: pt-as-px(14); // 14pt = 18.66..px
+  }
+  @media (min-width: 58em) {
+    font-size: pt-as-px(15); // 15pt = 20px
+  }
+  line-height: 1.5;
+}
+*/
+/*
+html {
+  font-family: "Raleway", Verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+    font-size: pt-as-px(12); // 12pt = 16px
+  @media (max-width: 4em) {
+    font-size: 0.63rem;
+  }
+  @media (min-width: 4em) {
+    font-size: 0.67rem;
+  }
+  @media (min-width: 5em) {
+    font-size: 0.71rem;
+  }
+  @media (min-width: 8em) {
+    font-size: 0.75rem;
+  }
+  @media (min-width: 11em) {
+    font-size: 0.79rem;
+  }
+  @media (min-width: 15em) {
+    font-size: 0.83rem;
+  }
+  @media (min-width: 21em) {
+    font-size: 0.88rem;
+  }
+  @media (min-width: 30em) {
+    font-size: 0.9rem;
+  }
+  @media (min-width: 42em) {
+    font-size: 0.96rem;
+  }
+  @media (min-width: 60em) {
+    font-size: 1rem;
+  }
+  @media (min-width: 85em) {
+    font-size: 1.41rem;
+  }
+  @media (min-width: 120em) {
+    font-size: 2rem;
+  }
+  line-height: 1.5;
+}
+*/
+
+body {  
+  font-family: "Lato"; // Fallbacks specified already in "_base-media-config.scss"
+  font-weight: 400 normal;
+}
+
+/**
+ * Headings
+ */
+ 
+ 
+h1.page-title, h1.posts-title, h1.blog-title, h1.tests-title, h1.notes-title {
+    font-size: 4em;
+  font-weight: normal;
+  text-shadow: pt-as-px(2.25) pt-as-px(1.5) 0 $buff-color-normal, pt-as-px(4.5) pt-as-px(3) 0 $base-color-brighter;
+}
+
+h1.page-title {
+  font-family: "Condiment";
+  font-weight: 400, normal; 
+}
+
+h1.blog-title, 
+h1.posts-title {
+        color: $h4-color;
+  font-family: "Alex Brush";
+  font-weight: 400, normal; 
+}
+
+h1.tests-title, 
+h1.notes-title {
+        color: $pms-Cool-Gray-11;
+  font-family: "Cabin Sketch";
+  font-weight: 400, normal; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+      font-family: "Bitter";
+      font-weight: 700, 800, bold;
+      line-height: 1.2;
+       margin-top: .5rem;
+    margin-bottom: .25rem;
+/*  margin-bottom: .5rem; */
+/*      line-height: 1; */
+/*  text-rendering: optimizeLegibility; // This property is not defined in any CSS standard  */
+}
+
+
+h1 {
+/*  margin-top: h1-em($ratio-silver)/12; */
+   font-size: h1-em($ratio-silver);
+       color: $h1-color;
+}
+
+h2 {
+/*  margin-top: h2-em($ratio-silver)/12; */
+   font-size: h2-em($ratio-silver);
+       color: $h2-color;
+}
+
+h3 {
+/*  margin-top: h3-em($ratio-silver)/12; */
+   font-size: h3-em($ratio-silver);
+       color: $h3-color;
+}
+
+h4 {
+/*  margin-top: h4-em($ratio-silver)/12; */
+   font-size: h4-em($ratio-silver);
+       color: $h4-color;
+}
+
+h5 {
+/*  margin-top: h5-em($ratio-silver)/12; */
+   font-size: h5-em($ratio-silver);
+       color: $h5-color;
+}
+
+h6 {
+/*  margin-top: h6-em($ratio-silver)/12; */
+   font-size: h6-em($ratio-silver);
+       color: $h6-color;
+}
+
+
+/**
+ * Body text
+ */
+ 
+p {
+     margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+strong {
+/*  color: #303030; */
+}
+
+
+/**
+ * Lists
+ */
+ 
+ul, ol, dl {
+     margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+
+/**
+ * Misc typographic elements
+ */
+ 
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-bottom: .5rem;
+}
+
+hr {
+       position: relative;
+         margin: 1.5rem 0;
+         border: 0;
+  border-radius: 50%;
+     border-top: pt-as-px(1.33) solid $white-color;
+  border-bottom: pt-as-px(1.66) solid $buff-color-darker;
+}
+
+hr.inverted {
+  border-bottom: pt-as-px(1.33) solid $white-color;
+     border-top: pt-as-px(1.66) solid $buff-color-darker; 
+}
+
+abbr {
+       font-size: 85%;
+     font-weight: bold;
+           color: #555;
+  text-transform: uppercase;
+
+  &[title] {
+           cursor: help;
+    border-bottom: 1px dotted #e5e5e5;
+  }
+}
+
+blockquote {
+      padding: .5rem 1rem;
+       margin: .8rem 0;
+        color: #7a7a7a;
+  border-left: .25rem solid #e5e5e5;
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+
+  @media (min-width: 30em) {
+    padding-right: 5rem;
+     padding-left: 1.25rem;
+  }
+}
+
+
+/** 
+ * Markdown footnotes
+ *
+ * See the example content post for an example.
+ */
+ 
+/* Footnote number within body text */
+a[href^="#fn:"],
+/* Back to footnote link */
+a[href^="#fnref:"] {
+      display: inline-block;
+  margin-left: .1rem;
+  font-weight: bold;
+}
+
+/* List of footnotes */
+.footnotes {
+  margin-top: 2rem;
+   font-size: 85%;
+}
+
+
+/** 
+ * Custom type
+ *
+ * Extend paragraphs with `.lead` for larger introductory text.
+ */
+
+/* About section */
+.site-title {
+                color: $site-title-color;
+           margin-top: 0.25rem;
+          font-family: "Trade Winds", serif;
+            font-size: 3.25em;
+          line-height: 1.2;
+          font-weight: 400;
+      text-decoration: none;
+       text-transform: none;
+  -webkit-text-shadow: 0 0 pt-as-px(6) $site-title-color-shadow;
+     -moz-text-shadow: 0 0 pt-as-px(6) $site-title-color-shadow;
+       -o-text-shadow: 0 0 pt-as-px(6) $site-title-color-shadow;
+          text-shadow: 0 0 pt-as-px(6) $site-title-color-shadow; /* 6pt = 8px */
+        }
+.site-description {
+       font-size: 1.30rem;
+     font-weight: 300;
+  text-transform: uppercase;
+}
+
+.lead {
+  // Not used??
+}
+
+.strong {
+  font-weight:bold;
+}
+
+.small-text {
+  font-size: pt-as-px(9);  /* 9pt  = 12px      */
+  @media (min-width: 38em) {
+    font-size: pt-as-px(10); /* 10pt = 13.33..px */
+  }
+  @media (min-width: 48em) {
+    font-size: pt-as-px(11); /* 11pt = 14.66..px */
+  }
+  @media (min-width: 58em) {
+    font-size: pt-as-px(12); /* 12pt = 16px      */
+  }
+
+}
+
+.proficiency-stars {
+       font-size: pt-as-px(12);  /*  12pt = 16px      */
+  letter-spacing: pt-as-px(1.5); /* 1.5pt = 2px       */
+  @media (min-width: 38em) {
+    font-size: pt-as-px(13);        /*  13pt = 17.33..px */
+  }
+  @media (min-width: 48em) {
+    font-size: pt-as-px(14);        /*  14pt = 18.66..px */
+  }
+  @media (min-width: 58em) {
+    font-size: pt-as-px(15);        /*  15pt = 20px      */
+  }
+}
+
+
+/** 
+ * Text colour variations
+ */
+
+.text-white-20 {
+  color: rgba(255,255,255,0.2);
+}
+
+.text-white-30 {
+  color: rgba(255,255,255,0.3);
+}
+
+.text-shadow-glow {
+  text-shadow: 0 0 pt-as-px(6) $white-color; /* 6pt = 8px */
+}
+
+
+/*! endof TYPOGRAPHY */

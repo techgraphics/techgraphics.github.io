@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+# source 'http://rubygems.de' # untested
 
 require 'json'
 require 'open-uri'
