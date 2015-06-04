@@ -13,7 +13,7 @@ title: Specialities
 <hr class="heading">
 <div>
 
-<p>I am a trade qualified compositor, having served as an apprentice to the printing industry.</p>
+<p class="font-serif">I am a trade qualified compositor, having served as an apprentice to the printing industry.</p>
 <div class="small-text explanation-text">
   <em>
     <p><a href="http://www.oldandsold.com/articles10/trades-5.shtml">Traditionally, a compositor</a> is a craftsperson who is responsible for setting all the type of a book or document to be printed. They also prepare <a href="https://en.wikipedia.org/wiki/Imposition">imposition formes</a> for the commercial printing process.</p>

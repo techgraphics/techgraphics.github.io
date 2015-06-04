@@ -29,6 +29,18 @@ p {
   margin-bottom: 0.5rem;
 }
 
+.font-serif {
+  font-family: "Merriweather"; 
+  font-weight: 400 normal; 
+}
+
+/*
+.normal-text {
+  font-size: 1.0em; 
+}
+*/
+
+
 // strong { color: #303030; } // Not used
 
 
@@ -57,8 +69,10 @@ p {
 .sidebar-nav-item {
 //  font-family: "Crete Round"; 
 //  font-weight: 400 normal;  
-  font-family: "Bitter"; 
-  font-weight: 700 800 bold; 
+//  font-family: "Bitter"; 
+//  font-weight: 700 800 bold; 
+  font-family: "Merriweather";
+  font-weight: 400 normal;
     font-size: 1.33rem;
 }
 
@@ -98,8 +112,10 @@ h1.notes-title {
 }
 
 h1, h2, h3, h4, h5, h6 {
-      font-family: "Bitter";
-      font-weight: 700 800 bold;
+//      font-family: "Bitter";
+//      font-weight: 700 800 bold;
+        font-family: "Merriweather";
+        font-weight: 900;
       line-height: 1.2;
        margin-top: .5rem;
     margin-bottom: .25rem;

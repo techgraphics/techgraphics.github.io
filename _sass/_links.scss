@@ -60,5 +60,22 @@ a.sidebar-nav-item.active {
   font-weight: bold;
 }
 
+a.twitter:hover,
+a.twitter:focus {
+        color: #56acee; 
+  text-shadow: 0 0 6pt $white-color; // 6pt = 8px 
+}
+
+a.linkedin:hover,
+a.linkedin:focus {
+        color: #1684bc;   
+  text-shadow: 0 0 6pt $white-color; // 6pt = 8px 
+}
+
+a.github:hover,
+a.github:focus {
+        color: $black-color;   
+  text-shadow: 0 0 6pt $white-color; // 6pt = 8px 
+}
 
 /*! endof LINKS */

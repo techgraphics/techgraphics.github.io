@@ -9,7 +9,7 @@
     <span class="post-date">
       {{ post.date | date_to_string }}
     </span>
-    {{ post.content }}
+    <div class="font-serif">{{ post.content }}</div>
     {% include horizontal-rule.html %}
   </div>
   {% endfor %}
