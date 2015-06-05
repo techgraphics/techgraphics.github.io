@@ -1,9 +1,10 @@
 source 'https://rubygems.org'
-# source 'http://rubygems.de' # untested
 
-require 'json'
-require 'open-uri'
-versions = JSON.parse(open('https://pages.github.com/versions.json').read)
+## Deprecated, see: https://github.com/bundler/bundler/issues/3717#issuecomment-109157302
+# require 'json'
+# require 'open-uri'
+# versions = JSON.parse(open('https://pages.github.com/versions.json').read)
+## 
 
 gem 'github-pages', versions['github-pages']
 gem 'html-pipeline'
