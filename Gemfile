@@ -6,8 +6,8 @@ source 'https://rubygems.org'
 # versions = JSON.parse(open('https://pages.github.com/versions.json').read)
 ## 
 
-gem 'github-pages', versions['github-pages']
-gem 'html-pipeline'
+#gem 'github-pages', versions['github-pages']
+#gem 'html-pipeline'
 gem 'jekyll-assets'
 gem 'jekyll-html-pipeline'
 gem 'jekyll-sitemap'
