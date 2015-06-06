@@ -22,11 +22,11 @@ sass:
   style:            :compressed
 
 # Ruby Gems
-gems:
-  - jekyll-assets
-  - jekyll-html-pipeline
-  - jekyll-sitemap
-  - autoprefixer-rails
+# gems:
+#  - jekyll-assets
+#  - jekyll-html-pipeline
+#  - jekyll-sitemap
+#  - autoprefixer-rails
 
 # Site specific settings
 url:                 http://techgraphics.github.io
