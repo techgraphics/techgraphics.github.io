@@ -1,3 +1,7 @@
+version:             1.2.6 
+github:
+  repo:              https://github.com/techgraphics/techgraphics.github.io
+
 # Dependencies
 markdown:         redcarpet
 highlighter:      pygments
