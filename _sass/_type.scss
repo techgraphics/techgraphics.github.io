@@ -19,7 +19,7 @@
  
 body {  
 //  font-family: "Lato"; // Fallbacks specified already in "_base-media-config.scss"
-font-family: "Titillium Web";
+  font-family: "Titillium Web";
   font-weight: 400 normal;
   font-size: inherit;
 }
@@ -119,7 +119,8 @@ h1, h2, h3, h4, h5, h6 {
 //      font-weight: 700 800 bold;
 //        font-family: "Merriweather";
 //        font-weight: 900;
-      font-family: "Crimson Text"; 
+//      font-family: "Crimson Text"; 
+      font-family: "Roboto Slab";
       font-weight: bold;
       line-height: 1.2;
        margin-top: .5rem;
