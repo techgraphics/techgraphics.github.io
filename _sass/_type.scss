@@ -18,7 +18,8 @@
  */
  
 body {  
-  font-family: "Lato"; // Fallbacks specified already in "_base-media-config.scss"
+//  font-family: "Lato"; // Fallbacks specified already in "_base-media-config.scss"
+font-family: "Titillium Web";
   font-weight: 400 normal;
   font-size: inherit;
 }
@@ -30,7 +31,8 @@ p {
 }
 
 .font-serif {
-  font-family: "Merriweather"; 
+//  font-family: "Merriweather"; 
+  font-family: "Crimson Text"; 
   font-weight: 400 normal; 
 }
 
@@ -71,7 +73,8 @@ p {
 //  font-weight: 400 normal;  
 //  font-family: "Bitter"; 
 //  font-weight: 700 800 bold; 
-  font-family: "Merriweather";
+//  font-family: "Merriweather";
+  font-family: "Titillium Web";
   font-weight: 400 normal;
     font-size: 1.33rem;
 }
@@ -114,8 +117,10 @@ h1.notes-title {
 h1, h2, h3, h4, h5, h6 {
 //      font-family: "Bitter";
 //      font-weight: 700 800 bold;
-        font-family: "Merriweather";
-        font-weight: 900;
+//        font-family: "Merriweather";
+//        font-weight: 900;
+      font-family: "Crimson Text"; 
+      font-weight: bold;
       line-height: 1.2;
        margin-top: .5rem;
     margin-bottom: .25rem;
