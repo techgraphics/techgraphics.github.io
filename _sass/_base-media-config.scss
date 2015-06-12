@@ -4,16 +4,20 @@
  * NOTE:  Dependencies: 
  *
  * "_functions-typographics.scss" used for:
- * leading-adjust()
+ * leading-adjust-pt()
  *
  */
  
 
 html {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 400, normal;
-  font-size: 1em; // this should not be changed here but in body{} selector (or in other body child selector)
-
+  font-family: "Helvetica Neue" Helvetica Arial sans-serif;
+  font-weight: 400 normal;
+// http://stackoverflow.com/questions/2703056/body-font-size-100-01-vs-body-font-size-100
+// http://www.filamentgroup.com/lab/how-we-learned-to-leave-body-font-size-alone.html
+// http://kyleschaeffer.com/development/css-font-size-em-vs-px-vs-pt-vs/
+// http://alistapart.com/article/howtosizetextincss
+  font-size: 100.01%; 
+	
 // begin Scale in absolute points
 
 // theorising that these devices are used at relatively close distances
