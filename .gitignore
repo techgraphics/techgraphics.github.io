@@ -6,3 +6,5 @@ Gemfile.lock
 
 assets/tools/~$_unit-calculations.xlsx
 assets/tools/~$_fonts.xlsx
+
+.settings/settings.json
