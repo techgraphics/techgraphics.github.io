@@ -11,9 +11,7 @@ title: About me
 <p class="font-serif">I have developed my digital media skills and capabilities around the integration of progressive technologies.</p>
 
 ### Currently
-<p class="font-serif">I am engaged in developing <strong>full stack</strong> software architecture skills using the <a href="https://nodejs.org">Node.js development platform</a> and <a href="http://en.wikipedia.org/wiki/Functional_reactive_programming">functional reactive programming techniques</a> to build scalable <a href="http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/">isomorphic applications</a>.</p>
-
-<p class="font-serif">I am also writing <a href="https://medium.com/doing-digital">articles on digital design methods</a>.</p>
+<p class="font-serif">I am working on my master’s thesis.</p>
 <hr>
 {% include contributor-github.html %}
 {% include member-aimia.html %}
