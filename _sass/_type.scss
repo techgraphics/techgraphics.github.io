@@ -24,10 +24,17 @@ body {
     font-size: inherit;
 }
 
- 
 p {
      margin-top: 0;
   margin-bottom: 0.5rem;
+}
+
+em {
+	font-weight: inherit;
+}
+
+.emphasis {
+	// dooby dooby doo 
 }
 
 .font-serif {
@@ -36,6 +43,7 @@ p {
   font-weight: 400 normal; 
 	  font-size: 1.166em ;
 }
+
 
 /*
 .normal-text {
@@ -302,7 +310,6 @@ a[href^="#fnref:"] {
     font-size: pt-as-px(15);     //  15pt = 20px 
   }
 }
-
 
 /** 
  * Text colour variations
