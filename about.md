@@ -11,7 +11,7 @@ title: About me
 <p class="font-serif">I have developed my digital media skills and capabilities around the integration of progressive technologies.</p>
 
 ### Currently
-<p class="font-serif">I am working on my master’s thesis.</p>
+<p class="font-serif">I am working on a treatise concerning the principles of visual perception.</p>
 <hr>
 {% include contributor-github.html %}
 {% include member-aimia.html %}
