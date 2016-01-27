@@ -1,6 +1,6 @@
-##[Digital Designer](http://techgraphics.github.io/)  
+﻿##[Technology Designer](http://techgraphics.github.io/)  
 ---
-Copyright (c) 2015, Gareth Taylor. All rights reserved. 
+Copyright (c) 2015-2016, Gareth Taylor. All rights reserved. 
 ---
 <!--
 # Poole

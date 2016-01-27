@@ -3,7 +3,7 @@ layout: page
 title: About me
 ---
 <div class="message">
-	<p>I am a <strong>Digital Designer</strong> based in Adelaide, Australia.</p>
+	<p>I am a <strong>Technology Designer</strong> based in Adelaide, Australia.</p>
 	<p>My work interests include <em class="emphasis">Typography</em>, <em class="emphasis">User Experience Design</em>, <em class="emphasis">Content Management</em>, <em class="emphasis">Information Architecture</em> and <em  class="emphasis">Data Visualisation</em>.</p>
 </div>
 
@@ -11,7 +11,7 @@ title: About me
 <p class="font-serif">I have developed my digital media skills and capabilities around the integration of progressive technologies.</p>
 
 ### Currently
-<p class="font-serif">I am creating a master work and writing a treatise, concerning the principles of visual perception.</p>
+<p class="font-serif">Developing technological services/products for consumers and producers.</p>
 <hr>
 {% include contributor-github.html %}
 {% include member-aimia.html %}
