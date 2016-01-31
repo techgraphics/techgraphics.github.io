@@ -16,7 +16,7 @@ lsi: false
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-relative_permalinks: true
+# relative_permalinks: true ## deprecated see https://jekyllrb.com/docs/upgrading/2-to-3/#relative-permalink-support-removed
 
 # Assets
 #
