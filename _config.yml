@@ -3,8 +3,8 @@ github:
   repo:              https://github.com/techgraphics/techgraphics.github.io
 
 # Dependencies
-# markdown:         redcarpet
-highlighter:      pygments
+# markdown:         redcarpet #deprecated
+# highlighter:      pygments #deprecated
 
 # Time Zone
 timezone: Australia/Adelaide
