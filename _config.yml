@@ -4,7 +4,7 @@ github:
 
 # Dependencies
 # markdown:         redcarpet #deprecated
-# highlighter:      pygments #deprecated
+highlighter:        rouge
 
 # Time Zone
 timezone: Australia/Adelaide
