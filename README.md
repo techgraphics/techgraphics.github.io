@@ -1,6 +1,6 @@
-﻿##[Technology Designer](http://techgraphics.github.io/)  
+﻿##[Creative Marketing Specialist](http://techgraphics.github.io/)  
 ---
-Copyright (c) 2015-2016, Gareth Taylor. All rights reserved. 
+Copyright (c) 2015-2019, Gareth S. Taylor. All rights reserved. 
 ---
 <!--
 # Poole
