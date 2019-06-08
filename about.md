@@ -3,7 +3,7 @@ layout: page
 title: About me
 ---
 <div class="message">
-	<p>I am a <strong>Technology Designer</strong> based in Sydney and Adelaide, Australia.</p>
+	<p>I am a <strong>Creative Marketing Specialist</strong> based in Queensland, Australia.</p>
 	<p>My work interests include <em class="emphasis">Typography</em>, <em class="emphasis">User Experience Design</em>, <em class="emphasis">Content Management</em>, <em class="emphasis">Information Architecture</em> and <em  class="emphasis">Data Visualisation</em>.</p>
 </div>
 
