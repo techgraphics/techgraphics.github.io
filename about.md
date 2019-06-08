@@ -9,10 +9,11 @@ title: About me
 
 ### Over the past few years
 <p class="font-serif">I have developed my digital media skills and capabilities around the integration of progressive technologies.</p>
-
+<!--
 ### Currently
 <p class="font-serif">Developing technological services/products for consumers and producers.</p>
 <hr>
 {% include contributor-github.html %}
 {% include member-aimia.html %}
+-->
 {% include horizontal-rule.html %}
