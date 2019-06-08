@@ -16,6 +16,7 @@ title: Publications
     </h4>
   </blockquote>
 </div>
+<!--
 {% include horizontal-rule.html %}
 <div class="explanation-text">
 <p class="strong"><a class="external" href="http://codepen.io/collection/DJGZQr/">Codepen</a> is a playground for the front end side of the web.</p>
@@ -48,3 +49,4 @@ title: Publications
   </blockquote>
 </div>
 {% include horizontal-rule.html %}
+-->
