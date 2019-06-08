@@ -3,7 +3,7 @@ layout: page
 title: Specialities
 ---
 <div class="message">
-	<p>I have 20+ years commercial experience in the Graphic Arts, Publishing, MarKeting/Advertising and Internet Services industries, with significant involvement in all aspects of Graphic Pre-media for online, screen and print mediums.</p>
+	<p>I have 20+ years commercial experience in the Graphic Arts, Publishing, Marketing/Advertising and Internet Services industries, with significant involvement in all aspects of Graphic Pre-media for online, screen and print mediums.</p>
   <p>Well practised in using many types of digital platforms, tools and techniques.</p>
   <p>I also have substantial involvement in analysing and using ICT systems, spreadsheets and workflow tools to facilitate production.
   </p>
